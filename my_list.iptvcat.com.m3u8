@@ -1,0 +1,563 @@
+#EXTM3U
+#EXTINF:0 tvg-country="PK" tvg-logo="" group-title="Sport",PTV Sports (720p)
+https://tvsen5.aynaott.com/Ptvsports/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="PK" tvg-logo="" group-title="Sport",PTV Sports
+http://121.91.61.106:8000/play/a00l/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="PK" tvg-logo="" group-title="Sport",Fast Sports (1080p)
+http://66.102.120.18:8000/play/a05f/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="PK" tvg-logo="" group-title="Sport",Ten Sports Pakistan
+http://121.91.61.106:8000/play/a04h/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="NZ" tvg-logo="" group-title="Sport",Sky Sport 7 (1080p)
+https://hls.sheepland.xyz/play/0/66?proxy=0&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="NZ" tvg-logo="" group-title="Sport",Sky Sport 6 (1080p)
+https://hls.sheepland.xyz/play/0/70?proxy=0&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="NZ" tvg-logo="" group-title="Sport",Sky Sport 5 (1080p)
+http://primestreams.tv:826/live/SF11/vulwBvtfo9/118589.ts?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://i.imgur.com/W96KVqu.png" group-title="Sport",Sony Sports Ten 2 (1080p)
+http://87.255.35.150:18927?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="" group-title="Sport",Sony Sports Ten 3 (1080p)
+https://dai.google.com/linear/hls/event/BCOFZq1JQjq12fmaO6lAAA/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://i.imgur.com/vG19HxD.png" group-title="Sport",Sony Sports Ten 3 (1080p)
+http://87.255.35.150:18848?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="" group-title="Sport",Sony Sports Ten 3 (576p)
+http://103.253.18.58:8000/play/a00b?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="" group-title="Sport",Sony Sports Ten 3 HD (1080p)
+https://dai.google.com/linear/hls/event/ltsCG7TBSCSDmyq0rQtvSA/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="" group-title="Sport",Sony Sports Ten 4 (1080p)
+https://dai.google.com/linear/hls/event/smYybI_JToWaHzwoxSE9qA/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_5_HD/images/LOGO_HD/image.png" group-title="Sport",Sony Sports Ten 5 (1080p)
+http://66.102.120.18:8000/play/a010/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="" group-title="Sport",Sony Sports Ten 4 HD (1080p)
+https://dai.google.com/linear/hls/event/tNzcW2ZhTVaViggo5ocI-A/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="" group-title="Sport",Sony Sports Ten 5 (1080p)
+https://dai.google.com/linear/hls/event/r-eLp41YTHWTagvQSXFtAQ/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://i.imgur.com/40BbQUd.png" group-title="Sport",Sony Sports Ten 5 (1080p)
+http://87.255.35.150:18818?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://i.imgur.com/E5jjKHI.png" group-title="Sport",Star Sports 1 HD (1080p)
+http://66.102.120.18:8000/play/a009/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="" group-title="Sport",Sony Sports Ten 5 HD (1080p)
+https://dai.google.com/linear/hls/event/Sle_TR8rQIuZHWzshEXYjQ/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://i.imgur.com/E5jjKHI.png" group-title="Sport",Star Sports 1 HD (1080p)
+http://87.255.35.150:18891?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://i.imgur.com/E5jjKHI.png" group-title="Sport",Star Sports 1 HD [Geo-blocked]
+http://41.205.93.154/STARSPORTS1/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://i.imgur.com/RGeLxjv.png" group-title="Sport",Star Sports 1 Hindi HD (1080p)
+http://87.255.35.150:18302?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://i.imgur.com/dfLSnsZ.png" group-title="Sport",Star Sports 1 Tamil HD
+https://live20.bozztv.com/akamaissh101/ssh101/vboxsungosttamil/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_1_HD_HINDI/images/LOGO_HD/image.png" group-title="Sport",Star Sports 1 Hindi HD (1080p)
+http://66.102.120.18:8000/play/a072/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://i.imgur.com/dfLSnsZ.png" group-title="Sport",Star Sports 1 Tamil HD (1080p)
+http://87.255.35.150:18844?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="" group-title="Sport",Star Sports 1 Tamil HD
+https://live20.bozztv.com/akamaissh101/ssh101/crisungosttamil/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="PL" tvg-logo="https://i.imgur.com/AOu4FXH.png" group-title="Sport",Eleven Sports 1 (2160p)
+http://9b129915.akadatel.com/iptv/83GA6FAV4DPTPQ/20068/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="PL" tvg-logo="" group-title="Sport",Eleven Sports 2 (1080p)
+https://windnew.iosplayer.ru/wind/premium72/mono.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="PL" tvg-logo="" group-title="Sport",Eleven Sports 2 (1080p)
+http://109.233.89.170/Eleven_Sports_2_HD/mono.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="PL" tvg-logo="" group-title="Sport",Eleven Sports 3 (1080p)
+https://ddy6new.iosplayer.ru/ddy6/premium428/mono.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="PL" tvg-logo="" group-title="Sport",Polsat Sport (1080p)
+http://178.219.128.68:64889/POLSSPORHD?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="PL" tvg-logo="" group-title="Sport",Motorsport.tv
+https://25dee28f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X01vdG9yc3BvcnR0di0xX0hMUw/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="PL" tvg-logo="" group-title="Sport",Eleven Sports 4 (1080p)
+http://109.233.89.166/ELEVEN_SPORTS_4_HD/mono.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="SA" tvg-logo="" group-title="Sport",KSA Sports 1
+https://live20.bozztv.com/gin-36bay3/ga-ksaports1/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="SA" tvg-logo="https://i.postimg.cc/bNzQP2ht/ksasports1.png" group-title="Sport",KSA Sports 1 (1080p)
+http://66.102.120.18:8000/play/a03o/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="SA" tvg-logo="https://i.postimg.cc/4NBpxNfF/ksasports2.png" group-title="Sport",KSA Sports 2 (1080p)
+http://66.102.120.18:8000/play/a03p/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="ES" tvg-logo="" group-title="Sport",Esport3 (1080p) [Geo-blocked]
+https://directes-tv-es.3catdirectes.cat/live-origin/esport3-hls/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="ES" tvg-logo="" group-title="Sport",Esport3 (1080p) [Geo-blocked]
+https://directes-tv-es.ccma.cat/live-origin/esport3-hls/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="TH" tvg-logo="" group-title="Sport",T Sports 7 (720p)
+https://lb1-live-mv.v2h-cdn.com/hls/ffef/mulxvnghf/mulxvnghf.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="TR" tvg-logo="" group-title="Sport",S Sport 2
+https://gknnowtv.onrender.com/ss2.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",Fox Sports 3 Latin America
+http://104.238.205.28:8989/278768_.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="UN" tvg-logo="" group-title="Sport",Trace Sports Stars
+https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="UN" tvg-logo="" group-title="Sport",Turkmenistan Sport
+http://217.174.225.146/hls/ch004_720/index.m3u8?q=?seg-user-zona-iptv.ru-v1-a1.m3u8&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="UN" tvg-logo="https://i.imgur.com/E67CY0d.png" group-title="Sport",VITAL Basketball [Not 24/7]
+https://vslive.pw/stream/48684/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="UN" tvg-logo="https://i.imgur.com/wXf8nNf.png" group-title="Sport",VITAL Football [Not 24/7]
+https://vslive.pw/stream/48682/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="UN" tvg-logo="https://i.imgur.com/2Kinxqb.png" group-title="Sport",VITAL Sport [Not 24/7]
+https://vslive.pw/stream/48527/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="UN" tvg-logo="https://i.imgur.com/fXESG0l.png" group-title="Sport",Viju+ Sport
+https://edge02.odtv.az/o7/viasatsport/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="UN" tvg-logo="" group-title="Sport",viju+ Sport
+https://stream2.cinerama.uz/1229/tracks-v1a1/mono.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="UN" tvg-logo="" group-title="Sport",Астрахань.Ru Sport
+https://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v1a1/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="UN" tvg-logo="" group-title="Sport",Астрахань.Ru Sport
+https://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v2a1/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="UN" tvg-logo="" group-title="Sport",Астрахань.Ru Sport
+https://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v3a1/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="UN" tvg-logo="" group-title="Sport",Астрахань.Ru Sport (1080p)
+https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="UN" tvg-logo="" group-title="Sport",Матч! ТВ
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8?version=2&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AE" tvg-logo="https://i.imgur.com/6BVWk8z.png" group-title="Sport",Abu Dhabi Sports 1 (1080p)
+https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_1/abudhabi_sports_1_hls_nd/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AE" tvg-logo="https://i.imgur.com/4rVm3oZ.png" group-title="Sport",Abu Dhabi Sports 2
+https://tr-live-route.adm.tcon.hlit.hvds.tv/Content/Channel/AbuDhabiSportsChannel2/DASH/master.mpd?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AE" tvg-logo="https://i.imgur.com/y1I2jFK.png" group-title="Sport",Abu Dhabi Sports 2 (1080p)
+https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_2/abudhabi_sports_2_hls_nd/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AE" tvg-logo="" group-title="Sport;Undefined",Dubai Racing,迪拜赛马俱乐部
+http://dmithrvll.cdn.mangomolo.com/dubairacing/smil:dubairacing.smil/chunklist_b1600000.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AE" tvg-logo="https://i.imgur.com/eytrf0Y.png" group-title="Sport",Dubai Racing 2
+https://dmithrvll.cdn.mangomolo.com/dubairacing/smil:dubairacing.smil/chunklist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AE" tvg-logo="https://i.imgur.com/eytrf0Y.png" group-title="Sport",Dubai Racing 2
+http://dmithrvll.cdn.mangomolo.com/dubairacing/smil:dubairacing.smil/chunklist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AE" tvg-logo="https://i.imgur.com/Poxw8lG.png" group-title="Sport",Dubai Sports 1 (1080p)
+https://dmitnthfrta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AE" tvg-logo="https://i.imgur.com/iYgHR5D.png" group-title="Sport",Dubai Sports 1 (1080p)
+https://dmitnthvll.cdn.mangomolo.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AE" tvg-logo="" group-title="Sport",Dubai Sports 1 (1080p)
+https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AE" tvg-logo="https://i.imgur.com/Poxw8lG.png" group-title="Sport",Dubai Sports 1 (1080p)
+https://dmitnthfr.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AE" tvg-logo="https://i.imgur.com/qBdOZ1x.png" group-title="Sport",Dubai Sports 2
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AE" tvg-logo="https://i.imgur.com/PMJ7Zmo.png" group-title="Sport",Dubai Sports 2 (720p)
+https://dmitwlvvll.cdn.mgmlcdn.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AE" tvg-logo="https://i.imgur.com/hxxjMPJ.jpg" group-title="Sport",Dubai Sports 3
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AE" tvg-logo="https://i.imgur.com/U0A8Gex.png" group-title="Sport",Dubai Sports 3 (1080p) [Not 24/7]
+https://dmitwlvvll.cdn.mgmlcdn.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AE" tvg-logo="https://i.imgur.com/IaRaabJ.jpg" group-title="Sport",Sharjah Sport,Sharjah Sports
+https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="GB" tvg-logo="" group-title="Sport",Pluto TV Sports (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6081310e48d3200007afaf3b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8bf322-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=0727f4fb-ea0b-4814-bb58-fdf3c4534220&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="GB" tvg-logo="" group-title="Sport",Pluto TV Sports (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/56340779a738201b4ccfeac9/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=56340779a738201b4ccfeac9&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=725&terminate=false&userId=&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="GB" tvg-logo="" group-title="Sport",Pluto TV Sports (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/56340779a738201b4ccfeac9/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",30A Golf Kingdom
+https://30a-tv.com/feeds/vidaa/golf.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="https://i.imgur.com/9oyc88J.png" group-title="Sport",Adventure Sports TV (1080p)
+https://d3rl6ns7c3ilda.cloudfront.net/scheduler/scheduleMaster/438.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",BeIN SPORTS XTRA (720p)
+https://lnc-bein.tubi.video/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",BeIN SPORTS XTRA (720p)
+https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="https://i.imgur.com/V562tpO.png" group-title="Sport",BeIN SPORTS XTRA En Espanol (720p)
+https://aegis-cloudfront-1.tubi.video/82c7f2de-f4ea-44a4-8200-069c5c0bb639/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",BeIN SPORTS XTRA En Espanol (720p)
+https://lnc-bein-espanol.tubi.video/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",BeIN SPORTS XTRA En Espanol (720p)
+https://aegis-cloudfront-1.tubi.video/01f6c149-449b-4248-8bda-2278799205ec/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",BeIN SPORTS XTRA en Espanol (720p) [Geo-blocked]
+https://bein-esp-klowdtv.amagi.tv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",BeIN Sports XTRA (1080p)
+https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",CBS Sports HQ
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e9f2c05172a0f0007db4786/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f5-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=3a15356b-8467-4ae7-b2f6-9c8467fcf41d&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="https://i.imgur.com/q8BENJg.png" group-title="Sport",CBS Sports HQ
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e9f2c05172a0f0007db4786/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f5-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3a15356b-8467-4ae7-b2f6-9c8467fcf41d&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="https://i.imgur.com/A8CnA8g.png" group-title="Sport",CBS Sports Network USA
+https://fl3.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",CBS Sports Network USA
+http://fl2.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",CBS Sports Network USA
+https://fl1.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",Dazn Womens Football (1080p)
+https://lnc-dazn-womens-football.tubi.video/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",EDGESport (720p) [Geo-blocked]
+https://amgx0019-amagicontentplu-edgesports-klowdtv-po3wz.amagi.tv/playlist/amgx0019-amagicontentplu-edgesports-klowdtv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",ESPN Deportes (360p)
+https://e3.thetvapp.to/hls/espn-deportes/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="https://i.imgur.com/HiBrysh.png" group-title="Sport",ESPN U (720p)
+https://fl3.moveonjoy.com/ESPN_U/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",ESPN U (720p)
+https://fl1.moveonjoy.com/ESPN_U/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/512px-ESPNews.svg.png" group-title="Sport",ESPNews (720p)
+https://fl3.moveonjoy.com/ESPN_NEWS/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",ESPNews (720p)
+https://fl1.moveonjoy.com/ESPN_NEWS/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",El Conflicto TV (480p)
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=1965&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",FOX Sports
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5a74b8e1e22a61737979c6bf/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28f173-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=46a3b8ff-5a4a-4952-bb4d-9461224acd54&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",FOX Sports
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5a74b8e1e22a61737979c6bf/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28f173-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=46a3b8ff-5a4a-4952-bb4d-9461224acd54&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",FOX Sports [Geo-blocked]
+https://amg02855-foxsports-amg02855c1-xumo-us-1755.playouts.now.amagi.tv/Fox-Sports-AmazonNews/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/FanDuel_Sports_Network_logo.svg/330px-FanDuel_Sports_Network_logo.svg.png" group-title="Sport",FanDuel Sports Network
+https://fl3.moveonjoy.com/PAC_12/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",FanDuel Sports Network
+https://fl1.moveonjoy.com/PAC_12/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",FanDuel Sports Network Detroit
+https://fl7.moveonjoy.com/BALLY_SPORTS_DETROIT/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",Fox Sports (720p)
+https://lnc-fox-sports2.tubi.video/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",Fox Sports (720p)
+https://livetv-fa.tubi.video/fox-sports2/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",Fox Sports 1
+https://fl3.moveonjoy.com/FOX_Sports_1/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",Fox Sports 1
+http://fl2.moveonjoy.com/FOX_Sports_1/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",Fox Sports 1
+https://fl1.moveonjoy.com/FOX_Sports_1/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",Fox Sports 2
+http://fl2.moveonjoy.com/FOX_Sports_2/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",Fox Sports 2 (360p)
+https://tvpass.org/live/FoxSports2/sd?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="https://i.imgur.com/LHtxKI8.png" group-title="Sport",Fox Sports 2 (720p)
+http://23.237.104.106:8080/USA_FS2/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",Fox Sports 2 (720p)
+https://tvpass.org/live/FoxSports2/hd?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",Fox Sports en Espanol (720p)
+https://lnc-fox-sports-espanol2.tubi.video/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",Fox Sports en Espanol (720p)
+https://livetv-fa.tubi.video/fox-sports-espanol2/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",Fubo Sports Network (1080p) [Geo-blocked]
+https://lnc-fubo.tubi.video/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",Fubo Sports Network (1080p) [Geo-blocked]
+https://livetv-fa.tubi.video/fubo/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",Fútbol
+https://dai.google.com/linear/hls/event/JgYgVMW8Szinkmm7dchlmQ/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",Fútbol [Geo-blocked]
+https://unidfp-nlds153.global.ssl.fastly.net/nlds/univisionnow/futbol/as/live/futbol_hd_pc.m3u8?t1=test_token&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",Fútbol [Geo-blocked]
+https://unidfp-nlds153.global.ssl.fastly.net/nlds/univisionnow/futbol/as/live/futbol_hd_pc.m3u8?t1=&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",Golf Channel (1080p)
+https://tvpass.org/live/GolfChannel/hd?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",Golf Channel (360p)
+https://tvpass.org/live/GolfChannel/sd?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",GolfPass
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65493029ab052400089e9d2f/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c291881-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=fc355a72-e401-4038-a2fd-7378aedc3a6f&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",GolfPass
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65493029ab052400089e9d2f/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c291881-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=fc355a72-e401-4038-a2fd-7378aedc3a6f&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",MAVTV Motor Sports IN
+https://84f081227bc1418984b9e3dcaa985b2b.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-in_MAVTVMotorSportsNetwork/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",MAVTV Motor Sports UK
+https://amg00378-maverickenterta-mavtv-smn-gb-samsung-rakuten-ozity.amagi.tv/playlist/amg00378-maverickenterta-mavtv-smn-gb-samsung-rakuten/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/512px-NBA_TV.svg.png" group-title="Sport",NBA (720p) [Geo-blocked]
+https://aegis-cloudfront-1.tubi.video/c987b155-8d7e-4307-bd24-720bb2843d42/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",NBA G-League (1080p) [Geo-blocked]
+https://lnc-nba-g.tubi.video/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",NBA TV
+https://fl3.moveonjoy.com/NBA_TV/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",NBA TV
+https://fl1.moveonjoy.com/NBA_TV/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",NBA TV (1080p) [Geo-blocked]
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/512px-NBA_TV.svg.png" group-title="Sport",NBA TV (720p)
+https://ft.fbcdntv247.cfd/memfs/b93f8f7b-03f8-4693-803a-32a9c894e296_output_0.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",NBC Sports
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6549306c83595c000815a696/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5102-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=21e31328-eadb-4828-8608-0cc14ce24586&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",NBC Sports
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6549306c83595c000815a696/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5102-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=21e31328-eadb-4828-8608-0cc14ce24586&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",NBC Sports Bay Area (360p)
+https://tvpass.org/live/nbc-sports-bay-area/sd?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="https://i.imgur.com/MTgUVKx.png" group-title="Sport",NBC Sports Bay Area (720p)
+https://tvpass.org/live/nbc-sports-bay-area/hd?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/NBC_Sports_Boston.png/512px-NBC_Sports_Boston.png" group-title="Sport",NBC Sports Boston (1080p)
+https://tvpass.org/live/nbc-sports-boston/hd?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",NBC Sports Boston (360p)
+https://tvpass.org/live/nbc-sports-boston/sd?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",NBC Sports Philadelphia (360p)
+https://tvpass.org/live/nbc-sports-philadelphia/sd?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/NBC_Sports_Philadelphia.png/512px-NBC_Sports_Philadelphia.png" group-title="Sport",NBC Sports Philadelphia (720p)
+https://tvpass.org/live/nbc-sports-philadelphia/hd?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",NFL (720p)
+https://aegis-cloudfront-1.tubi.video/4237973e-9e8c-4ec6-95b3-b7363ce39470/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",NFL Channel
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ced7d5df64be98e07ed47b6/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5105-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=6477ef85-3680-442c-94d8-27197903b1f6&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="https://i.imgur.com/mPGtwAP.png" group-title="Sport",NFL Channel
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ced7d5df64be98e07ed47b6/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5105-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6477ef85-3680-442c-94d8-27197903b1f6&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/NFL_Network_logo.svg/512px-NFL_Network_logo.svg.png" group-title="Sport",NFL Network
+https://fl3.moveonjoy.com/NFL_NETWORK/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",NFL Network
+http://fl2.moveonjoy.com/NFL_NETWORK/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AL;AD" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/1ccbd6b3-d27d-4f22-a4ae-3eabb4c9e062-width200-quality90.png" group-title="Sport",DAZN Women's Football (1080p)
+https://dazn-daznwomensfootball-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-daznwomensfootball-rakuten/CDN/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AL;AM;BG;DK;FI;FR;GE;DE;GR;HU;IT;NO;PT;RS;ES;SE;CH;TR;UA" tvg-logo="https://i.imgur.com/m7IC01U.png" group-title="Sport",Extreme Sports
+https://edge02.odtv.az/o4/extremesport/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",RTSH Sport (1080p)
+http://178.33.11.6:8696/live/rtshsport/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AL;AD;BG" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/77aa6871-a13f-470b-a2d5-ca5650f63323-width200-quality90.jpeg" group-title="Sport",World of Freesports (1080p)
+https://rakutenaa-mainstreammediafreesportsintl-rakuten-t7dc0.amagi.tv/playlist/rakutenAA-mainstreammediafreesportsintl-rakuten/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DZ;AO;EG;MA" tvg-logo="https://i.imgur.com/YWIJdai.png" group-title="Sport",Africa 24 English (1080p),Africa 24 Sport (1080p)
+https://edge17.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DZ;FR" tvg-logo="" group-title="Sport",Africa 24 Sport (1080p)
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Esport3.svg/330px-Esport3.svg.png" group-title="Sport",Esport3 (1080p) [Geo-blocked]
+https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Esport3.svg/330px-Esport3.svg.png" group-title="Sport",Esport3 (1080p) [Geo-blocked]
+https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AR" tvg-logo="" group-title="Sport",CnAr Deportes (1440p)
+https://stmv1.cnarlatam.com/cnardeportes2/cnardeportes2/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AR;BO;CL;CO;PA;PE" tvg-logo="https://i.imgur.com/N56B7si.png" group-title="Sport",SEO TV 5 Deportes (1080p) [Not 24/7]
+https://seo.tv.bo/tv/SEOtv_5sd.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/512px-TyC_Sports_logo.svg.png" group-title="Sport",TyC Sports (1080p) [Geo-blocked]
+https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AM" tvg-logo="https://i.imgur.com/VmaYUcq.png" group-title="Sport",Fast Sports (1080p)
+http://stream01.vnet.am/Channel_131/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AM" tvg-logo="" group-title="Sport",Viju Sport (480p)
+http://ott-cdn.ucom.am/s38/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AU" tvg-logo="" group-title="Sport",BeIN SPORTS XTRA (1080p) [Geo-blocked]
+https://amg01334-beinsportsllc-beinxtra-samsungau-eiyvc.amagi.tv/playlist/amg01334-beinsportsllc-beinxtra-samsungau/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AU" tvg-logo="" group-title="Sport",Leaderboard Sports News (1080p)
+https://amg02703-amg02703c20-samsung-au-9093.playouts.now.amagi.tv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AT" tvg-logo="" group-title="Sport",Action Sports
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5be1be871843b56328bc3ef1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1c5241-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=5f4b1024-61ca-4918-b727-2ee2d9fe6398&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AT" tvg-logo="" group-title="Sport",Action Sports
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5be1be871843b56328bc3ef1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1c5241-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f4b1024-61ca-4918-b727-2ee2d9fe6398&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AT" tvg-logo="" group-title="Sport",Auto Motor Sport
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f760c3d41aa2d0007bfde19/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1c7954-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=419fb478-b5bb-4f2f-b6f0-d53563fbc250&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AT" tvg-logo="" group-title="Sport",Auto Motor Sport
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f760c3d41aa2d0007bfde19/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1c7954-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=419fb478-b5bb-4f2f-b6f0-d53563fbc250&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AT" tvg-logo="" group-title="Sport",DAZN INTL Football x Pluto TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64b79c057d934100080b3583/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1d63b0-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=340d00cb-a526-4167-8bcd-1c35305a875e&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AT" tvg-logo="" group-title="Sport",DAZN INTL Football x Pluto TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64b79c057d934100080b3583/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1d63b0-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=340d00cb-a526-4167-8bcd-1c35305a875e&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AT" tvg-logo="" group-title="Sport",Familienbande
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/634fe3a21eac3c00076a03f8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1db1d3-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=7f81eb53-69b3-46cb-8184-aa4a7e6ba51d&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AT" tvg-logo="" group-title="Sport",Familienbande
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/634fe3a21eac3c00076a03f8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1db1d3-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=7f81eb53-69b3-46cb-8184-aa4a7e6ba51d&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AT" tvg-logo="" group-title="Sport",SPIEGEL TV Konflikte
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65b9268fc798e800085add89/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b210d30-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=245f86b2-fa92-4679-a002-9525677a4532&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AT" tvg-logo="" group-title="Sport",SPIEGEL TV Konflikte
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65b9268fc798e800085add89/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b210d30-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=245f86b2-fa92-4679-a002-9525677a4532&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AT" tvg-logo="" group-title="Sport",Sport
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/659e598ab9adc4000843c574/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1c5242-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=77cfb04f-c3c0-44b8-b6e2-07ddce76c467&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AT" tvg-logo="" group-title="Sport",Sport
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/659e598ab9adc4000843c574/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1c5242-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=77cfb04f-c3c0-44b8-b6e2-07ddce76c467&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AZ" tvg-logo="" group-title="Sport",CBC Sport [Geo-blocked]
+https://mn-nl.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="BD" tvg-logo="" group-title="Sport",T Sports (720p)
+https://tvsen7.aynaott.com/tsportshd/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="BO" tvg-logo="" group-title="Sport",SEO TV 5 Deportes 2 (1080p) [Not 24/7]
+https://seo.tv.bo/tv/SEOtv_5B.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="BO" tvg-logo="" group-title="Sport",Zoy TV Sports 1
+https://fl1004.bozztv.com/ssh101/zoytvsports/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="BO" tvg-logo="" group-title="Sport",Zoy TV Sports 1 (1080p)
+https://ssh101stream.ssh101.com/akamaissh101/ssh101/zoytvsports/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="BO" tvg-logo="" group-title="Sport",Zoy TV Sports 1 (1080p) [Not 24/7]
+https://mio.zoymilton.com/ZoyEventos/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="BO" tvg-logo="" group-title="Sport",Zoy TV Sports 2
+https://fl1004.bozztv.com/ssh101/zoytvsports2/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="BO" tvg-logo="" group-title="Sport",Zoy TV Sports 3
+https://fl1004.bozztv.com/ssh101/zoytvsports3/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="BO" tvg-logo="" group-title="Sport",Zoy TV Sports 4
+https://fl1004.bozztv.com/ssh101/zoytvsports4/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="BO" tvg-logo="" group-title="Sport",Zoy TV Sports 5
+https://fl1004.bozztv.com/ssh101/zoytvsports5/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="BA" tvg-logo="" group-title="Sport",Arena Sport 1 (720p)
+http://91.132.74.5:8000/play/a00k?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="BA" tvg-logo="" group-title="Sport",Arena Sport 3 BA (1080p)
+http://94.250.2.6:7374/play/a02o/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CM" tvg-logo="" group-title="Sport",CRTV Sports and Entertainment
+https://live20.bozztv.com/dvrfl06/astv/astv-crtvsport/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CA" tvg-logo="" group-title="Sport",Adventure Sports TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63c9550df13a9b00078677a7/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c78f511-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4bd268c5-ffe8-41b9-87eb-00b21764a8c4&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CA" tvg-logo="" group-title="Sport",Adventure Sports TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63c9550df13a9b00078677a7/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c78f511-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=4bd268c5-ffe8-41b9-87eb-00b21764a8c4&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CA" tvg-logo="https://i.imgur.com/Lgux6Ik.png" group-title="Sport",Golf Channel
+https://fl3.moveonjoy.com/GOLF_CHANNEL/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CA" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a4/NBA_TV_Canada_2020.png" group-title="Sport",NBA TV Canada (1080p)
+http://user.scalecdn.co:8080/live/54706135/09221986/3092.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CA" tvg-logo="" group-title="Sport",beIN SPORTS XTRA
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62b97ef310e33f0007eea65f/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c794334-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=01b4faa7-f3ac-4f6d-9967-3f409d4c6863&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CA" tvg-logo="" group-title="Sport",beIN SPORTS XTRA
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62b97ef310e33f0007eea65f/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c794334-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=01b4faa7-f3ac-4f6d-9967-3f409d4c6863&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CL" tvg-logo="" group-title="Sport",Claro Sports Chile
+https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6320d80a66666000086712d7livestitch/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&profilesFromStream=true&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CN" tvg-logo="" group-title="Sport",SMG Football Channel
+http://49.113.179.174:4022/udp/238.125.2.142:5140?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CR" tvg-logo="" group-title="Sport",Radio Turrialba TV Sports (576p) [Geo-blocked]
+https://live21.bozztv.com/akamaissh101/ssh101/turrialbatv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CR" tvg-logo="" group-title="Sport",Radio Turrialba TV Sports (720p) [Geo-blocked]
+https://acceso.radiosportstv.online:3723/live/radioturrialbatvlive.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CR" tvg-logo="" group-title="Sport",Tigo Sports (720p) [Geo-blocked]
+https://live20.bozztv.com/akamaissh101/ssh101/livetigocr/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CR" tvg-logo="" group-title="Sport",Tigo Sports (Costa Rica)
+https://acceso.radiosportstv.online:3795/stream/play.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CY" tvg-logo="" group-title="Sport",Alfa Sport (1080p) [Not 24/7]
+https://dev.aftermind.xyz/edge-hls/unitrust/alfasports/index.m3u8?token=8TXWzhY3h6jrzqEqx&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CZ" tvg-logo="" group-title="Sport",Canal+ Sport
+http://78.130.250.2:8023/play/a02v/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CZ" tvg-logo="" group-title="Sport",Canal+ Sport 2 (1080i)
+http://78.130.250.2:8023/play/a02w/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CZ" tvg-logo="" group-title="Sport",Golf Channel (576i)
+http://78.130.250.2:8023/play/a02q/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DO" tvg-logo="" group-title="Sport",CDN Deportes (720p)
+http://200.125.170.122:8000/play/a03j/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="SV" tvg-logo="" group-title="Sport",Awapa Sports TV (1080p) [Not 24/7]
+https://mgv-awapa.akamaized.net/hls/live/2104282/MGV_CHANNEL15/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="SV" tvg-logo="" group-title="Sport",Tigo Sports TV El Salvador (720p) [Geo-blocked]
+https://channel03.tigosports.com.sv/out/v1/31f36d52d558475ca18799d8ca5e4b40/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="FR" tvg-logo="" group-title="Sport",4Sport
+https://pepsi.abntv.live/hls/4spstream.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="FR" tvg-logo="" group-title="Sport",Persiana Sport
+https://spstr.abntv.live/hls/psstream.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="FR" tvg-logo="" group-title="Sport",Pluto TV Sports
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6081310e48d3200007afaf3b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e05c6a5-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=aa2cd1f8-5f20-441d-97cb-63e4c1c5e4f6&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="FR" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ad/Logo_of_French_sports_television_channel_Sport_en_France.png" group-title="Sport",Sport En France (1080p)
+https://sp1564435593.mytvchain.info/live/sp1564435593/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="FR" tvg-logo="" group-title="Sport",Sport En France (360p)
+https://sp1564435593.mytvchain.info/live/sp1564435593_360/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="FR" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ad/Logo_of_French_sports_television_channel_Sport_en_France.png" group-title="Sport",Sport En France (720p)
+https://sp1564435593.mytvchain.info/live/sp1564435593_720/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="FR" tvg-logo="" group-title="Sport",Unbeaten Sports
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64c3b0bf0e086a0009e8a60d/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e072630-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1d441167-0fab-494c-981d-be5d461f5181&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="GE" tvg-logo="https://i.imgur.com/SVV5xHC.png" group-title="Sport",Adjarasport 1
+https://live20.bozztv.com/dvrfl05/gin-adjara/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DE" tvg-logo="https://i.imgur.com/xiTUsnA.png" group-title="Sport",Action Sports
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5be1be871843b56328bc3ef1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ac0870-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=a89100a8-8115-4b28-9869-072164526f31&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DE" tvg-logo="https://i.imgur.com/xiTUsnA.png" group-title="Sport",Action Sports
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5be1be871843b56328bc3ef1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ac0870-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=a89100a8-8115-4b28-9869-072164526f31&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DE" tvg-logo="" group-title="Sport",Auto Motor Sport
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f760c3d41aa2d0007bfde19/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ac2f82-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=bd6f9149-f825-44a8-988e-28acbcdc798e&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DE" tvg-logo="" group-title="Sport",Auto Motor Sport
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f760c3d41aa2d0007bfde19/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ac2f82-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=bd6f9149-f825-44a8-988e-28acbcdc798e&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DE" tvg-logo="" group-title="Sport",DAZN INTL Football x Pluto TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64b79c057d934100080b3583/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ad19e0-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8bde990f-1091-4d79-87b7-0e0363b40e3c&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DE" tvg-logo="" group-title="Sport",DAZN INTL Football x Pluto TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64b79c057d934100080b3583/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ad19e0-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=8bde990f-1091-4d79-87b7-0e0363b40e3c&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DE" tvg-logo="" group-title="Sport",Familienbande
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/634fe3a21eac3c00076a03f8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ad40f7-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c90d1870-ec22-4d9a-a5ae-f96ad9e66c77&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DE" tvg-logo="" group-title="Sport",Familienbande
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/634fe3a21eac3c00076a03f8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ad40f7-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=c90d1870-ec22-4d9a-a5ae-f96ad9e66c77&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DE" tvg-logo="https://i.imgur.com/hRNUo9n.png" group-title="Sport",More Than Sports TV (1080p)
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DE" tvg-logo="https://i.imgur.com/BmJaDT3.jpg" group-title="Sport",OF-TV Offenbach (720p)
+https://5864df9ceac85.streamlock.net/germanpictures-live/mp4:streamschedule/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DE" tvg-logo="" group-title="Sport",SPIEGEL TV Konflikte
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65b9268fc798e800085add89/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84af63d5-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=c6fa519e-8e21-4b06-a396-dae1b93125d1&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DE" tvg-logo="" group-title="Sport",SPIEGEL TV Konflikte
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65b9268fc798e800085add89/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84af63d5-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c6fa519e-8e21-4b06-a396-dae1b93125d1&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DE" tvg-logo="" group-title="Sport",Sport
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/659e598ab9adc4000843c574/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ac0871-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=1aca10c2-09e3-4dba-9e0e-6d174d5eb77f&serverSideAds=false&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DE" tvg-logo="" group-title="Sport",Sport
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/659e598ab9adc4000843c574/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ac0871-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1aca10c2-09e3-4dba-9e0e-6d174d5eb77f&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DE" tvg-logo="https://i.imgur.com/lta5Mog.png" group-title="Sport",World of Freesports (1080p)
+https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DE" tvg-logo="https://i.imgur.com/lta5Mog.png" group-title="Sport",World of Freesports (1080p)
+https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="GH" tvg-logo="" group-title="Sport",GTV Sports +
+https://g2qd3exjy7an-hls-live.5centscdn.com/gtvsport/ghanaweb.stream/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="GR" tvg-logo="" group-title="Sport",ERT Sports 1 (1080p)
+http://hbbtvapp.ert.gr/stream.php/v/vid_ertsports_mpeg.2ts?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="GR" tvg-logo="" group-title="Sport",ERT Sports 2 (1080p)
+http://hbbtvapp.ert.gr/stream.php/v/vid_ertplay2_mpeg.2ts?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="GR" tvg-logo="" group-title="Sport",ERT Sports 2 (1080p) [Geo-blocked]
+http://cbd537474fbad4634b64787657ff6456.msvdn.net/sports2/ert_sports2_main/mainabr/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="GT" tvg-logo="" group-title="Sport",Multivisión Sports (720p) [Not 24/7]
+https://stream.digitalgt.com:3605/live/multivisionsportslive.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="GT" tvg-logo="" group-title="Sport",Tigo Sports (Guatemala)
+https://cnm-tsl.otteravision.com/cnm/tsl/tsl.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="GY" tvg-logo="" group-title="Sport",FL Sport (1080p)
+https://tvsw5-hls.secdn.net/tvsw5-chorigin/play/prod-8ce1fcb47fa7474d84640eb766f0ef38/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="HK" tvg-logo="" group-title="Sport",TVB Finance and Sport Channel (720p)
+https://cdn.hklive.tv/xxxx/85/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="HU" tvg-logo="" group-title="Sport",M4 Sport (1080p)
+http://194.76.186.33:8000/play/a02c/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="HU" tvg-logo="" group-title="Sport",M4 Sport (576p)
+http://194.76.186.33:8000/play/a02p/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://i.imgur.com/J2Ky5OO.png" group-title="Sport",DD Sports (720p)
+https://cdn-6.pishow.tv/live/13/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="" group-title="Sport",Sony Sports TEN 2 HD (1080p)
+https://dai.google.com/linear/hls/event/V9h-iyOxRiGp41ppQScDSQ/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png" group-title="Sport",Sony Sports Ten 1 (1080p)
+http://66.102.120.18:8000/play/a00e/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="" group-title="Sport",Sony Sports Ten 1 (1080p)
+https://dai.google.com/linear/hls/event/6WhVNGKTRXyu588zZv1Lkg/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="" group-title="Sport",Sony Sports Ten 1 (1080p)
+https://dai.google.com/linear/hls/event/wG75n5U8RrOKiFzaWObXbA/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://i.imgur.com/hWo7Ba4.png" group-title="Sport",Sony Sports Ten 1 (1080p)
+http://87.255.35.150:18926?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_2/images/LOGO_HD/image.png" group-title="Sport",Sony Sports Ten 2 (1080p)
+http://66.102.120.18:8000/play/a01y/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://i.imgur.com/gK415D7.png" group-title="Sport",Star Sports 1 Telugu HD (1080p)
+http://87.255.35.150:18881?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_2/images/LOGO_HD/image.png" group-title="Sport",Star Sports 2 HD (1080p)
+http://163.61.227.29:8000/play/a069/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://i.imgur.com/5En7pOI.png" group-title="Sport",Star Sports 2 HD (1080p)
+http://87.255.35.150:18828?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://i.imgur.com/kHerF19.png" group-title="Sport",Star Sports 2 Hindi (1080p)
+http://66.102.120.18:8000/play/a00v/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://i.imgur.com/kHerF19.png" group-title="Sport",Star Sports 2 Hindi (1080p)
+http://87.255.35.150:18882?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/55/Star_Sports_2_Telugu.jpg" group-title="Sport",Star Sports 2 Telugu (576p)
+http://87.255.35.150:18280?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://i.imgur.com/dbp2Mig.png" group-title="Sport",Star Sports 3 (576p)
+http://87.255.35.150:18804?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://i.imgur.com/Mh9tKPx.png" group-title="Sport",Star Sports Select 1 HD (1080p)
+http://66.102.120.18:8000/play/a06x/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://i.imgur.com/Mh9tKPx.png" group-title="Sport",Star Sports Select 1 HD (1080p)
+http://87.255.35.150:18893?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://i.imgur.com/FtRT73R.png" group-title="Sport",Star Sports Select 2 HD (1080p)
+http://66.102.120.18:8000/play/a06y/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IN" tvg-logo="https://i.imgur.com/FtRT73R.png" group-title="Sport",Star Sports Select 2 HD (1080p)
+http://87.255.35.150:18952?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="ID" tvg-logo="" group-title="Sport",TVRI Sport (720p)
+https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IR" tvg-logo="" group-title="Sport",Aio Sport 1 [Geo-blocked]
+https://live.aionet.ir/hls/aiosport/aiosport.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IR" tvg-logo="" group-title="Sport",Aio Sport 2 [Geo-blocked]
+https://live.aionet.ir/hls/aiosport2/aiosport2.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IR" tvg-logo="" group-title="Sport",PRO Sport International
+https://proshls.wns.live/hls/stream.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IR" tvg-logo="https://www.lyngsat.com/logo/tv/pp/persiana-sports-fr.png" group-title="Sport",Persiana Sports 3 [Geo-blocked]
+https://pepsi3.abntv.live/hls/psp3.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IR" tvg-logo="https://www.lyngsat.com/logo/tv/pp/persiana-sports-fr.png" group-title="Sport",Persiana Sports 4 [Geo-blocked]
+https://pepsi4.abntv.live/hls/psp4.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IR" tvg-logo="" group-title="Sport",Telewebion Sport
+https://hidden-mud-9dcf.nhhwkiszzzvcuojxdo.workers.dev/?url=https://live-azd1109.telewebion.com/ek/sport1/live/1080p/index.m3u8&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IR" tvg-logo="" group-title="Sport",Telewebion Sport 2
+https://hidden-mud-9dcf.nhhwkiszzzvcuojxdo.workers.dev/?url=https://live-azd1109.telewebion.com/ek/sport2/live/1080p/index.m3u8&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IR" tvg-logo="" group-title="Sport",Telewebion Sport 3
+https://hidden-mud-9dcf.nhhwkiszzzvcuojxdo.workers.dev/?url=https://live-azd1103.telewebion.com/ek/sport3/live/1080p/index.m3u8&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IT" tvg-logo="" group-title="Sport",ACI Sport TV (1080p)
+https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IT" tvg-logo="" group-title="Sport",Pluto TV Sport Italy (720p)
+https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608030eff4b6f70007e1684c/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IT" tvg-logo="" group-title="Sport",Rai Sport 2
+http://originstream12.rai.it/italy/raisport2_1200/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IT" tvg-logo="" group-title="Sport",Rai Sport HD
+https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IT" tvg-logo="" group-title="Sport",Rai Sport HD
+https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-HLS8/raisport1.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IT" tvg-logo="" group-title="Sport",Sportitalia Motori (720p) [Geo-blocked]
+https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IT" tvg-logo="https://i.imgur.com/hu56Ya5.png" group-title="Sport",Sportitalia Solocalcio (1080p)
+https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IT" tvg-logo="" group-title="Sport",Sports Italia
+https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IT" tvg-logo="" group-title="Sport",TR Sport (480p)
+https://livetr.teleromagna.it/mia/live/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="JP" tvg-logo="https://i.imgur.com/UgKRfuw.png" group-title="Sport",Gaora Sports (544p)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs17&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="JP" tvg-logo="https://i.imgur.com/01Jsa2Z.png" group-title="Sport",Golf Network (544p)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs03&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="JP" tvg-logo="https://i.imgur.com/vEpjLnj.png" group-title="Sport",J Sports 1 (544p)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs18&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="JP" tvg-logo="https://i.imgur.com/g1GLVH2.png" group-title="Sport",J Sports 2 (544p)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs19&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="JP" tvg-logo="https://i.imgur.com/xdI361E.png" group-title="Sport",J Sports 3 (544p)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs21&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="JP" tvg-logo="https://i.imgur.com/fBcyZNL.png" group-title="Sport",J Sports 4 (544p)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs22&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="JO" tvg-logo="" group-title="Sport",Jordan Sport 2 (1080p) [Geo-blocked]
+https://jrtv-live.ercdn.net/learning2/learning2.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="KZ" tvg-logo="" group-title="Sport",QazSport (480p) [Geo-blocked]
+https://qazsporttv-stream.qazcdn.com/qazsporttv/qazsporttv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="KW" tvg-logo="https://i.imgur.com/R1hGX1d.png" group-title="Sport",KTV Sport (1080p)
+https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="KW" tvg-logo="https://i.imgur.com/l4oX0gf.png" group-title="Sport",KTV Sport Plus (1080p)
+https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="MY" tvg-logo="https://i.imgur.com/KDHJryj.png" group-title="Sport",DUBAI SPORTS 2 (1920×1080),SPORT : Dubai Sports 2,SPORT | Dubai Sports 2
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="MY" tvg-logo="" group-title="Sport",DUBAI SPORTS 3 (1920×1080)
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8?checkedby:iptvcat.com
