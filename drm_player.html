@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRM Master Dashboard | Dual Player</title>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.5/shaka-player.compiled.js"></script>
+    
+    <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
+    <script type="text/javascript">
+        jwplayer.key = 'Khpp2dHxlBJHC8MCmLnBuV2jK/DwDnJMniwF6EO9HC/riJ712ZmbHg==';
+    </script>
+
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0f1115; color: #fff; margin: 0; padding: 20px; }
+        .header { text-align: center; margin-bottom: 30px; border-bottom: 2px solid #ff0055; padding-bottom: 10px; }
+        .header h1 { margin: 0; color: #ff0055; text-transform: uppercase; letter-spacing: 2px; }
+        
+        .control-panel { background: #1a1d24; padding: 20px; border-radius: 10px; border: 1px solid #2d3139; max-width: 900px; margin: 0 auto 30px auto; box-shadow: 0 5px 15px rgba(0,0,0,0.5); }
+        .input-group { margin-bottom: 15px; }
+        .input-group label { display: block; font-size: 12px; color: #aaa; margin-bottom: 5px; font-weight: bold; text-transform: uppercase; }
+        .input-group input { width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #444; background: #111; color: #00d2ff; font-size: 14px; box-sizing: border-box; }
+        
+        .btn-group { display: flex; gap: 15px; justify-content: center; margin-top: 20px; }
+        .btn { padding: 12px 25px; border: none; border-radius: 5px; font-size: 14px; font-weight: bold; text-transform: uppercase; cursor: pointer; transition: 0.3s; color: #fff; }
+        .btn-jw { background: #ff0055; }
+        .btn-jw:hover { background: #c20042; box-shadow: 0 0 10px rgba(255,0,85,0.6); }
+        .btn-shaka { background: #00d2ff; color: #000; }
+        .btn-shaka:hover { background: #00a8cc; box-shadow: 0 0 10px rgba(0,210,255,0.6); color: #fff; }
+
+        .players-container { display: flex; flex-wrap: wrap; gap: 20px; max-width: 1200px; margin: 0 auto; }
+        .player-box { flex: 1; min-width: 400px; background: #1a1d24; border: 1px solid #2d3139; border-radius: 10px; padding: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); }
+        .player-title { text-align: center; font-weight: bold; margin-bottom: 10px; font-size: 18px; }
+        .jw-title { color: #ff0055; }
+        .shaka-title { color: #00d2ff; }
+        
+        .video-wrapper { width: 100%; aspect-ratio: 16 / 9; background: #000; border-radius: 5px; overflow: hidden; display: flex; justify-content: center; align-items: center; color: #555; }
+        video { width: 100%; height: 100%; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>🔐 DRM Master Dashboard</h1>
+        <p style="color: #aaa; font-size: 14px;">Powered by JW Player & Google Shaka Player</p>
+    </div>
+
+    <div class="control-panel">
+        <div class="input-group">
+            <label>1. DASH MPD URL (.mpd)</label>
+            <input type="text" id="mpdUrl" value="https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Deor_De_Viaah_Vich_Nach_Lain_De_VIDEO/70a78e66-5a7b-47ba-a12b-f13083503883/dash/master_hd.mpd?hdnts=st=1774362325~exp=1774383925~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Deor_De_Viaah_Vich_Nach_Lain_De_VIDEO/70a78e66-5a7b-47ba-a12b-f13083503883/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_904_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_904_1~hmac=485ab2d5938769c5bd5da65e7c9c88ccb662761d1c20c50d6d4805443b42f63c">
+        </div>
+        <div class="input-group">
+            <label>2. Widevine License URL</label>
+            <input type="text" id="licenseUrl" value="https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..6GFWZtRx4jmDY4xi.EEYtlj-enayJJJN4XIzz_LCwgr_nOY8aEUSvs2kjFDepErprUIfTUkYwvnQ_o1IR_6JVEiAcndO69qnsnWI3ZLSlzznn011vnU7gsIfdsEeHCCait8moaMbp89ZH2o3RnG0gYqsLjpNk5aBD3a8QCVSR8UB2Szsi7tvmCOXbALtZ9ZPJtUUGZpDTkiMWJ4eAuwUSyASR0VTTxKh5aVIUJ6dw2oJpqafkTUs63uzuiQ7sS7pjVLkUwiF1AMIeLebgSERKINs0FXhGn16CBfWESy1AseSPwIv4KgWl_MkQN4CjCH9GitbA6VdD6gUI3XIpnbXFk4M3KjeSbBv7EQ.L5kDFGAgzA1oZyJDphjs0Q">
+        </div>
+        <div class="input-group">
+            <label>3. Authorization Token (Bearer ...)</label>
+            <input type="text" id="authToken" value="bearer nWrn1QVRi9nLy3rsHLIYtk0LMC69ZaeO">
+        </div>
+
+        <div class="btn-group">
+            <button class="btn btn-jw" onclick="playInJW()">▶ Play in JW Player</button>
+            <button class="btn btn-shaka" onclick="playInShaka()">▶ Play in Shaka Player</button>
+        </div>
+    </div>
+
+    <div class="players-container">
+        
+        <div class="player-box">
+            <div class="player-title jw-title">JW Player 8</div>
+            <div class="video-wrapper">
+                <div id="jw-player-container">Player will load here...</div>
+            </div>
+        </div>
+
+        <div class="player-box">
+            <div class="player-title shaka-title">Google Shaka Player</div>
+            <div class="video-wrapper">
+                <video id="shaka-video-element" controls autoplay></video>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // --- JW PLAYER LOGIC ---
+        function playInJW() {
+            const mpd = document.getElementById("mpdUrl").value;
+            const lic = document.getElementById("licenseUrl").value;
+            const token = document.getElementById("authToken").value;
+
+            jwplayer("jw-player-container").setup({
+                file: mpd,
+                drm: {
+                    widevine: {
+                        url: lic,
+                        headers: [
+                            { name: "authorization", value: token },
+                            { name: "Content-Type", value: "application/octet-stream" } // Standard DRM format
+                        ]
+                    }
+                },
+                width: "100%",
+                aspectratio: "16:9",
+                autostart: true,
+                cast: {} // Enables Chromecast
+            });
+        }
+
+        // --- SHAKA PLAYER LOGIC ---
+        // Initialize Shaka library on page load
+        document.addEventListener('DOMContentLoaded', initShakaApp);
+        let shakaPlayerInstance = null;
+
+        function initShakaApp() {
+            shaka.polyfill.installAll();
+            if (shaka.Player.isBrowserSupported()) {
+                const videoElement = document.getElementById('shaka-video-element');
+                shakaPlayerInstance = new shaka.Player(videoElement);
+                
+                shakaPlayerInstance.addEventListener('error', function(event) {
+                    console.error('Shaka Error:', event.detail);
+                    alert("Shaka Error: Check Console for details.");
+                });
+            } else {
+                console.error('Browser not supported for Shaka Player!');
+            }
+        }
+
+        async function playInShaka() {
+            if (!shakaPlayerInstance) return;
+
+            const mpd = document.getElementById("mpdUrl").value;
+            const lic = document.getElementById("licenseUrl").value;
+            const token = document.getElementById("authToken").value;
+
+            // Step 1: Configure Widevine DRM Server
+            shakaPlayerInstance.configure({
+                drm: {
+                    servers: {
+                        'com.widevine.alpha': lic
+                    }
+                }
+            });
+
+            // Step 2: Intercept the License Request and Inject the Auth Token
+            // Yeh wahi kaam karta hai jo Python requests mein headers pass karna hota hai
+            shakaPlayerInstance.getNetworkingEngine().clearAllRequestFilters(); // Clear previous
+            shakaPlayerInstance.getNetworkingEngine().registerRequestFilter(function(type, request) {
+                if (type == shaka.net.NetworkingEngine.RequestType.LICENSE) {
+                    request.headers['authorization'] = token;
+                }
+            });
+
+            // Step 3: Load the MPD file
+            try {
+                await shakaPlayerInstance.load(mpd);
+                console.log('Shaka Player: Video loaded successfully!');
+            } catch (e) {
+                console.error('Shaka Player Error loading video:', e);
+                alert("Failed to load in Shaka. See console.");
+            }
+        }
+    </script>
+</body>
+</html>

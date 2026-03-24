@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate OTT Web Player | V39</title>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.5/shaka-player.compiled.js"></script>
+    
+    <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
+    <script type="text/javascript">
+        jwplayer.key = 'Khpp2dHxlBJHC8MCmLnBuV2jK/DwDnJMniwF6EO9HC/riJ712ZmbHg==';
+    </script>
+
+    <style>
+        :root { --bg-dark: #0b0c10; --panel-bg: #15181e; --border: #2a2e38; --brand: #e50914; --text: #f0f0f0; --text-muted: #888; }
+        * { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg-dark); color: var(--text); margin: 0; display: flex; height: 100vh; overflow: hidden; }
+        
+        /* SIDEBAR */
+        .sidebar { width: 350px; background: var(--panel-bg); border-right: 1px solid var(--border); display: flex; flex-direction: column; }
+        .sidebar-header { padding: 20px; background: #000; border-bottom: 1px solid var(--border); }
+        .sidebar-header h1 { margin: 0 0 10px 0; color: var(--brand); font-size: 22px; text-transform: uppercase; letter-spacing: 1px; }
+        
+        .controls { display: flex; flex-direction: column; gap: 10px; }
+        .upload-btn { background: #2a2e38; color: #fff; padding: 10px; border-radius: 5px; text-align: center; cursor: pointer; font-size: 14px; font-weight: bold; border: 1px dashed #555; transition: 0.3s; }
+        .upload-btn:hover { background: #3a3f4c; border-color: var(--brand); }
+        input[type="file"] { display: none; }
+        .search-box { width: 100%; padding: 10px; border-radius: 5px; border: 1px solid var(--border); background: #0b0c10; color: #fff; font-size: 14px; }
+        .search-box:focus { outline: none; border-color: var(--brand); }
+
+        /* LIST */
+        .channel-list { flex: 1; overflow-y: auto; padding: 10px; }
+        .channel-list::-webkit-scrollbar { width: 5px; }
+        .channel-list::-webkit-scrollbar-thumb { background: #333; border-radius: 5px; }
+        
+        .channel-item { display: flex; align-items: center; padding: 10px; margin-bottom: 8px; background: #1c1f26; border-radius: 8px; cursor: pointer; transition: 0.2s; border-left: 4px solid transparent; }
+        .channel-item:hover, .channel-item.active { background: #252a34; border-left-color: var(--brand); }
+        
+        .channel-logo { width: 50px; height: 50px; border-radius: 5px; margin-right: 12px; object-fit: contain; background: #000; padding: 2px; }
+        .channel-info { flex: 1; overflow: hidden; }
+        .channel-title { font-size: 14px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 4px; }
+        .channel-group { font-size: 11px; color: var(--text-muted); background: #000; padding: 2px 6px; border-radius: 4px; display: inline-block; }
+
+        /* PLAYER AREA */
+        .main-content { flex: 1; display: flex; flex-direction: column; background: #000; }
+        .player-wrapper { flex: 1; display: flex; justify-content: center; align-items: center; background: #0b0c10; overflow: hidden; position: relative; }
+        
+        #jw-player-container { width: 100%; height: 100%; display: none; }
+        video#shaka-video-element { width: 100%; height: 100%; outline: none; display: none; }
+        
+        .empty-state { text-align: center; color: var(--text-muted); }
+        .empty-state svg { width: 80px; height: 80px; fill: #333; margin-bottom: 15px; }
+
+        .info-bar { padding: 20px; background: var(--panel-bg); border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+        .info-details h2 { margin: 0 0 5px 0; font-size: 20px; color: #fff; }
+        .info-details p { margin: 0; font-size: 13px; color: var(--text-muted); }
+        
+        .engine-switch { display: flex; gap: 10px; background: #000; padding: 5px; border-radius: 8px; border: 1px solid var(--border); }
+        .engine-btn { background: transparent; color: #888; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; font-size: 12px; font-weight: bold; transition: 0.3s; }
+        .engine-btn.active { background: var(--brand); color: #fff; }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h1>📺 OTT Player</h1>
+            <div class="controls">
+                <label class="upload-btn">
+                    📁 Load Playlist (.json / .m3u)
+                    <input type="file" id="mediaFile" accept=".m3u,.m3u8,.txt,.json" onchange="handleFileUpload(event)">
+                </label>
+                <input type="text" class="search-box" id="searchInput" placeholder="🔍 Search channels..." onkeyup="filterPlaylist()">
+            </div>
+        </div>
+        <div class="channel-list" id="channelList">
+            <div class="empty-state" style="margin-top: 50px;"><p>Upload a file to start watching.</p></div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="player-wrapper">
+            <div id="player-empty-state" class="empty-state">
+                <svg viewBox="0 0 24 24"><path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 11l-6 4V6l6 4z"/></svg>
+                <h2>Select a stream to play</h2>
+            </div>
+            <div id="jw-player-container"></div>
+            <video id="shaka-video-element" controls autoplay></video>
+        </div>
+        
+        <div class="info-bar">
+            <div class="info-details">
+                <h2 id="nowPlayingTitle">Waiting...</h2>
+                <p id="nowPlayingGroup">Load a playlist and select a channel</p>
+            </div>
+            <div class="engine-switch">
+                <button class="engine-btn active" id="btn-shaka" onclick="setEngine('shaka')">SHAKA ENGINE</button>
+                <button class="engine-btn" id="btn-jw" onclick="setEngine('jw')">JW PLAYER</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let fullCatalog = [];
+        let activeEngine = 'shaka';
+        let currentStream = null;
+        let shakaApp = null;
+
+        document.addEventListener('DOMContentLoaded', () => {
+            shaka.polyfill.installAll();
+            if (shaka.Player.isBrowserSupported()) {
+                const video = document.getElementById('shaka-video-element');
+                shakaApp = new shaka.Player(video);
+                shakaApp.addEventListener('error', (e) => {
+                    console.error('Shaka Error:', e.detail);
+                });
+            }
+        });
+
+        function setEngine(engineName) {
+            activeEngine = engineName;
+            document.getElementById('btn-shaka').classList.toggle('active', engineName === 'shaka');
+            document.getElementById('btn-jw').classList.toggle('active', engineName === 'jw');
+            if (currentStream) playStream(currentStream);
+        }
+
+        function handleFileUpload(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            
+            document.getElementById('channelList').innerHTML = '<p style="text-align:center; color: #888;">Processing file...</p>';
+            
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const content = e.target.result;
+                if (file.name.toLowerCase().endsWith('.json')) parseJSON(content);
+                else parseM3U(content);
+            };
+            reader.readAsText(file);
+        }
+
+        // 🧠 ULTRA-SMART JSON PARSER
+        function parseJSON(jsonText) {
+            try {
+                const data = JSON.parse(jsonText);
+                fullCatalog = [];
+
+                // Find the array no matter where it's hidden
+                let items = [];
+                if (Array.isArray(data)) items = data;
+                else {
+                    for (let key in data) {
+                        if (Array.isArray(data[key]) && data[key].length > 0) {
+                            items = data[key];
+                            break;
+                        }
+                    }
+                }
+
+                items.forEach(item => {
+                    // Aggressive key hunting
+                    let title = item.title || item.name || item.channel_name || item.channelName || item.id || "Unknown Stream";
+                    let url = item.url || item.mpd || item.link || item.stream_url || item.channel_url || item.file || item.source || "";
+                    let lic = item.lic || item.license || item.clearkey || item.key_url || item.drm_key || item.drm_license_url || item.key || "";
+                    let token = item.token || item.authorization || item.auth || item.header || "";
+                    let logo = item.logo || item.icon || item.image || item.tvg_logo || "";
+                    let group = item.group || item.category || item.genre || item.network || "JSON Playlist";
+
+                    // Handle Nested Objects (like headers)
+                    if (item.headers && typeof item.headers === 'object') {
+                        token = item.headers.authorization || item.headers.Authorization || item.headers.Cookie || token;
+                    }
+
+                    if (url && typeof url === 'string' && url.length > 5) {
+                        fullCatalog.push({ title, url, lic, token, logo, group });
+                    }
+                });
+
+                if (fullCatalog.length === 0) {
+                    alert("❌ Could not find valid Video URLs in this JSON. The structure is too unusual.");
+                    document.getElementById('channelList').innerHTML = '<p style="text-align:center; color: #e50914;">No valid streams found.</p>';
+                } else {
+                    renderPlaylist(fullCatalog);
+                }
+            } catch (e) {
+                alert("❌ Invalid JSON File: " + e.message);
+            }
+        }
+
+        // 🧠 M3U PARSER
+        function parseM3U(m3uText) {
+            const lines = m3uText.split('\n');
+            fullCatalog = [];
+            let currentItem = null;
+
+            for (let i = 0; i < lines.length; i++) {
+                let line = lines[i].trim();
+                
+                if (line.startsWith('#EXTINF')) {
+                    currentItem = { title: "Unknown Stream", logo: "", group: "M3U Playlist", url: "", lic: "", token: "" };
+                    let titleMatch = line.match(/,(.+)$/);
+                    if (titleMatch) currentItem.title = titleMatch[1].trim();
+                    let logoMatch = line.match(/tvg-logo="(.*?)"/);
+                    if (logoMatch) currentItem.logo = logoMatch[1];
+                    let groupMatch = line.match(/group-title="(.*?)"/);
+                    if (groupMatch) currentItem.group = groupMatch[1];
+
+                } else if (line.startsWith('#KODIPROP:inputstream.adaptive.license_key=') && currentItem) {
+                    let keyString = line.replace('#KODIPROP:inputstream.adaptive.license_key=', '');
+                    let parts = keyString.split('|authorization=');
+                    currentItem.lic = parts[0];
+                    if (parts.length > 1) currentItem.token = parts[1].split('&')[0];
+
+                } else if (line.startsWith('http') && currentItem) {
+                    currentItem.url = line;
+                    fullCatalog.push(currentItem);
+                    currentItem = null; 
+                }
+            }
+            renderPlaylist(fullCatalog);
+        }
+
+        function filterPlaylist() {
+            let query = document.getElementById('searchInput').value.toLowerCase();
+            let filtered = fullCatalog.filter(item => item.title.toLowerCase().includes(query) || item.group.toLowerCase().includes(query));
+            renderPlaylist(filtered);
+        }
+
+        function renderPlaylist(listToRender) {
+            const listDiv = document.getElementById('channelList');
+            listDiv.innerHTML = '';
+
+            if (listToRender.length === 0) {
+                listDiv.innerHTML = '<p style="text-align:center; color: #888;">No results found.</p>';
+                return;
+            }
+
+            listToRender.forEach((item) => {
+                const div = document.createElement('div');
+                div.className = 'channel-item';
+                div.onclick = () => {
+                    document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('active'));
+                    div.classList.add('active');
+                    playStream(item);
+                };
+
+                const logoSrc = item.logo || 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23555"><path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 11l-6 4V6l6 4z"/></svg>';
+
+                div.innerHTML = `
+                    <img src="${logoSrc}" class="channel-logo" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\\'http://www.w3.org/2000/svg\\' viewBox=\\'0 0 24 24\\' fill=\\'%23333\\'><path d=\\'M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 11l-6 4V6l6 4z\\'/></svg>'">
+                    <div class="channel-info">
+                        <div class="channel-title">${item.title}</div>
+                        <div class="channel-group">${item.group}</div>
+                    </div>
+                `;
+                listDiv.appendChild(div);
+            });
+        }
+
+        // 🧠 ADVANCED PLAYBACK ENGINE
+        async function playStream(stream) {
+            currentStream = stream;
+            
+            document.getElementById('player-empty-state').style.display = 'none';
+            document.getElementById('nowPlayingTitle').innerText = stream.title;
+            document.getElementById('nowPlayingGroup').innerText = stream.group;
+
+            const jwContainer = document.getElementById('jw-player-container');
+            const shakaVideo = document.getElementById('shaka-video-element');
+
+            // --- SHAKA ENGINE ---
+            if (activeEngine === 'shaka') {
+                jwContainer.style.display = 'none';
+                shakaVideo.style.display = 'block';
+                
+                try { jwplayer("jw-player-container").stop(); } catch(e){}
+                if (!shakaApp) return;
+
+                shakaApp.getNetworkingEngine().clearAllRequestFilters();
+
+                let drmConfig = { servers: {} };
+                
+                // Advanced DRM Detector (Clearkey vs Widevine)
+                if (stream.lic) {
+                    let licStr = stream.lic.trim();
+                    if (licStr.includes(':') && !licStr.startsWith('http') && licStr.length < 100) {
+                        // ClearKey "KID:KEY" format
+                        let [kid, key] = licStr.split(':');
+                        drmConfig.clearKeys = {};
+                        drmConfig.clearKeys[kid] = key;
+                    } else if (licStr.startsWith('{')) {
+                        // ClearKey JSON format
+                        try { drmConfig.clearKeys = JSON.parse(licStr); } catch(e){}
+                    } else {
+                        // Widevine URL format
+                        drmConfig.servers['com.widevine.alpha'] = licStr;
+                    }
+                }
+                
+                shakaApp.configure({ drm: drmConfig });
+
+                if (stream.token) {
+                    shakaApp.getNetworkingEngine().registerRequestFilter(function(type, request) {
+                        if (type == shaka.net.NetworkingEngine.RequestType.LICENSE) {
+                            request.headers['authorization'] = stream.token;
+                        }
+                    });
+                }
+
+                try {
+                    await shakaApp.load(stream.url);
+                } catch (e) {
+                    console.error('Shaka Load Error:', e);
+                    alert("⚠️ Player Error: Stream failed to load. Check browser console (F12) for CORS or expired token issues.");
+                }
+            } 
+            
+            // --- JW PLAYER ENGINE ---
+            else if (activeEngine === 'jw') {
+                shakaVideo.style.display = 'none';
+                jwContainer.style.display = 'block';
+                
+                try { await shakaApp.unload(); } catch(e){}
+
+                let drmSetup = {};
+                if (stream.lic) {
+                    let licStr = stream.lic.trim();
+                    if (licStr.includes(':') && !licStr.startsWith('http')) {
+                        // JW ClearKey logic
+                        let [kid, key] = licStr.split(':');
+                        drmSetup.clearkey = { keyId: kid, key: key };
+                    } else {
+                        // JW Widevine Logic
+                        let headers = [{ name: "Content-Type", value: "application/octet-stream" }];
+                        if (stream.token) headers.push({ name: "authorization", value: stream.token });
+                        drmSetup.widevine = { url: stream.lic, headers: headers };
+                    }
+                }
+
+                jwplayer("jw-player-container").setup({
+                    file: stream.url,
+                    drm: Object.keys(drmSetup).length > 0 ? drmSetup : undefined,
+                    width: "100%",
+                    height: "100%",
+                    autostart: true,
+                    stretching: "uniform",
+                    cast: {}
+                });
+                
+                jwplayer("jw-player-container").on('error', function(e) {
+                    alert("⚠️ JW Player Error: " + e.message);
+                });
+            }
+        }
+    </script>
+</body>
+</html>
