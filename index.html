@@ -12,54 +12,68 @@
 
     <style>
         :root { --bg: #0f1115; --panel: #1a1d24; --border: #2d3139; --accent: #e50914; --text: #fff; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg); color: var(--text); margin: 0; display: flex; height: 100vh; overflow: hidden; }
+        
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg); color: var(--text); margin: 0; display: flex; height: 100vh; height: 100dvh; overflow: hidden; touch-action: manipulation;}
         
         /* Sidebar (Playlist Gallery) */
-        .sidebar { width: 350px; background: var(--panel); border-right: 1px solid var(--border); display: flex; flex-direction: column; z-index: 10; }
-        .sidebar-header { padding: 20px; background: #111; border-bottom: 1px solid var(--border); text-align: center; }
+        .sidebar { width: 350px; background: var(--panel); border-right: 1px solid var(--border); display: flex; flex-direction: column; z-index: 10; min-height: 0; }
+        .sidebar-header { padding: 15px 20px; background: #111; border-bottom: 1px solid var(--border); text-align: center; }
         .sidebar-header h2 { margin: 0; color: var(--accent); font-size: 20px; text-transform: uppercase; letter-spacing: 1px; }
-        .sidebar-header p { margin: 5px 0 0 0; font-size: 12px; color: #888; }
         
-        /* Auto-Load & File Upload Controls */
-        .controls { padding: 15px; border-bottom: 1px solid var(--border); background: #15181e; }
-        .controls button { width: 100%; padding: 10px; margin-bottom: 10px; background: var(--accent); color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; text-transform: uppercase; transition: 0.3s; }
+        /* Controls */
+        .controls { padding: 12px 15px; border-bottom: 1px solid var(--border); background: #15181e; flex: none; }
+        .controls button { width: 100%; padding: 10px; margin-bottom: 8px; background: var(--accent); color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; text-transform: uppercase; transition: 0.3s; }
         .controls button:hover { background: #b20710; }
-        .file-input-wrapper { text-align: left; font-size: 12px; color: #aaa; margin-bottom: 10px; }
-        
-        /* Custom Inputs */
-        .custom-input { width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #444; background: #111; color: #fff; font-size: 13px; box-sizing: border-box; }
+        .custom-input { width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #444; background: #111; color: #fff; font-size: 13px; box-sizing: border-box; margin-bottom: 8px;}
         .custom-input:focus { outline: none; border-color: var(--accent); }
+        .bulk-textarea { resize: none; height: 60px; font-family: monospace; }
 
-        /* Movie List */
-        .movie-list { flex: 1; overflow-y: auto; padding: 10px; }
-        .movie-list::-webkit-scrollbar { width: 6px; }
-        .movie-list::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
+        /* Movie & Folder List - The Scrolling Magic */
+        .movie-list { flex: 1; overflow-y: auto; padding: 10px; min-height: 0; -webkit-overflow-scrolling: touch; }
+        .movie-list::-webkit-scrollbar { width: 5px; }
+        .movie-list::-webkit-scrollbar-thumb { background: #444; border-radius: 5px; }
         
+        .folder-item-wrapper { display: flex; align-items: center; margin-bottom: 8px; background: #232730; border-radius: 8px; border-left: 4px solid #f39c12; transition: 0.2s; }
+        .folder-item-wrapper:hover { background: #2d3139; }
+        .folder-item { flex: 1; padding: 12px; cursor: pointer; font-weight: bold; display: flex; justify-content: space-between; align-items: center; }
+        .folder-count { background: #111; padding: 3px 8px; border-radius: 10px; font-size: 11px; color: #aaa; }
+        .delete-btn { background: transparent !important; color: #e74c3c !important; width: auto !important; padding: 10px 15px !important; margin: 0 !important; font-size: 16px; border-left: 1px solid #333 !important; border-radius: 0 8px 8px 0 !important; }
+        .delete-btn:hover { background: #e74c3c !important; color: #fff !important; }
+
         .movie-item { display: flex; align-items: center; padding: 10px; margin-bottom: 8px; background: #232730; border-radius: 8px; cursor: pointer; transition: 0.2s; border-left: 4px solid transparent; }
-        .movie-item:hover { background: #2d3139; border-left: 4px solid var(--accent); }
-        .movie-item.active { background: #2d3139; border-left: 4px solid var(--accent); }
-        
+        .movie-item:hover, .movie-item.active { background: #2d3139; border-left: 4px solid var(--accent); }
         .movie-icon { width: 40px; height: 40px; border-radius: 5px; margin-right: 15px; object-fit: contain; background: #000; }
         .movie-info { flex: 1; overflow: hidden; }
         .movie-title { font-size: 14px; font-weight: bold; margin-bottom: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
         .movie-group { font-size: 10px; color: #aaa; background: #333; padding: 2px 6px; border-radius: 4px; display: inline-block; }
 
-        /* Main Player Area */
-        .main-content { flex: 1; display: flex; flex-direction: column; background: #000; position: relative; }
-        .player-wrapper { width: 100%; flex: 1; display: flex; justify-content: center; align-items: center; }
-        
-        .now-playing-bar { padding: 20px; background: var(--panel); border-top: 1px solid var(--border); display: flex; align-items: center; z-index: 10;}
-        .now-playing-bar h3 { margin: 0; font-size: 22px; color: var(--accent); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-        .now-playing-bar p { margin: 5px 0 0 0; color: #aaa; font-size: 14px; }
+        /* API Section Cards */
+        #apiContainer { display: none; padding: 10px; background: #111; border-bottom: 1px solid var(--border); }
+        .api-result-card { background: #232730; border-radius: 8px; padding: 12px; margin-bottom: 10px; border-left: 4px solid #3498db; display: flex; flex-direction: column; gap: 6px; overflow: hidden; }
+        .api-result-title { font-weight: bold; font-size: 14px; color: #3498db; }
+        .api-result-desc { font-size: 12px; color: #ddd; line-height: 1.4; }
+        .api-poster { border-radius: 5px; margin-bottom: 5px; max-width: 100px; height: auto; align-self: flex-start;}
 
-        /* 📱 MOBILE RESPONSIVENESS */
+        /* Main Player Area */
+        .main-content { flex: 1; display: flex; flex-direction: column; background: #000; position: relative; min-height: 0; }
+        .player-wrapper { width: 100%; flex: 1; display: flex; justify-content: center; align-items: center; min-height: 0; position: relative;}
+        
+        .gesture-osd { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.7); color: #fff; padding: 15px 25px; border-radius: 10px; font-size: 24px; font-weight: bold; pointer-events: none; opacity: 0; transition: opacity 0.2s; z-index: 99; text-align: center; }
+
+        .now-playing-bar { padding: 15px 20px; background: var(--panel); border-top: 1px solid var(--border); display: flex; align-items: center; z-index: 10; flex: none; }
+        .now-playing-bar h3 { margin: 0; font-size: 20px; color: var(--accent); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .now-playing-bar p { margin: 3px 0 0 0; color: #aaa; font-size: 13px; }
+
+        /* 📱 MOBILE RESPONSIVENESS - FIXED SCROLLING */
         @media (max-width: 768px) {
             body { flex-direction: column; }
-            .sidebar { width: 100%; flex: 1; order: 2; border-right: none; border-top: 1px solid var(--border); overflow: hidden; }
-            .main-content { height: 45vh; flex: none; order: 1; }
-            .now-playing-bar { padding: 10px 15px; }
+            .main-content { flex: 0 0 40%; order: 1; border-bottom: 1px solid var(--border); }
+            .sidebar { width: 100%; flex: 1; order: 2; border-right: none; display: flex; flex-direction: column; min-height: 0; }
+            .movie-list { padding-bottom: 20px; }
+            .now-playing-bar { padding: 8px 15px; }
             .now-playing-bar h3 { font-size: 16px; }
-            .now-playing-bar p { font-size: 12px; }
+            .sidebar-header { padding: 10px; }
+            .sidebar-header h2 { font-size: 18px; }
         }
     </style>
 </head>
@@ -68,23 +82,36 @@
     <div class="sidebar">
         <div class="sidebar-header">
             <h2>🍿 Premium VOD</h2>
-            <p>DRM Protected Content</p>
         </div>
         
         <div class="controls">
-            <button onclick="fetchM3UFromServer()">Load Server Playlist</button>
+            <button onclick="fetchM3UFromServer()">🌐 Load Server Playlist</button>
             
-            <div class="file-input-wrapper">
-                <span style="display:block; margin-bottom: 5px;">Or upload local .m3u / .json file:</span>
-                <input type="file" id="m3uFile" accept=".m3u,.m3u8,.txt,.json" onchange="handleFileUpload(event)" class="custom-input" style="padding: 5px;">
-            </div>
+            <button onclick="document.getElementById('m3uFile').click()" style="background: #34495e;">📁 Upload Files (.json/.m3u/.txt)</button>
+            <input type="file" id="m3uFile" accept=".m3u,.m3u8,.txt,.json" onchange="handleMultiFileUpload(event)" multiple style="display:none;">
 
-            <div style="display: flex; gap: 5px; margin-bottom: 10px;">
-                <input type="text" id="directLinkInput" class="custom-input" placeholder="Paste Direct Link (.mpd / .m3u8)...">
-                <button onclick="playDirectLink()" style="margin: 0; width: auto; padding: 8px 15px;">Play</button>
-            </div>
+            <textarea id="bulkLinksInput" class="custom-input bulk-textarea" placeholder="Paste Direct Link, Bulk URLs, or raw M3U text here..."></textarea>
+            <button onclick="processBulkLinks()" style="background: #e67e22; padding: 6px;">📥 Process Text / Links</button>
+            
+            <button onclick="toggleAPI()" style="background: #3498db; margin-top: 5px;">🎬 Toggle Movie API</button>
 
-            <input type="text" id="searchInput" class="custom-input" placeholder="🔍 Search channels or movies..." onkeyup="filterPlaylist()">
+            <input type="text" id="searchInput" class="custom-input" placeholder="🔍 Search channels or movies..." onkeyup="filterPlaylist()" style="display:none;">
+            <div id="backBtnDiv" style="display:none; margin-top:5px;">
+                <button onclick="showFolderList()" style="background: #95a5a6; padding: 5px;">🔙 Back to Playlists</button>
+            </div>
+        </div>
+
+        <div id="apiContainer">
+            <input type="password" id="apiKey" class="custom-input" placeholder="RapidAPI Key" value="b85ab79191msh6ea8e49ca7a3f72p102e58jsn18b0685108fb">
+            <select id="apiService" class="custom-input" onchange="updateApiPlaceholder()">
+                <option value="streaming-movie">Streaming Availability (Movie)</option>
+                <option value="netflix-search">Netflix API (Search)</option>
+                <option value="rt-spoilers">Rotten Tomatoes Spoilers</option>
+                <option value="imdb-actor">IMDb Actor Credits</option>
+            </select>
+            <input type="text" id="apiId" class="custom-input" placeholder="TMDb / IMDb ID (e.g. tt0944947)">
+            <button onclick="fetchMovieAPI()" style="background: #3498db; padding: 6px;">Fetch Details</button>
+            <div id="apiResults" style="max-height: 200px; overflow-y: auto; font-size: 12px; color: #aaa; margin-top: 10px;">Results here...</div>
         </div>
 
         <div class="movie-list" id="movieList">
@@ -95,8 +122,9 @@
     <div class="main-content">
         <div class="player-wrapper">
             <div id="jw-player-container" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
-                <p style="color: #444; font-size: 20px;">Select a movie from the playlist to start watching.</p>
+                <p style="color: #444; font-size: 18px; text-align: center; padding: 20px;">Select a movie from the playlist to start watching.</p>
             </div>
+            <div id="gesture-osd" class="gesture-osd"></div>
         </div>
         
         <div class="now-playing-bar" id="nowPlayingBar" style="display: none;">
@@ -108,73 +136,103 @@
     </div>
 
     <script>
-        let catalog = [];
+        let folders = []; 
+        let currentFolderIndex = -1;
+        let currentCatalog = []; 
+        let videoBrightness = 100;
 
-        // 1. Fetch from your website server
+        // ==========================================
+        // 1. DATA LOADING & FETCHING
+        // ==========================================
         async function fetchM3UFromServer() {
             try {
-                document.getElementById('movieList').innerHTML = '<p style="text-align:center; color: #aaa;">Loading playlist...</p>';
+                document.getElementById('movieList').innerHTML = '<p style="text-align:center; color: #aaa;">Loading server playlist...</p>';
+                document.getElementById('searchInput').style.display = 'none';
+                document.getElementById('backBtnDiv').style.display = 'none';
+                
                 const response = await fetch('playlist.m3u');
                 if (!response.ok) throw new Error("File not found on server.");
                 const text = await response.text();
                 
-                // Auto-detect JSON vs M3U
-                if (text.trim().startsWith('{') || text.trim().startsWith('[')) {
-                    parseJSON(text);
+                let parsedItems = text.trim().startsWith('{') || text.trim().startsWith('[') ? parseJSON(text) : parseM3U(text);
+                
+                if(parsedItems.length > 0) {
+                    // Save as a folder and open it automatically
+                    folders.push({ name: 'Server Playlist', items: parsedItems });
+                    openFolder(folders.length - 1);
                 } else {
-                    parseM3U(text);
+                    document.getElementById('movieList').innerHTML = '<p style="text-align:center; color: #ff5e62;">No valid streams found on server.</p>';
                 }
             } catch (error) {
-                alert("Error: Make sure 'playlist.m3u' is uploaded to your server. Or use the manual upload button.");
+                alert("Error: Make sure 'playlist.m3u' is uploaded to your server.");
                 document.getElementById('movieList').innerHTML = '';
             }
         }
 
-        // 2. Read from manual file upload
-        function handleFileUpload(event) {
-            const file = event.target.files[0];
-            if (!file) return;
-            const reader = new FileReader();
-            reader.onload = function(e) {
-                const content = e.target.result;
-                if (file.name.toLowerCase().endsWith('.json')) {
-                    parseJSON(content);
-                } else {
-                    parseM3U(content);
-                }
-            };
-            reader.readAsText(file);
+        function handleMultiFileUpload(event) {
+            const files = event.target.files;
+            if (files.length === 0) return;
+            
+            document.getElementById('movieList').innerHTML = '<p style="text-align:center; color: #aaa;">Processing files...</p>';
+            let filesProcessed = 0;
+
+            for (let i = 0; i < files.length; i++) {
+                const file = files[i];
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const content = e.target.result;
+                    let parsedItems = file.name.toLowerCase().endsWith('.json') ? parseJSON(content) : parseM3U(content);
+
+                    if(parsedItems.length > 0) {
+                        folders.push({ name: file.name, items: parsedItems });
+                    }
+                    
+                    filesProcessed++;
+                    if(filesProcessed === files.length) renderFolders();
+                };
+                reader.readAsText(file);
+            }
         }
 
-        // 3. Play Direct Link
-        function playDirectLink() {
-            const link = document.getElementById('directLinkInput').value.trim();
-            if (!link) return alert("Please enter a valid link.");
+        function processBulkLinks() {
+            const text = document.getElementById('bulkLinksInput').value.trim();
+            if (!text) return alert("Please paste text or links first.");
             
-            const customStream = {
-                title: "Direct Stream",
-                group: "Manual Input",
-                mpd: link,
-                lic: "",
-                token: "",
-                logo: ""
-            };
+            let parsedItems = text.includes('{') || text.includes('[') ? parseJSON(text) : parseM3U(text);
             
-            document.querySelectorAll('.movie-item').forEach(el => el.classList.remove('active'));
-            playMovie(customStream);
+            if (parsedItems.length === 0) {
+                // Try treating as raw URLs line by line
+                const lines = text.split('\n');
+                lines.forEach((line, index) => {
+                    line = line.trim();
+                    if (line.startsWith('http')) {
+                        parsedItems.push({ title: "Stream " + (index + 1), group: "Bulk Links", mpd: line, lic: "", token: "", logo: "" });
+                    }
+                });
+            }
+
+            if (parsedItems.length > 0) {
+                folders.push({ name: 'Bulk Upload ' + new Date().toLocaleTimeString(), items: parsedItems });
+                renderFolders();
+                document.getElementById('bulkLinksInput').value = ''; // clear input
+            } else {
+                alert("No valid URLs found in text.");
+            }
         }
 
-        // 4. Ultra-Smart JSON Parser (Handles Nested & Complex JSONs)
+        // ==========================================
+        // 2. PARSERS (Strictly mapped to 'mpd' for JW)
+        // ==========================================
         function parseJSON(jsonText) {
+            let extracted = [];
             try {
                 const data = JSON.parse(jsonText);
-                catalog = [];
                 let items = [];
 
                 function findArray(obj) {
                     if (Array.isArray(obj)) {
                         if (obj.length > 0 && typeof obj[0] === 'object') {
-                            if (obj[0].url || obj[0].link || obj[0].channel_url || obj[0].mpd || obj[0].file) return obj;
+                            if (obj[0].url || obj[0].link || obj[0].mpd || obj[0].file) return obj;
                         }
                     } else if (typeof obj === 'object' && obj !== null) {
                         for (let key in obj) {
@@ -186,92 +244,133 @@
                 }
 
                 items = findArray(data);
-
                 if (items.length === 0) {
                     for (let key in data) {
-                        if (data[key] && (data[key].url || data[key].link || data[key].mpd)) {
-                            items.push(data[key]);
-                        }
+                        if (data[key] && (data[key].url || data[key].link || data[key].mpd)) items.push(data[key]);
                     }
                 }
 
-                items.forEach(item => {
-                    let title = item.title || item.name || item.channel_name || item.channelName || item.id || "Unknown Stream";
-                    let mpd = item.url || item.mpd || item.link || item.stream_url || item.channel_url || item.file || item.source || "";
-                    let lic = item.lic || item.license || item.clearkey || item.key_url || item.drm_key || item.drm_license_url || item.key || "";
+                items.forEach((item, index) => {
+                    let title = item.title || item.name || item.channel_name || ("Stream " + (index+1));
+                    let mpd = item.url || item.mpd || item.link || item.stream_url || item.file || "";
+                    let lic = item.lic || item.license || item.clearkey || item.key_url || item.drm_key || "";
                     let token = item.token || item.authorization || item.auth || item.header || "";
-                    let logo = item.logo || item.icon || item.image || item.tvg_logo || item.logo_url || "";
-                    let group = item.group || item.category || item.genre || item.network || item.cat_name || "JSON Playlist";
+                    let logo = item.logo || item.icon || item.tvg_logo || "";
+                    let group = item.group || item.category || item.genre || "JSON Data";
 
                     if (item.headers && typeof item.headers === 'object') {
-                        token = item.headers.authorization || item.headers.Authorization || item.headers.Cookie || token;
+                        token = item.headers.authorization || item.headers.Authorization || token;
                     }
-
                     if (mpd && typeof mpd === 'string' && mpd.length > 5) {
-                        catalog.push({ title, mpd, lic, token, logo, group });
+                        extracted.push({ title, mpd, lic, token, logo, group });
                     }
                 });
-
-                if (catalog.length === 0) {
-                    document.getElementById('movieList').innerHTML = '<p style="text-align:center; color: #ff5e62;">No valid streams found in JSON.</p>';
-                } else {
-                    renderPlaylist(catalog);
-                }
-            } catch (e) {
-                alert("Invalid JSON File: " + e.message);
-            }
+            } catch (e) { console.error("JSON Error", e); }
+            return extracted;
         }
 
-        // 5. Original M3U Parser
-        function parseM3U(m3uText) {
-            const lines = m3uText.split('\n');
-            catalog = [];
-            let currentItem = null;
+        function parseM3U(text) {
+            const lines = text.split('\n');
+            let extracted = [];
+            let currentItem = { title: "", logo: "", group: "Playlist", mpd: "", lic: "", token: "" };
+            let hasExtInf = false;
 
             for (let i = 0; i < lines.length; i++) {
                 let line = lines[i].trim();
-                
+                if (!line) continue;
+
                 if (line.startsWith('#EXTINF')) {
-                    currentItem = { title: "", logo: "", group: "", mpd: "", lic: "", token: "" };
-                    
+                    hasExtInf = true;
+                    currentItem = { title: "Unknown Stream", logo: "", group: "Playlist", mpd: "", lic: "", token: "" };
                     let titleMatch = line.match(/,(.+)$/);
                     if (titleMatch) currentItem.title = titleMatch[1].trim();
-                    
                     let logoMatch = line.match(/tvg-logo="(.*?)"/);
                     if (logoMatch) currentItem.logo = logoMatch[1];
-                    
                     let groupMatch = line.match(/group-title="(.*?)"/);
                     if (groupMatch) currentItem.group = groupMatch[1];
 
-                } else if (line.startsWith('#KODIPROP:inputstream.adaptive.license_key=') && currentItem) {
+                } else if (line.startsWith('#KODIPROP:inputstream.adaptive.license_key=')) {
                     let keyString = line.replace('#KODIPROP:inputstream.adaptive.license_key=', '');
                     let parts = keyString.split('|authorization=');
                     currentItem.lic = parts[0];
                     if (parts.length > 1) {
-                        let tokenPart = parts[1].split('&')[0]; 
-                        currentItem.token = tokenPart;
+                        currentItem.token = parts[1].split('&')[0]; 
                     }
 
-                } else if (line.startsWith('http') && currentItem) {
+                } else if (line.startsWith('http')) {
                     currentItem.mpd = line;
-                    catalog.push(currentItem);
-                    currentItem = null; 
+                    if (!hasExtInf) currentItem.title = "Extracted Link " + (extracted.length + 1);
+                    
+                    extracted.push({...currentItem});
+                    
+                    // Reset
+                    currentItem = { title: "", logo: "", group: "Playlist", mpd: "", lic: "", token: "" };
+                    hasExtInf = false;
                 }
             }
-            renderPlaylist(catalog);
+            return extracted;
         }
 
-        // 6. Search Filter
+        // ==========================================
+        // 3. UI RENDERING (Folders & Movies)
+        // ==========================================
+        function renderFolders() {
+            document.getElementById('searchInput').style.display = 'none';
+            document.getElementById('backBtnDiv').style.display = 'none';
+
+            const listDiv = document.getElementById('movieList');
+            listDiv.innerHTML = '';
+
+            if (folders.length === 0) {
+                listDiv.innerHTML = '<p style="text-align: center; color: #666; margin-top:20px;">No playlists loaded.</p>';
+                return;
+            }
+
+            folders.forEach((folder, index) => {
+                const wrapper = document.createElement('div');
+                wrapper.className = 'folder-item-wrapper';
+                
+                wrapper.innerHTML = `
+                    <div class="folder-item" onclick="openFolder(${index})">
+                        <span>📁 ${folder.name}</span> 
+                        <span class="folder-count">${folder.items.length} items</span>
+                    </div>
+                    <button class="controls button delete-btn" onclick="deleteFolder(${index}, event)" title="Delete">✖</button>
+                `;
+                listDiv.appendChild(wrapper);
+            });
+        }
+
+        function deleteFolder(index, event) {
+            event.stopPropagation();
+            if(confirm("Delete this playlist?")) {
+                folders.splice(index, 1);
+                renderFolders();
+            }
+        }
+
+        function openFolder(index) {
+            currentFolderIndex = index;
+            currentCatalog = folders[index].items;
+            document.getElementById('searchInput').style.display = 'block';
+            document.getElementById('backBtnDiv').style.display = 'block';
+            document.getElementById('searchInput').value = '';
+            renderPlaylist(currentCatalog);
+        }
+
+        function showFolderList() {
+            renderFolders();
+        }
+
         function filterPlaylist() {
             let query = document.getElementById('searchInput').value.toLowerCase();
-            let filtered = catalog.filter(item => 
+            let filtered = currentCatalog.filter(item => 
                 item.title.toLowerCase().includes(query) || (item.group && item.group.toLowerCase().includes(query))
             );
             renderPlaylist(filtered);
         }
 
-        // 7. Render the Clickable Gallery
-        function renderPlaylist(listToRender = catalog) {
+        function renderPlaylist(listToRender) {
             const listDiv = document.getElementById('movieList');
             listDiv.innerHTML = '';
 
@@ -302,9 +401,12 @@
             });
         }
 
-        // 8. Feed the DRM Data to JW Player
+        // ==========================================
+        // 4. PLAYER CORE (RESTORED WORKING LOGIC)
+        // ==========================================
         function playMovie(movie) {
             // Update UI
+            document.getElementById('jw-player-container').innerHTML = ''; // Clear old instance safely
             document.getElementById('nowPlayingBar').style.display = 'flex';
             document.getElementById('npTitle').innerText = movie.title;
             document.getElementById('npGroup').innerText = movie.group || 'Premium Content';
@@ -314,37 +416,171 @@
             if (movie.lic) {
                 let licStr = movie.lic.trim();
                 
-                // Support for JSON ClearKey arrays (e.g. kid:key format)
+                // ClearKey Logic
                 if (licStr.includes(':') && !licStr.startsWith('http')) {
                     let parts = licStr.split(':');
-                    drmConfig = {
-                        clearkey: { keyId: parts[0], key: parts[1] }
-                    };
+                    drmConfig = { clearkey: { keyId: parts[0], key: parts[1] } };
                 } else {
-                    // Widevine Format
+                    // Widevine Logic
                     let headers = [];
                     if (movie.token) headers.push({ name: "authorization", value: movie.token });
                     headers.push({ name: "Content-Type", value: "application/octet-stream" });
 
-                    drmConfig = {
-                        widevine: {
-                            url: movie.lic,
-                            headers: headers
-                        }
-                    };
+                    drmConfig = { widevine: { url: movie.lic, headers: headers } };
                 }
             }
 
             // Launch JW Player
-            jwplayer("jw-player-container").setup({
-                file: movie.mpd,
+            const player = jwplayer("jw-player-container").setup({
+                file: movie.mpd, // THIS VARIABLE NAME 'mpd' WAS CRITICAL
                 drm: Object.keys(drmConfig).length > 0 ? drmConfig : undefined,
                 width: "100%",
                 height: "100%",
                 autostart: true,
                 stretching: "uniform",
-                cast: {} // Enable Chromecast button
+                cast: {}
             });
+
+            // Attach Gestures when player is ready safely
+            player.on('ready', () => {
+                const touchArea = document.querySelector('.jw-media') || document.getElementById('jw-player-container');
+                attachGestures(touchArea, player);
+            });
+        }
+
+        // ==========================================
+        // 5. GESTURES
+        // ==========================================
+        function showOSD(text) {
+            const osd = document.getElementById('gesture-osd');
+            osd.innerText = text;
+            osd.style.opacity = '1';
+            clearTimeout(window.osdTimeout);
+            window.osdTimeout = setTimeout(() => { osd.style.opacity = '0'; }, 1000);
+        }
+
+        function attachGestures(touchArea, playerRef) {
+            if (!touchArea) return;
+
+            let startX = 0, startY = 0;
+            let lastTapTime = 0;
+
+            touchArea.addEventListener('touchstart', (e) => {
+                startX = e.touches[0].clientX;
+                startY = e.touches[0].clientY;
+
+                const currentTime = new Date().getTime();
+                const tapLength = currentTime - lastTapTime;
+                
+                if (tapLength < 300 && tapLength > 0) {
+                    const width = touchArea.clientWidth;
+                    let currentPos = playerRef.getPosition();
+                    
+                    if (startX < width / 2) {
+                        playerRef.seek(Math.max(0, currentPos - 10));
+                        showOSD('⏪ -10s');
+                    } else {
+                        playerRef.seek(currentPos + 10);
+                        showOSD('⏩ +10s');
+                    }
+                    e.preventDefault();
+                }
+                lastTapTime = currentTime;
+            }, {passive: false});
+
+            touchArea.addEventListener('touchend', (e) => {
+                let endX = e.changedTouches[0].clientX;
+                let endY = e.changedTouches[0].clientY;
+                let diffX = endX - startX;
+                let diffY = endY - startY;
+
+                if (Math.abs(diffX) < 40 && Math.abs(diffY) < 40) return;
+
+                if (Math.abs(diffX) > Math.abs(diffY)) {
+                    let currentPos = playerRef.getPosition();
+                    let duration = playerRef.getDuration();
+                    const seekAmount = (diffX / touchArea.clientWidth) * 120;
+                    const newPos = Math.max(0, Math.min(duration || 99999, currentPos + seekAmount));
+                    
+                    playerRef.seek(newPos);
+                    showOSD(seekAmount > 0 ? `⏩ +${Math.round(seekAmount)}s` : `⏪ ${Math.round(seekAmount)}s`);
+                } else {
+                    const width = touchArea.clientWidth;
+                    const percentChange = (-diffY / touchArea.clientHeight) * 100;
+
+                    if (startX > width / 2) {
+                        let currentVol = playerRef.getVolume();
+                        let newVol = Math.max(0, Math.min(100, currentVol + percentChange));
+                        playerRef.setVolume(newVol);
+                        showOSD(`🔊 ${Math.round(newVol)}%`);
+                    } else {
+                        videoBrightness = Math.max(20, Math.min(200, videoBrightness + percentChange));
+                        const targetVid = document.querySelector('.jw-video');
+                        if(targetVid) targetVid.style.filter = `brightness(${videoBrightness}%)`;
+                        showOSD(`☀️ ${Math.round(videoBrightness)}%`);
+                    }
+                }
+            });
+        }
+
+        // ==========================================
+        // 6. API HUB (Hidden until toggled)
+        // ==========================================
+        function toggleAPI() {
+            const apiDiv = document.getElementById('apiContainer');
+            apiDiv.style.display = apiDiv.style.display === 'none' ? 'block' : 'none';
+        }
+
+        function updateApiPlaceholder() {
+            const s = document.getElementById('apiService').value;
+            const input = document.getElementById('apiId');
+            if (s.startsWith('streaming-')) input.placeholder = "TMDb / IMDb ID (e.g. tt0944947)";
+            else if (s === 'imdb-actor') input.placeholder = "Actor ID (e.g. nm0000190)";
+            else if (s === 'rt-spoilers') input.placeholder = "Movie Slug (e.g. grudge-match)";
+            else if (s === 'netflix-search') input.placeholder = "Search Netflix (e.g. robot)";
+        }
+
+        async function fetchMovieAPI() {
+            const key = document.getElementById('apiKey').value.trim();
+            const service = document.getElementById('apiService').value;
+            const query = document.getElementById('apiId').value.trim();
+            const resultsDiv = document.getElementById('apiResults');
+
+            if (!key || !query) return alert("Please enter API Key and Search Query/ID.");
+            resultsDiv.innerHTML = '<p style="text-align:center; color:#aaa;">Fetching from API...</p>';
+
+            let url = '', host = '';
+
+            if (service === 'streaming-movie') { url = `https://streaming-availability.p.rapidapi.com/shows/movie/${query}`; host = 'streaming-availability.p.rapidapi.com'; }
+            else if (service === 'netflix-search') { url = `https://netflix-movies-and-tv-shows-api-by-apirobots.p.rapidapi.com/v1/netflix?name=${encodeURIComponent(query)}&page=1`; host = 'netflix-movies-and-tv-shows-api-by-apirobots.p.rapidapi.com'; }
+            else if (service === 'rt-spoilers') { url = `https://rottentomato.p.rapidapi.com/get-spoilers-for-movie?spoiler_id=${query}`; host = 'rottentomato.p.rapidapi.com'; }
+            else if (service === 'imdb-actor') { url = `https://imdb236.p.rapidapi.com/api/imdb/cast/${query}/titles`; host = 'imdb236.p.rapidapi.com'; }
+
+            try {
+                const response = await fetch(url, { method: 'GET', headers: { 'x-rapidapi-key': key, 'x-rapidapi-host': host } });
+                const data = await response.json();
+                
+                let html = '';
+                let items = Array.isArray(data) ? data : (data.results || data.titles || data.spoilers || [data]);
+                
+                items.slice(0, 15).forEach(item => {
+                    let title = item.title || item.name || item.originalTitle || item.role || "Result";
+                    let desc = item.description || item.overview || item.spoiler || item.synopsis || "";
+                    let img = item.image || item.poster || item.primaryImage || (item.imageSet && item.imageSet.verticalPoster ? item.imageSet.verticalPoster.w480 : "") || "";
+                    
+                    if (typeof item === 'string') { title = "Info"; desc = item; }
+                    
+                    const imgTag = img ? `<img src="${img}" class="api-poster">` : '';
+                    html += `<div class="api-result-card">${imgTag}<div class="api-result-title">${title}</div><div class="api-result-desc">${desc}</div></div>`;
+                });
+                
+                // Always add raw JSON dump for debugging APIs
+                html += `<div style="font-size:10px; color:#2ecc71; background:#000; padding:10px; overflow:auto;">${JSON.stringify(data, null, 2)}</div>`;
+                resultsDiv.innerHTML = html;
+                
+            } catch(e) {
+                resultsDiv.innerHTML = `<p style="color:#e50914;">Error: ${e.message}</p>`;
+            }
         }
     </script>
 </body>
