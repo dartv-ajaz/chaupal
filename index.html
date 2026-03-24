@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ultimate OTT Web Player | V39</title>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.5/shaka-player.compiled.js"></script>
+    <title>Live Events & Movies Dashboard</title>
     
     <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
     <script type="text/javascript">
@@ -13,196 +11,235 @@
     </script>
 
     <style>
-        :root { --bg-dark: #0b0c10; --panel-bg: #15181e; --border: #2a2e38; --brand: #e50914; --text: #f0f0f0; --text-muted: #888; }
-        * { box-sizing: border-box; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg-dark); color: var(--text); margin: 0; display: flex; height: 100vh; overflow: hidden; }
+        :root { --bg: #0f1115; --panel: #1a1d24; --border: #2d3139; --accent: #e50914; --text: #fff; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg); color: var(--text); margin: 0; display: flex; height: 100vh; overflow: hidden; }
         
-        /* SIDEBAR */
-        .sidebar { width: 350px; background: var(--panel-bg); border-right: 1px solid var(--border); display: flex; flex-direction: column; }
-        .sidebar-header { padding: 20px; background: #000; border-bottom: 1px solid var(--border); }
-        .sidebar-header h1 { margin: 0 0 10px 0; color: var(--brand); font-size: 22px; text-transform: uppercase; letter-spacing: 1px; }
+        /* Sidebar (Playlist Gallery) */
+        .sidebar { width: 350px; background: var(--panel); border-right: 1px solid var(--border); display: flex; flex-direction: column; z-index: 10; }
+        .sidebar-header { padding: 20px; background: #111; border-bottom: 1px solid var(--border); text-align: center; }
+        .sidebar-header h2 { margin: 0; color: var(--accent); font-size: 20px; text-transform: uppercase; letter-spacing: 1px; }
+        .sidebar-header p { margin: 5px 0 0 0; font-size: 12px; color: #888; }
         
-        .controls { display: flex; flex-direction: column; gap: 10px; }
-        .upload-btn { background: #2a2e38; color: #fff; padding: 10px; border-radius: 5px; text-align: center; cursor: pointer; font-size: 14px; font-weight: bold; border: 1px dashed #555; transition: 0.3s; }
-        .upload-btn:hover { background: #3a3f4c; border-color: var(--brand); }
-        input[type="file"] { display: none; }
-        .search-box { width: 100%; padding: 10px; border-radius: 5px; border: 1px solid var(--border); background: #0b0c10; color: #fff; font-size: 14px; }
-        .search-box:focus { outline: none; border-color: var(--brand); }
+        /* Auto-Load & File Upload Controls */
+        .controls { padding: 15px; border-bottom: 1px solid var(--border); background: #15181e; }
+        .controls button { width: 100%; padding: 10px; margin-bottom: 10px; background: var(--accent); color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; text-transform: uppercase; transition: 0.3s; }
+        .controls button:hover { background: #b20710; }
+        .file-input-wrapper { text-align: left; font-size: 12px; color: #aaa; margin-bottom: 10px; }
+        
+        /* Custom Inputs */
+        .custom-input { width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #444; background: #111; color: #fff; font-size: 13px; box-sizing: border-box; }
+        .custom-input:focus { outline: none; border-color: var(--accent); }
 
-        /* LIST */
-        .channel-list { flex: 1; overflow-y: auto; padding: 10px; }
-        .channel-list::-webkit-scrollbar { width: 5px; }
-        .channel-list::-webkit-scrollbar-thumb { background: #333; border-radius: 5px; }
+        /* Movie List */
+        .movie-list { flex: 1; overflow-y: auto; padding: 10px; }
+        .movie-list::-webkit-scrollbar { width: 6px; }
+        .movie-list::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
         
-        .channel-item { display: flex; align-items: center; padding: 10px; margin-bottom: 8px; background: #1c1f26; border-radius: 8px; cursor: pointer; transition: 0.2s; border-left: 4px solid transparent; }
-        .channel-item:hover, .channel-item.active { background: #252a34; border-left-color: var(--brand); }
+        .movie-item { display: flex; align-items: center; padding: 10px; margin-bottom: 8px; background: #232730; border-radius: 8px; cursor: pointer; transition: 0.2s; border-left: 4px solid transparent; }
+        .movie-item:hover { background: #2d3139; border-left: 4px solid var(--accent); }
+        .movie-item.active { background: #2d3139; border-left: 4px solid var(--accent); }
         
-        .channel-logo { width: 50px; height: 50px; border-radius: 5px; margin-right: 12px; object-fit: contain; background: #000; padding: 2px; }
-        .channel-info { flex: 1; overflow: hidden; }
-        .channel-title { font-size: 14px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 4px; }
-        .channel-group { font-size: 11px; color: var(--text-muted); background: #000; padding: 2px 6px; border-radius: 4px; display: inline-block; }
+        .movie-icon { width: 40px; height: 40px; border-radius: 5px; margin-right: 15px; object-fit: contain; background: #000; }
+        .movie-info { flex: 1; overflow: hidden; }
+        .movie-title { font-size: 14px; font-weight: bold; margin-bottom: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .movie-group { font-size: 10px; color: #aaa; background: #333; padding: 2px 6px; border-radius: 4px; display: inline-block; }
 
-        /* PLAYER AREA */
-        .main-content { flex: 1; display: flex; flex-direction: column; background: #000; }
-        .player-wrapper { flex: 1; display: flex; justify-content: center; align-items: center; background: #0b0c10; overflow: hidden; position: relative; }
+        /* Main Player Area */
+        .main-content { flex: 1; display: flex; flex-direction: column; background: #000; position: relative; }
+        .player-wrapper { width: 100%; flex: 1; display: flex; justify-content: center; align-items: center; }
         
-        #jw-player-container { width: 100%; height: 100%; display: none; }
-        video#shaka-video-element { width: 100%; height: 100%; outline: none; display: none; }
-        
-        .empty-state { text-align: center; color: var(--text-muted); }
-        .empty-state svg { width: 80px; height: 80px; fill: #333; margin-bottom: 15px; }
+        .now-playing-bar { padding: 20px; background: var(--panel); border-top: 1px solid var(--border); display: flex; align-items: center; z-index: 10;}
+        .now-playing-bar h3 { margin: 0; font-size: 22px; color: var(--accent); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .now-playing-bar p { margin: 5px 0 0 0; color: #aaa; font-size: 14px; }
 
-        .info-bar { padding: 20px; background: var(--panel-bg); border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
-        .info-details h2 { margin: 0 0 5px 0; font-size: 20px; color: #fff; }
-        .info-details p { margin: 0; font-size: 13px; color: var(--text-muted); }
-        
-        .engine-switch { display: flex; gap: 10px; background: #000; padding: 5px; border-radius: 8px; border: 1px solid var(--border); }
-        .engine-btn { background: transparent; color: #888; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; font-size: 12px; font-weight: bold; transition: 0.3s; }
-        .engine-btn.active { background: var(--brand); color: #fff; }
+        /* 📱 MOBILE RESPONSIVENESS */
+        @media (max-width: 768px) {
+            body { flex-direction: column; }
+            .sidebar { width: 100%; flex: 1; order: 2; border-right: none; border-top: 1px solid var(--border); overflow: hidden; }
+            .main-content { height: 45vh; flex: none; order: 1; }
+            .now-playing-bar { padding: 10px 15px; }
+            .now-playing-bar h3 { font-size: 16px; }
+            .now-playing-bar p { font-size: 12px; }
+        }
     </style>
 </head>
 <body>
 
     <div class="sidebar">
         <div class="sidebar-header">
-            <h1>📺 OTT Player</h1>
-            <div class="controls">
-                <label class="upload-btn">
-                    📁 Load Playlist (.json / .m3u)
-                    <input type="file" id="mediaFile" accept=".m3u,.m3u8,.txt,.json" onchange="handleFileUpload(event)">
-                </label>
-                <input type="text" class="search-box" id="searchInput" placeholder="🔍 Search channels..." onkeyup="filterPlaylist()">
-            </div>
+            <h2>🍿 Premium VOD</h2>
+            <p>DRM Protected Content</p>
         </div>
-        <div class="channel-list" id="channelList">
-            <div class="empty-state" style="margin-top: 50px;"><p>Upload a file to start watching.</p></div>
+        
+        <div class="controls">
+            <button onclick="fetchM3UFromServer()">Load Server Playlist</button>
+            
+            <div class="file-input-wrapper">
+                <span style="display:block; margin-bottom: 5px;">Or upload local .m3u / .json file:</span>
+                <input type="file" id="m3uFile" accept=".m3u,.m3u8,.txt,.json" onchange="handleFileUpload(event)" class="custom-input" style="padding: 5px;">
+            </div>
+
+            <div style="display: flex; gap: 5px; margin-bottom: 10px;">
+                <input type="text" id="directLinkInput" class="custom-input" placeholder="Paste Direct Link (.mpd / .m3u8)...">
+                <button onclick="playDirectLink()" style="margin: 0; width: auto; padding: 8px 15px;">Play</button>
+            </div>
+
+            <input type="text" id="searchInput" class="custom-input" placeholder="🔍 Search channels or movies..." onkeyup="filterPlaylist()">
+        </div>
+
+        <div class="movie-list" id="movieList">
+            <p style="text-align: center; color: #666; margin-top: 20px;">No playlist loaded.</p>
         </div>
     </div>
 
     <div class="main-content">
         <div class="player-wrapper">
-            <div id="player-empty-state" class="empty-state">
-                <svg viewBox="0 0 24 24"><path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 11l-6 4V6l6 4z"/></svg>
-                <h2>Select a stream to play</h2>
+            <div id="jw-player-container" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+                <p style="color: #444; font-size: 20px;">Select a movie from the playlist to start watching.</p>
             </div>
-            <div id="jw-player-container"></div>
-            <video id="shaka-video-element" controls autoplay></video>
         </div>
         
-        <div class="info-bar">
-            <div class="info-details">
-                <h2 id="nowPlayingTitle">Waiting...</h2>
-                <p id="nowPlayingGroup">Load a playlist and select a channel</p>
-            </div>
-            <div class="engine-switch">
-                <button class="engine-btn active" id="btn-shaka" onclick="setEngine('shaka')">SHAKA ENGINE</button>
-                <button class="engine-btn" id="btn-jw" onclick="setEngine('jw')">JW PLAYER</button>
+        <div class="now-playing-bar" id="nowPlayingBar" style="display: none;">
+            <div style="width: 100%; overflow: hidden;">
+                <h3 id="npTitle">Movie Title</h3>
+                <p id="npGroup">Platform / Group</p>
             </div>
         </div>
     </div>
 
     <script>
-        let fullCatalog = [];
-        let activeEngine = 'shaka';
-        let currentStream = null;
-        let shakaApp = null;
+        let catalog = [];
 
-        document.addEventListener('DOMContentLoaded', () => {
-            shaka.polyfill.installAll();
-            if (shaka.Player.isBrowserSupported()) {
-                const video = document.getElementById('shaka-video-element');
-                shakaApp = new shaka.Player(video);
-                shakaApp.addEventListener('error', (e) => {
-                    console.error('Shaka Error:', e.detail);
-                });
+        // 1. Fetch from your website server
+        async function fetchM3UFromServer() {
+            try {
+                document.getElementById('movieList').innerHTML = '<p style="text-align:center; color: #aaa;">Loading playlist...</p>';
+                const response = await fetch('playlist.m3u');
+                if (!response.ok) throw new Error("File not found on server.");
+                const text = await response.text();
+                
+                // Auto-detect JSON vs M3U
+                if (text.trim().startsWith('{') || text.trim().startsWith('[')) {
+                    parseJSON(text);
+                } else {
+                    parseM3U(text);
+                }
+            } catch (error) {
+                alert("Error: Make sure 'playlist.m3u' is uploaded to your server. Or use the manual upload button.");
+                document.getElementById('movieList').innerHTML = '';
             }
-        });
-
-        function setEngine(engineName) {
-            activeEngine = engineName;
-            document.getElementById('btn-shaka').classList.toggle('active', engineName === 'shaka');
-            document.getElementById('btn-jw').classList.toggle('active', engineName === 'jw');
-            if (currentStream) playStream(currentStream);
         }
 
+        // 2. Read from manual file upload
         function handleFileUpload(event) {
             const file = event.target.files[0];
             if (!file) return;
-            
-            document.getElementById('channelList').innerHTML = '<p style="text-align:center; color: #888;">Processing file...</p>';
-            
             const reader = new FileReader();
             reader.onload = function(e) {
                 const content = e.target.result;
-                if (file.name.toLowerCase().endsWith('.json')) parseJSON(content);
-                else parseM3U(content);
+                if (file.name.toLowerCase().endsWith('.json')) {
+                    parseJSON(content);
+                } else {
+                    parseM3U(content);
+                }
             };
             reader.readAsText(file);
         }
 
-        // 🧠 ULTRA-SMART JSON PARSER
+        // 3. Play Direct Link
+        function playDirectLink() {
+            const link = document.getElementById('directLinkInput').value.trim();
+            if (!link) return alert("Please enter a valid link.");
+            
+            const customStream = {
+                title: "Direct Stream",
+                group: "Manual Input",
+                mpd: link,
+                lic: "",
+                token: "",
+                logo: ""
+            };
+            
+            document.querySelectorAll('.movie-item').forEach(el => el.classList.remove('active'));
+            playMovie(customStream);
+        }
+
+        // 4. Ultra-Smart JSON Parser (Handles Nested & Complex JSONs)
         function parseJSON(jsonText) {
             try {
                 const data = JSON.parse(jsonText);
-                fullCatalog = [];
-
-                // Find the array no matter where it's hidden
+                catalog = [];
                 let items = [];
-                if (Array.isArray(data)) items = data;
-                else {
+
+                function findArray(obj) {
+                    if (Array.isArray(obj)) {
+                        if (obj.length > 0 && typeof obj[0] === 'object') {
+                            if (obj[0].url || obj[0].link || obj[0].channel_url || obj[0].mpd || obj[0].file) return obj;
+                        }
+                    } else if (typeof obj === 'object' && obj !== null) {
+                        for (let key in obj) {
+                            let result = findArray(obj[key]);
+                            if (result.length > 0) return result;
+                        }
+                    }
+                    return [];
+                }
+
+                items = findArray(data);
+
+                if (items.length === 0) {
                     for (let key in data) {
-                        if (Array.isArray(data[key]) && data[key].length > 0) {
-                            items = data[key];
-                            break;
+                        if (data[key] && (data[key].url || data[key].link || data[key].mpd)) {
+                            items.push(data[key]);
                         }
                     }
                 }
 
                 items.forEach(item => {
-                    // Aggressive key hunting
                     let title = item.title || item.name || item.channel_name || item.channelName || item.id || "Unknown Stream";
-                    let url = item.url || item.mpd || item.link || item.stream_url || item.channel_url || item.file || item.source || "";
+                    let mpd = item.url || item.mpd || item.link || item.stream_url || item.channel_url || item.file || item.source || "";
                     let lic = item.lic || item.license || item.clearkey || item.key_url || item.drm_key || item.drm_license_url || item.key || "";
                     let token = item.token || item.authorization || item.auth || item.header || "";
-                    let logo = item.logo || item.icon || item.image || item.tvg_logo || "";
-                    let group = item.group || item.category || item.genre || item.network || "JSON Playlist";
+                    let logo = item.logo || item.icon || item.image || item.tvg_logo || item.logo_url || "";
+                    let group = item.group || item.category || item.genre || item.network || item.cat_name || "JSON Playlist";
 
-                    // Handle Nested Objects (like headers)
                     if (item.headers && typeof item.headers === 'object') {
                         token = item.headers.authorization || item.headers.Authorization || item.headers.Cookie || token;
                     }
 
-                    if (url && typeof url === 'string' && url.length > 5) {
-                        fullCatalog.push({ title, url, lic, token, logo, group });
+                    if (mpd && typeof mpd === 'string' && mpd.length > 5) {
+                        catalog.push({ title, mpd, lic, token, logo, group });
                     }
                 });
 
-                if (fullCatalog.length === 0) {
-                    alert("❌ Could not find valid Video URLs in this JSON. The structure is too unusual.");
-                    document.getElementById('channelList').innerHTML = '<p style="text-align:center; color: #e50914;">No valid streams found.</p>';
+                if (catalog.length === 0) {
+                    document.getElementById('movieList').innerHTML = '<p style="text-align:center; color: #ff5e62;">No valid streams found in JSON.</p>';
                 } else {
-                    renderPlaylist(fullCatalog);
+                    renderPlaylist(catalog);
                 }
             } catch (e) {
-                alert("❌ Invalid JSON File: " + e.message);
+                alert("Invalid JSON File: " + e.message);
             }
         }
 
-        // 🧠 M3U PARSER
+        // 5. Original M3U Parser
         function parseM3U(m3uText) {
             const lines = m3uText.split('\n');
-            fullCatalog = [];
+            catalog = [];
             let currentItem = null;
 
             for (let i = 0; i < lines.length; i++) {
                 let line = lines[i].trim();
                 
                 if (line.startsWith('#EXTINF')) {
-                    currentItem = { title: "Unknown Stream", logo: "", group: "M3U Playlist", url: "", lic: "", token: "" };
+                    currentItem = { title: "", logo: "", group: "", mpd: "", lic: "", token: "" };
+                    
                     let titleMatch = line.match(/,(.+)$/);
                     if (titleMatch) currentItem.title = titleMatch[1].trim();
+                    
                     let logoMatch = line.match(/tvg-logo="(.*?)"/);
                     if (logoMatch) currentItem.logo = logoMatch[1];
+                    
                     let groupMatch = line.match(/group-title="(.*?)"/);
                     if (groupMatch) currentItem.group = groupMatch[1];
 
@@ -210,25 +247,32 @@
                     let keyString = line.replace('#KODIPROP:inputstream.adaptive.license_key=', '');
                     let parts = keyString.split('|authorization=');
                     currentItem.lic = parts[0];
-                    if (parts.length > 1) currentItem.token = parts[1].split('&')[0];
+                    if (parts.length > 1) {
+                        let tokenPart = parts[1].split('&')[0]; 
+                        currentItem.token = tokenPart;
+                    }
 
                 } else if (line.startsWith('http') && currentItem) {
-                    currentItem.url = line;
-                    fullCatalog.push(currentItem);
+                    currentItem.mpd = line;
+                    catalog.push(currentItem);
                     currentItem = null; 
                 }
             }
-            renderPlaylist(fullCatalog);
+            renderPlaylist(catalog);
         }
 
+        // 6. Search Filter
         function filterPlaylist() {
             let query = document.getElementById('searchInput').value.toLowerCase();
-            let filtered = fullCatalog.filter(item => item.title.toLowerCase().includes(query) || item.group.toLowerCase().includes(query));
+            let filtered = catalog.filter(item => 
+                item.title.toLowerCase().includes(query) || (item.group && item.group.toLowerCase().includes(query))
+            );
             renderPlaylist(filtered);
         }
 
-        function renderPlaylist(listToRender) {
-            const listDiv = document.getElementById('channelList');
+        // 7. Render the Clickable Gallery
+        function renderPlaylist(listToRender = catalog) {
+            const listDiv = document.getElementById('movieList');
             listDiv.innerHTML = '';
 
             if (listToRender.length === 0) {
@@ -236,122 +280,71 @@
                 return;
             }
 
-            listToRender.forEach((item) => {
-                const div = document.createElement('div');
-                div.className = 'channel-item';
-                div.onclick = () => {
-                    document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('active'));
-                    div.classList.add('active');
-                    playStream(item);
+            listToRender.forEach((movie) => {
+                const item = document.createElement('div');
+                item.className = 'movie-item';
+                item.onclick = () => {
+                    document.querySelectorAll('.movie-item').forEach(el => el.classList.remove('active'));
+                    item.classList.add('active');
+                    playMovie(movie);
                 };
 
-                const logoSrc = item.logo || 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23555"><path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 11l-6 4V6l6 4z"/></svg>';
+                const logoSrc = movie.logo || 'https://via.placeholder.com/40x40/111/444?text=▶';
 
-                div.innerHTML = `
-                    <img src="${logoSrc}" class="channel-logo" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\\'http://www.w3.org/2000/svg\\' viewBox=\\'0 0 24 24\\' fill=\\'%23333\\'><path d=\\'M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 11l-6 4V6l6 4z\\'/></svg>'">
-                    <div class="channel-info">
-                        <div class="channel-title">${item.title}</div>
-                        <div class="channel-group">${item.group}</div>
+                item.innerHTML = `
+                    <img src="${logoSrc}" class="movie-icon" alt="logo" onerror="this.src='https://via.placeholder.com/40x40/111/444?text=▶'">
+                    <div class="movie-info">
+                        <div class="movie-title">${movie.title}</div>
+                        <div class="movie-group">${movie.group || 'VOD'}</div>
                     </div>
                 `;
-                listDiv.appendChild(div);
+                listDiv.appendChild(item);
             });
         }
 
-        // 🧠 ADVANCED PLAYBACK ENGINE
-        async function playStream(stream) {
-            currentStream = stream;
+        // 8. Feed the DRM Data to JW Player
+        function playMovie(movie) {
+            // Update UI
+            document.getElementById('nowPlayingBar').style.display = 'flex';
+            document.getElementById('npTitle').innerText = movie.title;
+            document.getElementById('npGroup').innerText = movie.group || 'Premium Content';
+
+            let drmConfig = {};
             
-            document.getElementById('player-empty-state').style.display = 'none';
-            document.getElementById('nowPlayingTitle').innerText = stream.title;
-            document.getElementById('nowPlayingGroup').innerText = stream.group;
-
-            const jwContainer = document.getElementById('jw-player-container');
-            const shakaVideo = document.getElementById('shaka-video-element');
-
-            // --- SHAKA ENGINE ---
-            if (activeEngine === 'shaka') {
-                jwContainer.style.display = 'none';
-                shakaVideo.style.display = 'block';
+            if (movie.lic) {
+                let licStr = movie.lic.trim();
                 
-                try { jwplayer("jw-player-container").stop(); } catch(e){}
-                if (!shakaApp) return;
+                // Support for JSON ClearKey arrays (e.g. kid:key format)
+                if (licStr.includes(':') && !licStr.startsWith('http')) {
+                    let parts = licStr.split(':');
+                    drmConfig = {
+                        clearkey: { keyId: parts[0], key: parts[1] }
+                    };
+                } else {
+                    // Widevine Format
+                    let headers = [];
+                    if (movie.token) headers.push({ name: "authorization", value: movie.token });
+                    headers.push({ name: "Content-Type", value: "application/octet-stream" });
 
-                shakaApp.getNetworkingEngine().clearAllRequestFilters();
-
-                let drmConfig = { servers: {} };
-                
-                // Advanced DRM Detector (Clearkey vs Widevine)
-                if (stream.lic) {
-                    let licStr = stream.lic.trim();
-                    if (licStr.includes(':') && !licStr.startsWith('http') && licStr.length < 100) {
-                        // ClearKey "KID:KEY" format
-                        let [kid, key] = licStr.split(':');
-                        drmConfig.clearKeys = {};
-                        drmConfig.clearKeys[kid] = key;
-                    } else if (licStr.startsWith('{')) {
-                        // ClearKey JSON format
-                        try { drmConfig.clearKeys = JSON.parse(licStr); } catch(e){}
-                    } else {
-                        // Widevine URL format
-                        drmConfig.servers['com.widevine.alpha'] = licStr;
-                    }
-                }
-                
-                shakaApp.configure({ drm: drmConfig });
-
-                if (stream.token) {
-                    shakaApp.getNetworkingEngine().registerRequestFilter(function(type, request) {
-                        if (type == shaka.net.NetworkingEngine.RequestType.LICENSE) {
-                            request.headers['authorization'] = stream.token;
+                    drmConfig = {
+                        widevine: {
+                            url: movie.lic,
+                            headers: headers
                         }
-                    });
+                    };
                 }
-
-                try {
-                    await shakaApp.load(stream.url);
-                } catch (e) {
-                    console.error('Shaka Load Error:', e);
-                    alert("⚠️ Player Error: Stream failed to load. Check browser console (F12) for CORS or expired token issues.");
-                }
-            } 
-            
-            // --- JW PLAYER ENGINE ---
-            else if (activeEngine === 'jw') {
-                shakaVideo.style.display = 'none';
-                jwContainer.style.display = 'block';
-                
-                try { await shakaApp.unload(); } catch(e){}
-
-                let drmSetup = {};
-                if (stream.lic) {
-                    let licStr = stream.lic.trim();
-                    if (licStr.includes(':') && !licStr.startsWith('http')) {
-                        // JW ClearKey logic
-                        let [kid, key] = licStr.split(':');
-                        drmSetup.clearkey = { keyId: kid, key: key };
-                    } else {
-                        // JW Widevine Logic
-                        let headers = [{ name: "Content-Type", value: "application/octet-stream" }];
-                        if (stream.token) headers.push({ name: "authorization", value: stream.token });
-                        drmSetup.widevine = { url: stream.lic, headers: headers };
-                    }
-                }
-
-                jwplayer("jw-player-container").setup({
-                    file: stream.url,
-                    drm: Object.keys(drmSetup).length > 0 ? drmSetup : undefined,
-                    width: "100%",
-                    height: "100%",
-                    autostart: true,
-                    stretching: "uniform",
-                    cast: {}
-                });
-                
-                jwplayer("jw-player-container").on('error', function(e) {
-                    alert("⚠️ JW Player Error: " + e.message);
-                });
             }
+
+            // Launch JW Player
+            jwplayer("jw-player-container").setup({
+                file: movie.mpd,
+                drm: Object.keys(drmConfig).length > 0 ? drmConfig : undefined,
+                width: "100%",
+                height: "100%",
+                autostart: true,
+                stretching: "uniform",
+                cast: {} // Enable Chromecast button
+            });
         }
     </script>
 </body>
