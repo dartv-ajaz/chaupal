@@ -97,7 +97,7 @@
         
         <div id="tab-library" class="tab-content-wrapper" style="display: flex;">
             <div class="controls" id="library-controls">
-                <button onclick="fetchM3UFromServer()">🌐 Load Server Files</button>
+                <button onclick="fetchM3UFromServer()">🌐 Auto-Scan Server Files</button>
                 <button onclick="document.getElementById('m3uFile').click()" style="background: #34495e;">📁 Upload Files (Any Format)</button>
                 <input type="file" id="m3uFile" accept=".m3u,.m3u8,.txt,.json,.xml" onchange="handleMultiFileUpload(event)" multiple style="display:none;">
 
@@ -112,7 +112,7 @@
             </div>
 
             <div class="scroll-area" id="folderList">
-                <p style="text-align: center; color: #666; margin-top: 20px;">Upload playlists or fetch from server to start.</p>
+                <p style="text-align: center; color: #666; margin-top: 20px;">Upload playlists or auto-scan server to start.</p>
             </div>
             <div class="scroll-area" id="movieList" style="display: none;"></div>
         </div>
@@ -209,36 +209,77 @@
             return extracted;
         }
 
+        // --- NEW: ADVANCED DIRECTORY SCRAPER ---
         async function fetchM3UFromServer() {
-            const filesToTry = [
-                'playlist.m3u', 'playlist.m3u8', 'channels.json', 'movies.json', 
-                'streams.txt', 'tv.m3u', 'data.json'
-            ];
+            document.getElementById('folderList').innerHTML = '<p style="text-align:center; color: #aaa;">Scanning server for files...</p>';
             
-            document.getElementById('folderList').innerHTML = '<p style="text-align:center; color: #aaa;">Probing server for files...</p>';
+            let filesToFetch = [];
             let foundAny = false;
 
-            await Promise.allSettled(filesToTry.map(async (fileName) => {
+            try {
+                // Step 1: Attempt to scrape the server directory listing
+                const dirResponse = await fetch('./');
+                if (dirResponse.ok) {
+                    const dirHtml = await dirResponse.text();
+                    
+                    // Parse the HTML to find all links in the directory
+                    const parser = new DOMParser();
+                    const doc = parser.parseFromString(dirHtml, 'text/html');
+                    const links = doc.querySelectorAll('a');
+                    
+                    links.forEach(link => {
+                        const href = link.getAttribute('href');
+                        // Grab anything that looks like a playlist or data file
+                        if (href && href.match(/\.(m3u|m3u8|json|txt|xml)$/i)) {
+                            // Avoid fetching the current page if it accidentally matches
+                            if (!filesToFetch.includes(href) && href !== 'index.html') {
+                                filesToFetch.push(href);
+                            }
+                        }
+                    });
+                }
+            } catch (e) {
+                console.warn("Directory scraping failed. Server might not allow it.");
+            }
+
+            // Step 2: Fallback list if the server hides its directory structure
+            if (filesToFetch.length === 0) {
+                console.log("No directory index found. Using fallback list.");
+                filesToFetch = [
+                    'playlist.m3u', 'playlist.m3u8', 'channels.json', 'movies.json', 
+                    'streams.txt', 'tv.m3u', 'data.json', 'live.m3u', 'vod.json'
+                ];
+            }
+
+            // Step 3: Download everything we found simultaneously
+            await Promise.allSettled(filesToFetch.map(async (fileName) => {
                 try {
                     const response = await fetch(fileName);
                     if (response.ok) {
                         const text = await response.text();
                         let parsedItems = [];
+                        
+                        // Detect format dynamically
                         if (text.trim().startsWith('{') || text.trim().startsWith('[')) {
                             parsedItems = parseJSON(text);
                         } else {
                             parsedItems = parseM3U(text);
                         }
                         
+                        // If valid streams were found, add as a new playlist folder
                         if (parsedItems.length > 0) {
-                            folders.push({ name: fileName, items: parsedItems });
+                            // Decode URL components for a cleaner display name
+                            const cleanName = decodeURIComponent(fileName.split('/').pop());
+                            folders.push({ name: cleanName, items: parsedItems });
                             foundAny = true;
                         }
                     }
-                } catch (e) { }
+                } catch (e) { } // Silently ignore files from the fallback list that don't exist
             }));
 
-            if (!foundAny) alert("No compatible playlist files found on the server root.");
+            if (!foundAny) {
+                alert("No playlists found! Make sure your files are in the same folder as this page, OR ensure your web server has 'Directory Indexing' enabled to find custom names.");
+            }
             renderFolders();
         }
 
@@ -298,7 +339,7 @@
             listDiv.innerHTML = '';
             
             if (folders.length === 0) {
-                listDiv.innerHTML = '<p style="text-align: center; color: #666; margin-top:20px;">Upload playlists or fetch from server to start.</p>';
+                listDiv.innerHTML = '<p style="text-align: center; color: #666; margin-top:20px;">Upload playlists or auto-scan server to start.</p>';
                 return;
             }
             
