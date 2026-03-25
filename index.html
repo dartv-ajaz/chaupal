@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DARTV | Master Live Dashboard</title>
+    
+    <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
+    <script type="text/javascript">
+        jwplayer.key = 'Khpp2dHxlBJHC8MCmLnBuV2jK/DwDnJMniwF6EO9HC/riJ712ZmbHg==';
+    </script>
+
+    <style>
+        :root { --bg-dark: #0f1115; --bg-card: #1a1d24; --accent: #ff0055; --accent-alt: #00d2ff; --text: #fff; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg-dark); color: var(--text); margin: 0; padding: 0; overflow-x: hidden; perspective: 1000px; }
+        
+        .header { text-align: center; padding: 15px; background: var(--bg-card); border-bottom: 2px solid var(--accent); position: sticky; top: 0; z-index: 100; box-shadow: 0 4px 10px rgba(0,0,0,0.5); }
+        .header h1 { margin: 0; color: var(--accent); text-transform: uppercase; letter-spacing: 2px; font-size: 20px; }
+        
+        .view { display: none; padding: 20px; max-width: 1400px; margin: 0 auto; animation: fadeIn 0.3s ease-in-out; }
+        .view.active { display: block; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        /* Dashboard Controls */
+        .dashboard-controls { display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap; justify-content: center; }
+        .btn { background: var(--accent-alt); color: #000; border: none; padding: 10px 20px; border-radius: 5px; font-weight: bold; cursor: pointer; text-transform: uppercase; font-size: 12px; transition: 0.2s; }
+        .btn:hover { background: #00a8cc; transform: scale(1.05); }
+        .btn-red { background: var(--accent); color: white; }
+        .btn-red:hover { background: #c20042; }
+
+        /* 3D Playlist Grid */
+        .playlist-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 25px; padding: 20px 0; }
+        
+        .playlist-card { 
+            background: linear-gradient(145deg, #16191f, #1d2129);
+            border-radius: 12px; padding: 25px 20px; text-align: center; cursor: pointer;
+            box-shadow: 5px 5px 15px #0a0b0e, -5px -5px 15px #242934;
+            transition: all 0.4s ease;
+            position: relative;
+            transform-style: preserve-3d;
+            border: 1px solid #2d3139;
+        }
+        
+        .playlist-card:hover {
+            transform: translateY(-10px) rotateX(5deg) rotateY(-5deg);
+            background: linear-gradient(145deg, #ff0055, #00d2ff);
+            box-shadow: 15px 15px 30px rgba(0,0,0,0.7), inset 0 0 10px rgba(255,255,255,0.2);
+            border-color: transparent;
+        }
+
+        .playlist-card h3 { margin: 0 0 10px 0; color: var(--accent-alt); font-size: 18px; word-break: break-word; transition: color 0.4s; transform: translateZ(20px); }
+        .playlist-card p { margin: 0; color: #aaa; font-size: 13px; text-transform: uppercase; font-weight: bold; transition: color 0.4s; transform: translateZ(10px); }
+        
+        .playlist-card:hover h3, .playlist-card:hover p { color: #fff; text-shadow: 2px 2px 5px rgba(0,0,0,0.5); }
+
+        .delete-btn {
+            position: absolute; top: -10px; right: -10px;
+            background: #ff0055; color: white; border: 2px solid #0f1115;
+            border-radius: 50%; width: 30px; height: 30px;
+            font-size: 14px; font-weight: bold; cursor: pointer;
+            display: flex; justify-content: center; align-items: center;
+            transition: 0.3s; transform: translateZ(30px); z-index: 10;
+        }
+        .delete-btn:hover { background: #ff0000; transform: translateZ(30px) scale(1.2); }
+
+        /* VIEW 2: Player & Channels */
+        .nav-bar { display: flex; justify-content: flex-start; align-items: center; margin-bottom: 15px; flex-wrap: wrap; gap: 15px; }
+        .now-playing { color: #0f0; font-size: 16px; font-weight: bold; background: #111; padding: 10px 15px; border-radius: 5px; border: 1px solid #333; flex: 1; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+        /* Forced Dropdown Styling */
+        .category-dropdown {
+            flex: 1; max-width: 250px; padding: 10px 15px; border-radius: 5px; 
+            background: #111; color: #fff; border: 1px solid var(--accent-alt); 
+            font-size: 14px; font-weight: bold; outline: none; cursor: pointer;
+            display: block !important; /* Forces it to show */
+        }
+
+        .player-container { width: 100%; aspect-ratio: 16 / 9; background: #000; border-radius: 10px; overflow: hidden; margin-bottom: 20px; box-shadow: 0 5px 20px rgba(0,0,0,0.8); position: relative; touch-action: none; }
+        
+        .search-container { margin-bottom: 20px; display: flex; gap: 10px; align-items: center; }
+        .search-input { flex: 1; padding: 12px 15px; border-radius: 5px; border: 1px solid #444; background: #111; color: #fff; font-size: 16px; outline: none; }
+        .search-input:focus { border-color: var(--accent-alt); }
+        .channel-count { font-size: 14px; color: #aaa; white-space: nowrap; font-weight: bold; }
+
+        .channel-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 15px; padding-bottom: 50px; }
+        .channel-card { background: var(--bg-card); border: 1px solid #2d3139; border-radius: 8px; padding: 10px; text-align: center; cursor: pointer; transition: 0.2s; display: flex; flex-direction: column; align-items: center; justify-content: center; aspect-ratio: 1; }
+        .channel-card:hover { background: #2d3139; border-color: var(--accent); transform: scale(1.05); }
+        .channel-card img { width: 55px; height: 55px; object-fit: contain; margin-bottom: 10px; background: rgba(0,0,0,0.4); border-radius: 5px; padding: 5px; }
+        .channel-card span { font-size: 11px; font-weight: bold; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+        .custom-error { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); display: none; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px; box-sizing: border-box; z-index: 999; }
+        .custom-error h2 { color: var(--accent); margin-bottom: 10px; }
+        .custom-error p { color: #fff; font-size: 16px; line-height: 1.5; }
+
+        /* Gesture Indicator Overlay */
+        #gestureIndicator { display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.7); padding: 15px 25px; border-radius: 10px; color: #fff; font-size: 24px; font-weight: bold; z-index: 999; pointer-events: none; }
+        #systemMessage { text-align: center; color: var(--accent-alt); display: none; margin: 20px 0; font-weight: bold; font-size: 16px; background: #111; padding: 10px; border-radius: 5px; border: 1px solid #333; }
+
+        @media (max-width: 600px) {
+            .channel-grid { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); }
+            .nav-bar { flex-direction: column; align-items: stretch; }
+            .category-dropdown { max-width: 100%; }
+            .search-container { flex-direction: column; align-items: stretch; }
+            .channel-count { text-align: center; }
+            .playlist-card:hover { transform: translateY(-5px); } 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>🔐 DARTV Live</h1>
+    </div>
+
+    <div id="view-dashboard" class="view active">
+        <div class="dashboard-controls">
+            <button class="btn" onclick="fetchFromGitHub()">🔄 Sync GitHub Repository</button>
+            <label class="btn btn-red" style="margin: 0; display: inline-block; cursor: pointer;">
+                📂 Upload Local File
+                <input type="file" id="fileLoader" accept=".json,.m3u,.m3u8,.txt" multiple style="display: none;">
+            </label>
+        </div>
+        
+        <div id="systemMessage">System Ready.</div>
+
+        <div id="playlistGrid" class="playlist-grid">
+            <div style="grid-column: 1 / -1; text-align: center; color: #555; margin-top: 40px;">
+                No playlists loaded. Click "Sync GitHub" or upload a file.
+            </div>
+        </div>
+    </div>
+
+    <div id="view-player" class="view">
+        <div class="nav-bar">
+            <button class="btn btn-red" onclick="goBackToDashboard()" style="flex: 0 0 auto;">🔙 Back to Playlists</button>
+            
+            <select id="categoryFilter" class="category-dropdown" onchange="filterChannels()">
+                <option value="">📁 All Categories</option>
+            </select>
+            
+            <div id="nowPlayingText" class="now-playing">📺 Select a channel to play</div>
+        </div>
+
+        <div class="player-container" id="playerWrapper">
+            <div id="jw-player-container">Player will load here...</div>
+            <div id="gestureIndicator">🔊 50%</div>
+            <div id="dartv-error" class="custom-error">
+                <h2>⚠️ Stream Offline</h2>
+                <p id="errorReason">Love you for choosing we, <strong>DARTV</strong>.<br>Stay tuned or browse another channels.</p>
+            </div>
+        </div>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search channels by name..." onkeyup="filterChannels()">
+            <div id="channelCount" class="channel-count">0 Channels</div>
+        </div>
+        
+        <div id="channelGrid" class="channel-grid"></div>
+    </div>
+
+    <script>
+        let globalPlaylists = []; 
+        let currentActiveChannels = []; 
+        const githubRepoApiUrl = "https://api.github.com/repos/dartv-ajaz/chaupal/contents/";
+        const defaultLogo = "https://via.placeholder.com/150x150/1a1d24/ff0055?text=DarTv";
+
+        function showMessage(msg, isError = false) {
+            const el = document.getElementById('systemMessage');
+            el.innerHTML = msg;
+            el.style.display = 'block';
+            el.style.color = isError ? '#ff0055' : '#00d2ff';
+            el.style.borderColor = isError ? '#ff0055' : '#333';
+        }
+
+        function switchView(viewId) {
+            document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+            document.getElementById(viewId).classList.add('active');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function goBackToDashboard() {
+            if (jwplayer("jw-player-container").getState() === "playing") {
+                jwplayer("jw-player-container").stop();
+            }
+            document.getElementById("dartv-error").style.display = "none";
+            document.getElementById("searchInput").value = ""; 
+            switchView('view-dashboard');
+        }
+
+        // --- FETCH LOGIC ---
+        async function fetchFromGitHub() {
+            showMessage('Scanning GitHub Repository...');
+            
+            try {
+                const response = await fetch(githubRepoApiUrl);
+                if (response.status === 403) throw new Error("GitHub Rate Limit Exceeded! Please wait an hour or upload files locally.");
+                if (!response.ok) throw new Error("GitHub API Error: " + response.status);
+                
+                const files = await response.json();
+                let fetchPromises = [];
+
+                for (let file of files) {
+                    if (file.type === "file" && file.name.match(/\.(json|m3u|m3u8|txt)$/i)) {
+                        let p = fetch(file.download_url)
+                            .then(res => res.text())
+                            .then(content => processFileContent(file.name, content));
+                        fetchPromises.push(p);
+                    }
+                }
+
+                await Promise.all(fetchPromises);
+                renderDashboard();
+                showMessage('Playlists Synced Successfully!');
+                setTimeout(() => document.getElementById('systemMessage').style.display = 'none', 3000);
+            } catch (error) {
+                console.error("Fetch failed:", error);
+                showMessage(error.message, true);
+            }
+        }
+
+        document.getElementById('fileLoader').addEventListener('change', function(e) {
+            const files = e.target.files;
+            if(files.length === 0) return;
+            
+            let filesRead = 0;
+            for (let i = 0; i < files.length; i++) {
+                const reader = new FileReader();
+                reader.onload = function(evt) {
+                    processFileContent(files[i].name, evt.target.result);
+                    filesRead++;
+                    if(filesRead === files.length) {
+                        renderDashboard();
+                        showMessage('Local Files Uploaded!', false);
+                        setTimeout(() => document.getElementById('systemMessage').style.display = 'none', 3000);
+                    }
+                };
+                reader.readAsText(files[i]);
+            }
+        });
+
+        // --- PARSE LOGIC ---
+        function processFileContent(filename, content) {
+            const ext = filename.split('.').pop().toLowerCase();
+            let currentFileChannels = [];
+
+            if (ext === 'json') {
+                try {
+                    const json = JSON.parse(content);
+                    for (let category in json) {
+                        let channels = json[category].map(c => ({...c, group: category}));
+                        currentFileChannels = currentFileChannels.concat(channels);
+                    }
+                } catch(err) { console.error(`Error parsing JSON ${filename}:`, err); }
+            } 
+            else if (['m3u', 'm3u8', 'txt'].includes(ext)) {
+                const lines = content.split('\n');
+                let currentChannel = { name: "Unknown", logo: "", url: "", license: "", kodiHeaders: null, group: "Uncategorized" };
+                
+                for (let i = 0; i < lines.length; i++) {
+                    let line = lines[i].trim();
+                    if (line.startsWith('#EXTINF:')) {
+                        const nameMatch = line.match(/,(.+)$/);
+                        const logoMatch = line.match(/tvg-logo="([^"]+)"/);
+                        const groupMatch = line.match(/group-title="([^"]+)"/);
+                        
+                        currentChannel.name = nameMatch ? nameMatch[1].trim() : 'Unknown';
+                        currentChannel.logo = logoMatch ? logoMatch[1] : '';
+                        currentChannel.group = groupMatch ? groupMatch[1].trim() : 'Uncategorized';
+                        
+                    } else if (line.startsWith('#KODIPROP:inputstream.adaptive.license_key=')) {
+                        
+                        // FIXED URL EXTRACTOR: Safely removes the prop tag without cutting the URL
+                        let licenseData = line.replace('#KODIPROP:inputstream.adaptive.license_key=', '').trim();
+                        let parts = licenseData.split('|');
+                        currentChannel.license = parts[0]; 
+                        
+                        if(parts.length > 1 && parts[1].includes('=')) {
+                            let headerPairs = parts[1].split('&');
+                            currentChannel.kodiHeaders = {};
+                            headerPairs.forEach(pair => {
+                                let splitIdx = pair.indexOf('='); 
+                                if (splitIdx > 0) {
+                                    let k = pair.substring(0, splitIdx).trim();
+                                    let v = pair.substring(splitIdx + 1).trim();
+                                    currentChannel.kodiHeaders[k] = v;
+                                }
+                            });
+                        }
+                    } else if (line !== '' && !line.startsWith('#')) {
+                        currentChannel.url = line;
+                        currentFileChannels.push(currentChannel);
+                        currentChannel = { name: "Unknown", logo: "", url: "", license: "", kodiHeaders: null, group: "Uncategorized" }; 
+                    }
+                }
+            }
+
+            if (currentFileChannels.length > 0) {
+                globalPlaylists.push({
+                    id: Date.now() + Math.random(),
+                    title: filename, 
+                    channels: currentFileChannels
+                });
+            }
+        }
+
+        // --- DASHBOARD UI & PLAYLIST OPENER ---
+        function renderDashboard() {
+            const grid = document.getElementById('playlistGrid');
+            grid.innerHTML = '';
+            
+            if (globalPlaylists.length === 0) {
+                grid.innerHTML = '<div style="grid-column: 1 / -1; text-align: center; color: #555;">No playlists loaded.</div>';
+                return;
+            }
+
+            globalPlaylists.forEach(playlist => {
+                const card = document.createElement('div');
+                card.className = 'playlist-card';
+                card.innerHTML = `
+                    <button class="delete-btn" onclick="deletePlaylist(event, ${playlist.id})" title="Delete Playlist">✖</button>
+                    <h3>📁 ${playlist.title}</h3>
+                    <p>${playlist.channels.length} Channels</p>
+                `;
+                card.onclick = (e) => {
+                    if(!e.target.classList.contains('delete-btn')) openPlaylist(playlist.id);
+                };
+                grid.appendChild(card);
+            });
+        }
+
+        function deletePlaylist(event, id) {
+            event.stopPropagation(); 
+            globalPlaylists = globalPlaylists.filter(p => p.id !== id);
+            renderDashboard();
+        }
+
+        function openPlaylist(id) {
+            const playlist = globalPlaylists.find(p => p.id === id);
+            if(!playlist) return;
+            currentActiveChannels = playlist.channels;
+            
+            // Build Dynamic Category Filter Dropdown
+            const filterDrop = document.getElementById('categoryFilter');
+            filterDrop.innerHTML = '<option value="">📁 All Categories</option>';
+            
+            const uniqueGroups = [...new Set(currentActiveChannels.map(c => c.group || 'Uncategorized'))].sort();
+            uniqueGroups.forEach(g => {
+                filterDrop.innerHTML += `<option value="${g}">${g}</option>`;
+            });
+
+            document.getElementById('searchInput').value = ""; // Reset search
+            switchView('view-player');
+            renderChannelGrid(currentActiveChannels);
+
+            // AUTO-PLAY FIRST CHANNEL
+            if(currentActiveChannels.length > 0) {
+                playChannel(currentActiveChannels[0]);
+            }
+        }
+
+        function filterChannels() {
+            const term = document.getElementById('searchInput').value.toLowerCase();
+            const selectedGroup = document.getElementById('categoryFilter').value;
+
+            const filtered = currentActiveChannels.filter(c => {
+                const matchesSearch = c.name.toLowerCase().includes(term);
+                const matchesGroup = selectedGroup === "" || (c.group || 'Uncategorized') === selectedGroup;
+                return matchesSearch && matchesGroup;
+            });
+            renderChannelGrid(filtered);
+        }
+
+        function renderChannelGrid(channelsToRender) {
+            const grid = document.getElementById('channelGrid');
+            grid.innerHTML = '';
+            document.getElementById('channelCount').innerText = `${channelsToRender.length} Channels`;
+
+            channelsToRender.forEach(channel => {
+                const card = document.createElement('div');
+                card.className = 'channel-card';
+                const imgSrc = channel.logo && channel.logo.trim() !== "" ? channel.logo : defaultLogo;
+
+                card.innerHTML = `
+                    <img src="${imgSrc}" onerror="this.onerror=null; this.src='${defaultLogo}';" loading="lazy"> 
+                    <span>${channel.name}</span>
+                `;
+                card.onclick = () => playChannel(channel);
+                grid.appendChild(card);
+            });
+        }
+
+        // --- PLAYBACK ENGINE ---
+        function determineStreamType(url) {
+            const cleanUrl = url.split('?')[0].toLowerCase();
+            if (cleanUrl.endsWith('.mpd')) return 'dash';
+            if (cleanUrl.endsWith('.m3u8')) return 'hls';
+            if (cleanUrl.endsWith('.mp4')) return 'mp4';
+            return 'hls'; 
+        }
+
+        function playChannel(channel) {
+            document.getElementById("dartv-error").style.display = "none";
+            document.getElementById("nowPlayingText").innerText = `📺 Playing: ${channel.name}`;
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            let setupConfig = {
+                file: channel.url,
+                width: "100%",
+                aspectratio: "16:9",
+                autostart: true,
+                cast: {},
+                controls: true, 
+                displaytitle: true,
+                playbackRateControls: true
+            };
+
+            const streamType = determineStreamType(channel.url);
+            if (streamType) setupConfig.type = streamType;
+
+            const lic = channel.license || channel.license_url || channel.widevine;
+            
+            if (lic && lic.trim() !== "") {
+                let drmHeaders = [];
+                if(channel.kodiHeaders && Object.keys(channel.kodiHeaders).length > 0) {
+                    for(let key in channel.kodiHeaders) {
+                        drmHeaders.push({ name: key, value: channel.kodiHeaders[key] });
+                    }
+                } else {
+                    const token = channel.token || channel.auth_token || "";
+                    if(token) drmHeaders.push({ name: "authorization", value: token });
+                    drmHeaders.push({ name: "Content-Type", value: "application/octet-stream" });
+                }
+
+                setupConfig.drm = {
+                    widevine: { url: lic, headers: drmHeaders }
+                };
+            }
+
+            const playerInstance = jwplayer("jw-player-container").setup(setupConfig);
+            
+            playerInstance.on('error', function(e) {
+                console.error("JW Error:", e);
+                showCustomError(`Failed to Play: Code ${e.code}. If 403, your token expired.`);
+            });
+            playerInstance.on('setupError', function(e) {
+                console.error("Setup Error:", e);
+                showCustomError("Setup Failed. Ensure you are on a Local Server.");
+            });
+        }
+
+        function showCustomError(diagText) {
+            const errorReason = document.getElementById("errorReason");
+            errorReason.innerHTML = `Love you for choosing we, <strong>DARTV</strong>.<br>Stay tuned or browse another channels.<br><br><span style="font-size:12px; color:#aaa;">(Diagnostic: ${diagText})</span>`;
+            document.getElementById("dartv-error").style.display = "flex";
+        }
+
+        // --- SWIPE GESTURES OVERLAY ---
+        const playerWrapper = document.getElementById('playerWrapper');
+        let startX, startY, initVol, initPos, isTouchArea;
+
+        playerWrapper.addEventListener('touchstart', (e) => {
+            if(e.touches.length !== 1) return;
+            const rect = playerWrapper.getBoundingClientRect();
+            const touchY = e.touches[0].clientY - rect.top;
+            
+            // Ignore touches on the bottom 25% to protect JW native play/pause/timeline controls
+            if(touchY > rect.height * 0.75) return; 
+
+            startX = e.touches[0].clientX;
+            startY = e.touches[0].clientY;
+            initVol = jwplayer("jw-player-container").getVolume();
+            initPos = jwplayer("jw-player-container").getPosition();
+            isTouchArea = true;
+        }, {passive: true});
+
+        playerWrapper.addEventListener('touchmove', (e) => {
+            if(!isTouchArea || e.touches.length !== 1) return;
+            const dx = e.touches[0].clientX - startX;
+            const dy = startY - e.touches[0].clientY; 
+            const ind = document.getElementById('gestureIndicator');
+
+            if(Math.abs(dy) > Math.abs(dx) && Math.abs(dy) > 20) {
+                e.preventDefault(); 
+                let v = Math.max(0, Math.min(100, initVol + (dy / 2)));
+                jwplayer("jw-player-container").setVolume(v);
+                ind.style.display = 'block';
+                ind.innerText = `🔊 ${Math.round(v)}%`;
+            } 
+            else if(Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 20) {
+                e.preventDefault();
+                let dur = jwplayer("jw-player-container").getDuration();
+                if(dur > 0) { 
+                    let p = Math.max(0, Math.min(dur, initPos + (dx / 4)));
+                    jwplayer("jw-player-container").seek(p);
+                    ind.style.display = 'block';
+                    ind.innerText = dx > 0 ? `⏩ +${Math.round(dx/4)}s` : `⏪ ${Math.round(dx/4)}s`;
+                }
+            }
+        }, {passive: false});
+
+        playerWrapper.addEventListener('touchend', () => {
+            isTouchArea = false;
+            setTimeout(() => { document.getElementById('gestureIndicator').style.display = 'none'; }, 800);
+        });
+    </script>
+</body>
+</html>
