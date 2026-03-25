@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premium OTT Web Player | Pro Master Hub</title>
+    <title>Premium OTT Master Dashboard | Pro Hub</title>
     
     <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
     <script type="text/javascript">
@@ -17,13 +17,8 @@
         
         /* Sidebar */
         .sidebar { width: 350px; background: var(--panel); border-right: 1px solid var(--border); display: flex; flex-direction: column; z-index: 10; min-height: 0; overflow: hidden; }
-        .sidebar-header { padding: 10px 15px 0 15px; background: #111; text-align: center; flex: none; }
-        .sidebar-header h2 { margin: 0 0 10px 0; color: var(--accent); font-size: 18px; text-transform: uppercase; letter-spacing: 1px; }
-        
-        /* Tabs */
-        .tab-container { display: flex; border-bottom: 1px solid var(--border); background: #111; }
-        .tab-btn { flex: 1; padding: 10px; background: transparent; color: #888; border: none; border-bottom: 2px solid transparent; cursor: pointer; font-weight: bold; text-transform: uppercase; transition: 0.3s; font-size: 11px; }
-        .tab-btn.active { color: var(--accent); border-bottom: 2px solid var(--accent); }
+        .sidebar-header { padding: 15px; background: #111; text-align: center; flex: none; border-bottom: 1px solid var(--border); }
+        .sidebar-header h2 { margin: 0; color: var(--accent); font-size: 18px; text-transform: uppercase; letter-spacing: 1px; }
 
         /* Controls Area */
         .controls { padding: 10px 15px; border-bottom: 1px solid var(--border); background: #15181e; flex: none; overflow-y: auto; max-height: 40vh;}
@@ -35,7 +30,7 @@
 
         .tab-content-wrapper { display: flex; flex-direction: column; flex: 1; min-height: 0; overflow: hidden; }
 
-        /* Scroll Area */
+        /* Scroll Area (Fast Rendering Support) */
         .scroll-area { flex: 1; overflow-y: auto; padding: 10px; min-height: 0; -webkit-overflow-scrolling: touch; }
         .scroll-area::-webkit-scrollbar { width: 5px; }
         .scroll-area::-webkit-scrollbar-thumb { background: #444; border-radius: 5px; }
@@ -55,32 +50,40 @@
         .movie-title { font-size: 13px; font-weight: bold; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
         .movie-group { font-size: 10px; color: #aaa; background: #333; padding: 2px 6px; border-radius: 4px; display: inline-block; }
 
-        /* API Results */
-        .api-result-card { background: #232730; border-radius: 8px; padding: 12px; margin-bottom: 10px; border-left: 4px solid #3498db; display: flex; flex-direction: column; gap: 6px; }
-        .api-result-title { font-weight: bold; font-size: 13px; color: #3498db; }
-        .api-result-desc { font-size: 11px; color: #ddd; line-height: 1.4; white-space: pre-wrap; word-wrap: break-word; }
-
-        /* Main Content & Player */
-        .main-content { flex: 1; display: flex; flex-direction: column; background: #000; position: relative; min-height: 0; }
-        .player-wrapper { width: 100%; flex: 1; display: flex; justify-content: center; align-items: center; min-height: 0; position: relative; background: #000;}
+        /* Main Content & Player Layout Fixes */
+        .main-content { flex: 1; display: flex; flex-direction: column; background: #000; min-height: 0; }
         
-        #jw-player-container { width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 1; }
+        /* Absolute positioned bounds to force JW Player to stay within the lines */
+        .player-bounds { position: relative; width: 100%; flex: 1; background: #000; overflow: hidden; min-height: 0; }
+        .player-wrapper { position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; justify-content: center; align-items: center; }
+        
+        #jw-player-container { width: 100% !important; height: 100% !important; z-index: 1; }
         
         #player-empty-state { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #000; display: flex; justify-content: center; align-items: center; color: #444; font-size: 16px; z-index: 5; }
 
         .gesture-osd { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.7); color: #fff; padding: 15px 25px; border-radius: 10px; font-size: 20px; font-weight: bold; pointer-events: none; opacity: 0; transition: opacity 0.2s; z-index: 99; text-align: center; }
 
-        .now-playing-bar { padding: 10px 15px; background: var(--panel); border-top: 1px solid var(--border); display: flex; align-items: center; z-index: 10; flex: none; }
-        .now-playing-bar h3 { margin: 0; font-size: 16px; color: var(--accent); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-        .now-playing-bar p { margin: 3px 0 0 0; color: #aaa; font-size: 11px; }
+        .now-playing-bar { padding: 10px 15px; background: var(--panel); border-top: 1px solid var(--border); display: flex; align-items: center; z-index: 10; flex: none; height: 40px; box-sizing: border-box;}
+        .now-playing-bar h3 { margin: 0; font-size: 14px; color: var(--accent); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.2;}
+        .now-playing-bar p { margin: 2px 0 0 0; color: #aaa; font-size: 10px; }
+
+        /* 🎬 WATCHING MODE (Playlist Opened) */
+        body.watching-mode { flex-direction: column; }
+        body.watching-mode .main-content { order: 1; flex: 0 0 55vh; border-bottom: 1px solid var(--border); border-left: none; }
+        body.watching-mode .sidebar { order: 2; flex: 1; width: 100%; border-right: none; }
+        body.watching-mode .sidebar-header { display: none; }
+        body.watching-mode #library-controls > button, 
+        body.watching-mode #library-controls > textarea { display: none !important; }
+        body.watching-mode #library-controls { padding: 10px; max-height: none; border-bottom: none;}
 
         /* 📱 MOBILE RESPONSIVE LAYOUT */
         @media (max-width: 768px) {
             body { flex-direction: column; }
             .main-content { flex: 0 0 35vh; order: 1; border-bottom: 1px solid var(--border); }
+            body.watching-mode .main-content { flex: 0 0 40vh; } 
             .sidebar { width: 100%; flex: 1; order: 2; border-right: none; display: flex; flex-direction: column; min-height: 0; }
-            .sidebar-header { padding: 10px 10px 0 10px; }
-            .sidebar-header h2 { font-size: 16px; margin-bottom: 8px; }
+            .sidebar-header { padding: 10px; }
+            .sidebar-header h2 { font-size: 16px; margin: 0; }
             .controls { max-height: 30vh; padding: 8px 10px; }
         }
     </style>
@@ -90,65 +93,42 @@
     <div class="sidebar">
         <div class="sidebar-header">
             <h2>🍿 Premium VOD Hub</h2>
-            <div class="tab-container">
-                <button class="tab-btn active" onclick="switchTab('library')">My Library</button>
-                <button class="tab-btn" onclick="switchTab('api')">API Hub</button>
-            </div>
         </div>
         
         <div id="tab-library" class="tab-content-wrapper" style="display: flex;">
             <div class="controls" id="library-controls">
-                <button onclick="fetchM3UFromServer()">🌐 Load Local Server Playlist</button>
-                
-                <div style="display: flex; gap: 5px; margin-bottom: 5px;">
-                    <input type="text" id="remotePlaylistUrl" class="custom-input" placeholder="Paste URL (m3u/json/php)..." style="margin: 0;">
-                    <button onclick="fetchRemotePlaylist()" style="margin: 0; width: auto; padding: 6px 12px; background: #8e44ad;">Fetch</button>
-                </div>
+                <button onclick="fetchM3UFromServer()">🌐 Load Server Files</button>
+                <button onclick="document.getElementById('m3uFile').click()" style="background: #34495e;">📁 Upload Files (Any Format)</button>
+                <input type="file" id="m3uFile" accept=".m3u,.m3u8,.txt,.json,.xml" onchange="handleMultiFileUpload(event)" multiple style="display:none;">
 
-                <button onclick="document.getElementById('m3uFile').click()" style="background: #34495e;">📁 Upload Files (.json/.m3u)</button>
-                <input type="file" id="m3uFile" accept=".m3u,.m3u8,.txt,.json" onchange="handleMultiFileUpload(event)" multiple style="display:none;">
-
-                <textarea id="bulkLinksInput" class="custom-input bulk-textarea" placeholder="Paste Direct Link, Bulk URLs, or raw M3U text here..."></textarea>
+                <textarea id="bulkLinksInput" class="custom-input bulk-textarea" placeholder="Paste Links, M3U text, or mixed content here..."></textarea>
                 <button onclick="processBulkLinks()" style="background: #e67e22;">📥 Process Text / Links</button>
-                
-                <input type="text" id="searchInput" class="custom-input" placeholder="🔍 Search in playlist..." onkeyup="filterPlaylist()" style="display:none; margin-top:5px;">
-                <div id="backBtnDiv" style="display:none; margin-top:5px;">
-                    <button onclick="showFolderList()" style="background: #95a5a6; padding: 6px;">🔙 Back to Playlists</button>
+                <button onclick="clearAllFolders()" style="background: #c0392b; margin-top: 10px;">🗑️ Clear All Playlists</button>
+
+                <div id="backBtnDiv" style="display:none; margin-bottom:5px;">
+                    <button onclick="showFolderList()" style="background: #95a5a6; padding: 8px; width: 100%;">🔙 Back to Playlists</button>
                 </div>
+                <input type="text" id="searchInput" class="custom-input" placeholder="🔍 Search in playlist..." onkeyup="filterPlaylist()" style="display:none;">
             </div>
 
             <div class="scroll-area" id="folderList">
-                <p style="text-align: center; color: #666; margin-top: 20px;">Upload playlists or fetch URLs to start.</p>
+                <p style="text-align: center; color: #666; margin-top: 20px;">Upload playlists or fetch from server to start.</p>
             </div>
             <div class="scroll-area" id="movieList" style="display: none;"></div>
-        </div>
-
-        <div id="tab-api" class="tab-content-wrapper" style="display: none;">
-            <div class="controls">
-                <input type="password" id="apiKey" class="custom-input" placeholder="RapidAPI Key" value="b85ab79191msh6ea8e49ca7a3f72p102e58jsn18b0685108fb">
-                <select id="apiService" class="custom-input" onchange="updateApiPlaceholder()">
-                    <option value="streaming-movie">Streaming Availability (Movie)</option>
-                    <option value="netflix-search">Netflix Search API</option>
-                    <option value="rt-spoilers">Rotten Tomatoes Spoilers</option>
-                    <option value="imdb-actor">IMDb Actor Credits</option>
-                </select>
-                <input type="text" id="apiId" class="custom-input" placeholder="Enter ID/Name">
-                <button onclick="fetchMovieAPI()" style="background: #3498db;">Fetch Data</button>
-            </div>
-            <div class="scroll-area" id="apiResults">
-                <p style="text-align: center; color: #666; margin-top: 20px;">API data will appear here.</p>
-            </div>
         </div>
     </div>
 
     <div class="main-content">
-        <div class="player-wrapper">
-            <div id="player-empty-state">
-                Select a stream to start watching.
+        <div class="player-bounds">
+            <div class="player-wrapper">
+                <div id="player-empty-state">
+                    Select a stream to start watching.
+                </div>
+                
+                <div id="jw-player-container"></div>
+                
+                <div id="gesture-osd" class="gesture-osd"></div>
             </div>
-            
-            <div id="jw-player-container"></div>
-            <div id="gesture-osd" class="gesture-osd"></div>
         </div>
         
         <div class="now-playing-bar" id="nowPlayingBar" style="display: none;">
@@ -164,100 +144,28 @@
         let currentFolderIndex = -1;
         let currentCatalog = []; 
         let videoBrightness = 100;
-        let currentRenderList = [];
-        let renderedCount = 0;
-        const CHUNK_SIZE = 50; 
-        let listObserver = null;
 
         // ==========================================
-        // 1. TABS & SWITCHING
+        // 1. ADVANCED DATA PROCESSING
         // ==========================================
-        function switchTab(tab) {
-            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
-            document.getElementById('tab-library').style.display = tab === 'library' ? 'flex' : 'none';
-            document.getElementById('tab-api').style.display = tab === 'api' ? 'flex' : 'none';
-        }
-
-        // ==========================================
-        // 2. DATA PROCESSING (FETCH, URL, BULK, UPLOAD)
-        // ==========================================
-        async function fetchM3UFromServer() {
-            try {
-                document.getElementById('folderList').innerHTML = '<p style="text-align:center; color: #aaa;">Fetching local server file...</p>';
-                const response = await fetch('playlist.m3u');
-                if (!response.ok) throw new Error("Not found.");
-                const text = await response.text();
-                let parsedItems = text.trim().startsWith('{') || text.trim().startsWith('[') ? parseJSON(text) : parseM3U(text);
-                if(parsedItems.length > 0) {
-                    folders.push({ name: 'Server Playlist', items: parsedItems });
-                    openFolder(folders.length - 1);
-                }
-            } catch (error) { 
-                alert("playlist.m3u missing on server."); 
-                renderFolders();
-            }
-        }
-
-        // NEW: Fetch Remote Link Logic
-        async function fetchRemotePlaylist() {
-            const url = document.getElementById('remotePlaylistUrl').value.trim();
-            if (!url) return alert("Please enter a valid URL.");
-            
-            document.getElementById('folderList').innerHTML = '<p style="text-align:center; color: #aaa;">Fetching remote URL...</p>';
-            
-            try {
-                const response = await fetch(url);
-                if (!response.ok) throw new Error("Failed to fetch.");
-                const text = await response.text();
+        function extractFromDeepJSON(obj, results) {
+            if (!obj) return;
+            if (Array.isArray(obj)) {
+                obj.forEach(item => extractFromDeepJSON(item, results));
+            } else if (typeof obj === 'object') {
+                let url = obj.url || obj.mpd || obj.link || obj.stream_url || obj.file || obj.src || obj.source || obj.hls || obj.dash;
                 
-                let parsedItems = text.trim().startsWith('{') || text.trim().startsWith('[') ? parseJSON(text) : parseM3U(text);
-                
-                if(parsedItems.length > 0) {
-                    let folderName = url.split('/').pop().split('?')[0];
-                    if (!folderName || folderName.length < 2) folderName = 'Remote Playlist';
+                if (url && typeof url === 'string' && url.startsWith('http') && !url.match(/\.(jpg|jpeg|png|gif|svg|webp)$/i)) {
+                    let title = obj.name || obj.title || obj.channel || obj.id || obj.description || "Unknown Stream";
+                    let logo = obj.logo || obj.icon || obj.image || obj.poster || obj.thumbnail || "";
+                    let group = obj.group || obj.category || obj.genre || "JSON Data";
+                    let lic = obj.lic || obj.license || obj.key || "";
+                    let token = obj.token || obj.authorization || obj.auth || "";
                     
-                    folders.push({ name: folderName, items: parsedItems });
-                    openFolder(folders.length - 1);
-                    document.getElementById('remotePlaylistUrl').value = '';
-                } else {
-                    alert("No valid streams found in the fetched URL.");
-                    renderFolders();
+                    results.push({ title, mpd: url, logo, group, lic, token });
                 }
-            } catch (error) { 
-                alert("Error: Fetch blocked by CORS or URL is invalid."); 
-                renderFolders();
-            }
-        }
-
-        function handleMultiFileUpload(event) {
-            const files = event.target.files;
-            let filesProcessed = 0;
-            for (let i = 0; i < files.length; i++) {
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    let parsedItems = files[i].name.toLowerCase().endsWith('.json') ? parseJSON(e.target.result) : parseM3U(e.target.result);
-                    if(parsedItems.length > 0) folders.push({ name: files[i].name, items: parsedItems });
-                    filesProcessed++;
-                    if(filesProcessed === files.length) renderFolders();
-                };
-                reader.readAsText(files[i]);
-            }
-        }
-
-        function processBulkLinks() {
-            const text = document.getElementById('bulkLinksInput').value.trim();
-            if (!text) return alert("Paste text first.");
-            let items = text.includes('#EXTINF') ? parseM3U(text) : [];
-            if (items.length === 0) {
-                text.split('\n').forEach((l, i) => {
-                    if (l.trim().startsWith('http')) items.push({ title: "Stream " + (i + 1), mpd: l.trim(), group: "Bulk", lic: "", token: "", logo: "" });
-                });
-            }
-            if (items.length > 0) {
-                folders.push({ name: 'Bulk Import ' + new Date().toLocaleTimeString(), items: items });
-                renderFolders();
-                document.getElementById('bulkLinksInput').value = ''; 
+                
+                Object.values(obj).forEach(val => extractFromDeepJSON(val, results));
             }
         }
 
@@ -265,12 +173,8 @@
             let extracted = [];
             try {
                 const data = JSON.parse(jsonText);
-                let items = Array.isArray(data) ? data : (data.channels || data.data || []);
-                items.forEach(item => {
-                    let mpd = item.url || item.mpd || item.link || item.stream_url || "";
-                    if (mpd) extracted.push({ title: item.name || item.title || "Stream", mpd, lic: item.lic || item.license || "", token: item.token || item.authorization || "", logo: item.logo || item.icon || "", group: item.group || "JSON" });
-                });
-            } catch (e) {}
+                extractFromDeepJSON(data, extracted);
+            } catch (e) { console.error("JSON parsing failed", e); }
             return extracted;
         }
 
@@ -279,6 +183,7 @@
             let extracted = [];
             let current = { title: "", logo: "", group: "Playlist", mpd: "", lic: "", token: "" };
             let hasExt = false;
+            
             lines.forEach(line => {
                 line = line.trim();
                 if (line.startsWith('#EXTINF')) {
@@ -288,6 +193,8 @@
                     if (m) current.title = m[1].trim();
                     let l = line.match(/tvg-logo="(.*?)"/);
                     if (l) current.logo = l[1];
+                    let g = line.match(/group-title="(.*?)"/);
+                    if (g) current.group = g[1];
                 } else if (line.startsWith('#KODIPROP:inputstream.adaptive.license_key=')) {
                     let p = line.replace('#KODIPROP:inputstream.adaptive.license_key=', '').split('|authorization=');
                     current.lic = p[0];
@@ -302,10 +209,87 @@
             return extracted;
         }
 
+        async function fetchM3UFromServer() {
+            const filesToTry = [
+                'playlist.m3u', 'playlist.m3u8', 'channels.json', 'movies.json', 
+                'streams.txt', 'tv.m3u', 'data.json'
+            ];
+            
+            document.getElementById('folderList').innerHTML = '<p style="text-align:center; color: #aaa;">Probing server for files...</p>';
+            let foundAny = false;
+
+            await Promise.allSettled(filesToTry.map(async (fileName) => {
+                try {
+                    const response = await fetch(fileName);
+                    if (response.ok) {
+                        const text = await response.text();
+                        let parsedItems = [];
+                        if (text.trim().startsWith('{') || text.trim().startsWith('[')) {
+                            parsedItems = parseJSON(text);
+                        } else {
+                            parsedItems = parseM3U(text);
+                        }
+                        
+                        if (parsedItems.length > 0) {
+                            folders.push({ name: fileName, items: parsedItems });
+                            foundAny = true;
+                        }
+                    }
+                } catch (e) { }
+            }));
+
+            if (!foundAny) alert("No compatible playlist files found on the server root.");
+            renderFolders();
+        }
+
+        function handleMultiFileUpload(event) {
+            const files = event.target.files;
+            let filesProcessed = 0;
+            for (let i = 0; i < files.length; i++) {
+                const file = files[i];
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const text = e.target.result;
+                    let parsedItems = (text.trim().startsWith('{') || text.trim().startsWith('[')) ? parseJSON(text) : parseM3U(text);
+                    if(parsedItems.length > 0) folders.push({ name: file.name, items: parsedItems });
+                    filesProcessed++;
+                    if(filesProcessed === files.length) renderFolders();
+                };
+                reader.readAsText(file);
+            }
+        }
+
+        function processBulkLinks() {
+            const text = document.getElementById('bulkLinksInput').value.trim();
+            if (!text) return;
+            
+            let items = [];
+            if (text.startsWith('{') || text.startsWith('[')) {
+                items = parseJSON(text);
+            } else if (text.includes('#EXTINF')) {
+                items = parseM3U(text);
+            } else {
+                const urls = text.match(/https?:\/\/[^\s]+/g) || [];
+                urls.forEach((url, i) => {
+                    items.push({ title: "Extracted Stream " + (i + 1), mpd: url.trim(), group: "Bulk", lic: "", token: "", logo: "" });
+                });
+            }
+
+            if (items.length > 0) {
+                folders.push({ name: 'Imported Mix ' + new Date().toLocaleTimeString(), items: items });
+                renderFolders();
+                document.getElementById('bulkLinksInput').value = ''; 
+            } else {
+                alert("No valid streams found in text.");
+            }
+        }
+
         // ==========================================
-        // 3. UI RENDERING & LAZY LOAD
+        // 2. UI RENDERING & WATCH MODE LOGIC
         // ==========================================
         function renderFolders() {
+            document.body.classList.remove('watching-mode');
+            
             document.getElementById('searchInput').style.display = 'none';
             document.getElementById('backBtnDiv').style.display = 'none';
             document.getElementById('movieList').style.display = 'none';
@@ -314,7 +298,7 @@
             listDiv.innerHTML = '';
             
             if (folders.length === 0) {
-                listDiv.innerHTML = '<p style="text-align: center; color: #666; margin-top:20px;">Upload playlists or fetch URLs to start.</p>';
+                listDiv.innerHTML = '<p style="text-align: center; color: #666; margin-top:20px;">Upload playlists or fetch from server to start.</p>';
                 return;
             }
             
@@ -331,49 +315,53 @@
             if(confirm("Delete playlist?")) { folders.splice(index, 1); renderFolders(); }
         }
 
+        function clearAllFolders() {
+            if(confirm("Are you sure you want to clear all imported playlists?")) {
+                folders = [];
+                currentFolderIndex = -1;
+                currentCatalog = [];
+                renderFolders();
+            }
+        }
+
         function openFolder(index) {
             currentFolderIndex = index;
             currentCatalog = folders[index].items;
+            
+            document.body.classList.add('watching-mode');
+            
             document.getElementById('folderList').style.display = 'none';
             document.getElementById('movieList').style.display = 'block';
             document.getElementById('searchInput').style.display = 'block';
             document.getElementById('backBtnDiv').style.display = 'block';
-            initLazyRender(currentCatalog);
+            
+            renderPlaylist(currentCatalog);
+            
+            // Force resize if a player is already active so controls readjust
+            if(window.jwplayer && jwplayer("jw-player-container").getState) {
+                setTimeout(() => jwplayer("jw-player-container").resize(), 100);
+            }
         }
 
         function showFolderList() { renderFolders(); }
 
         function filterPlaylist() {
             let q = document.getElementById('searchInput').value.toLowerCase();
-            initLazyRender(currentCatalog.filter(item => item.title.toLowerCase().includes(q)));
+            renderPlaylist(currentCatalog.filter(item => item.title.toLowerCase().includes(q)));
         }
 
-        function initLazyRender(list) {
-            currentRenderList = list; renderedCount = 0;
-            const div = document.getElementById('movieList');
-            div.innerHTML = ''; div.scrollTop = 0;
+        function renderPlaylist(list) {
+            const listDiv = document.getElementById('movieList');
+            listDiv.innerHTML = '';
+            listDiv.scrollTop = 0;
             
             if (list.length === 0) {
-                div.innerHTML = '<p style="text-align:center; color:#888;">No results.</p>';
+                listDiv.innerHTML = '<p style="text-align:center; color:#888;">No results.</p>';
                 return;
             }
 
-            if (!listObserver) {
-                listObserver = new IntersectionObserver((e) => { if (e[0].isIntersecting) loadMore(); }, { root: div, rootMargin: '200px' });
-            }
-            loadMore();
-        }
-
-        function loadMore() {
-            const div = document.getElementById('movieList');
-            const oldSentinel = document.getElementById('lazy-sentinel');
-            if (oldSentinel) { listObserver.unobserve(oldSentinel); oldSentinel.remove(); }
-            
-            const end = Math.min(renderedCount + CHUNK_SIZE, currentRenderList.length);
             const fragment = document.createDocumentFragment();
-            
-            for (let i = renderedCount; i < end; i++) {
-                const m = currentRenderList[i];
+            list.forEach(m => {
                 const item = document.createElement('div');
                 item.className = 'movie-item';
                 item.onclick = () => { 
@@ -381,21 +369,14 @@
                     item.classList.add('active'); 
                     playMovie(m); 
                 };
-                item.innerHTML = `<img loading="lazy" src="${m.logo || 'https://via.placeholder.com/40x40/111/444?text=▶'}" class="movie-icon"><div class="movie-info"><div class="movie-title">${m.title}</div><div class="movie-group">${m.group || 'VOD'}</div></div>`;
+                item.innerHTML = `<img loading="lazy" src="${m.logo || 'https://via.placeholder.com/40x40/111/444?text=▶'}" class="movie-icon"><div class="movie-info"><div class="movie-title">${m.title}</div><div class="movie-group">${m.group || 'Stream'}</div></div>`;
                 fragment.appendChild(item);
-            }
-            
-            div.appendChild(fragment);
-            renderedCount = end;
-            
-            if (renderedCount < currentRenderList.length) {
-                const sentinel = document.createElement('div'); sentinel.id = 'lazy-sentinel'; sentinel.style.height = '10px';
-                div.appendChild(sentinel); listObserver.observe(sentinel);
-            }
+            });
+            listDiv.appendChild(fragment);
         }
 
         // ==========================================
-        // 4. PLAYER CORE & GESTURES
+        // 3. ADVANCED PLAYER CORE & GESTURES
         // ==========================================
         function playMovie(movie) {
             document.getElementById('player-empty-state').style.display = 'none';
@@ -403,6 +384,15 @@
             document.getElementById('npTitle').innerText = movie.title || 'Unknown Title';
             document.getElementById('npGroup').innerText = movie.group || 'Stream';
             
+            let url = movie.mpd;
+            let urlLower = url.toLowerCase();
+            let forcedType = undefined;
+
+            if (urlLower.includes('.m3u8')) forcedType = 'hls';
+            else if (urlLower.includes('.mpd')) forcedType = 'dash';
+            else if (urlLower.includes('.mp4')) forcedType = 'mp4';
+            else if (urlLower.includes('.mkv')) forcedType = 'hls'; 
+
             let drm = undefined;
             if (movie.lic) {
                 let headers = [{ name: "Content-Type", value: "application/octet-stream" }];
@@ -410,17 +400,31 @@
                 drm = { widevine: { url: movie.lic, headers: headers } };
             }
 
-            const player = jwplayer("jw-player-container").setup({
-                file: movie.mpd, 
-                drm: drm, 
+            let setupConfig = {
+                file: url, 
                 width: "100%", 
                 height: "100%", 
                 autostart: true, 
+                controls: true, // EXPLICITLY SHOW CONTROLS
                 stretching: "uniform", 
                 cast: {}
-            });
+            };
 
-            player.on('ready', () => attachGestures(document.querySelector('.jw-media') || document.getElementById('jw-player-container'), player));
+            if (forcedType) setupConfig.type = forcedType;
+            if (drm) setupConfig.drm = drm;
+
+            const player = jwplayer("jw-player-container").setup(setupConfig);
+
+            player.on('ready', () => {
+                attachGestures(document.querySelector('.jw-media') || document.getElementById('jw-player-container'), player);
+                // Double check layout sizing after a tiny delay
+                setTimeout(() => player.resize(), 50);
+            });
+            
+            player.on('error', (e) => {
+                console.error("Player Error:", e);
+                showOSD("Stream failed to load.");
+            });
         }
 
         function showOSD(text) {
@@ -433,14 +437,21 @@
             if (!touchArea) return;
             let startX, startY;
             touchArea.addEventListener('touchstart', (e) => { 
+                // Ignore touches on controls
+                if (e.target.closest('.jw-controls')) return;
                 startX = e.touches[0].clientX; 
                 startY = e.touches[0].clientY; 
             });
             touchArea.addEventListener('touchend', (e) => {
+                if (!startX || !startY) return; // Means touch started on UI
+                
                 let dx = e.changedTouches[0].clientX - startX;
                 let dy = e.changedTouches[0].clientY - startY;
                 
-                if (Math.abs(dx) < 30 && Math.abs(dy) < 30) return;
+                if (Math.abs(dx) < 30 && Math.abs(dy) < 30) {
+                    startX = null; startY = null;
+                    return; // Normal tap, let it pass through to toggle UI
+                }
 
                 if (Math.abs(dx) > Math.abs(dy)) {
                     let pos = playerRef.getPosition() + (dx > 0 ? 10 : -10);
@@ -458,39 +469,8 @@
                         showOSD(`☀️ ${videoBrightness}%`);
                     }
                 }
+                startX = null; startY = null;
             });
-        }
-
-        // ==========================================
-        // 5. API HUB LOGIC
-        // ==========================================
-        function updateApiPlaceholder() {
-            const s = document.getElementById('apiService').value;
-            document.getElementById('apiId').placeholder = s.includes('streaming') ? "Enter IMDb/TMDb ID" : "Enter Search Query";
-        }
-
-        async function fetchMovieAPI() {
-            const key = document.getElementById('apiKey').value;
-            const service = document.getElementById('apiService').value;
-            const query = document.getElementById('apiId').value;
-            const res = document.getElementById('apiResults');
-            
-            if (!key || !query) return alert("Please enter API Key and Search Query");
-            res.innerHTML = 'Fetching data...';
-            
-            let url = '', host = '';
-            if (service === 'streaming-movie') { url = `https://streaming-availability.p.rapidapi.com/shows/movie/${query}`; host = 'streaming-availability.p.rapidapi.com'; }
-            else if (service === 'netflix-search') { url = `https://netflix-movies-and-tv-shows-api-by-apirobots.p.rapidapi.com/v1/netflix?name=${query}&page=1`; host = 'netflix-movies-and-tv-shows-api-by-apirobots.p.rapidapi.com'; }
-            else if (service === 'rt-spoilers') { url = `https://rottentomato.p.rapidapi.com/get-spoilers-for-movie?spoiler_id=${query}`; host = 'rottentomato.p.rapidapi.com'; }
-            else if (service === 'imdb-actor') { url = `https://imdb236.p.rapidapi.com/api/imdb/cast/${query}/titles`; host = 'imdb236.p.rapidapi.com'; }
-            
-            try {
-                const response = await fetch(url, { headers: { 'x-rapidapi-key': key, 'x-rapidapi-host': host } });
-                const data = await response.json();
-                res.innerHTML = `<div class="api-result-card"><div class="api-result-title">Data Received</div><div class="api-result-desc"><pre style="font-size:10px; color:#2ecc71; background:#000; padding:10px; overflow:auto;">${JSON.stringify(data, null, 2)}</pre></div></div>`;
-            } catch(e) { 
-                res.innerHTML = 'Error fetching API.'; 
-            }
         }
     </script>
 </body>
