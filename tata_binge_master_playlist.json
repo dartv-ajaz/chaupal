@@ -1,0 +1,764 @@
+[
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Deor_De_Viaah_Vich_Nach_Lain_De_VIDEO/70a78e66-5a7b-47ba-a12b-f13083503883/dash/master_hd.mpd?hdnts=st=1774440612~exp=1774462212~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Deor_De_Viaah_Vich_Nach_Lain_De_VIDEO/70a78e66-5a7b-47ba-a12b-f13083503883/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_904_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_904_1~hmac=588b70bb1ee55a24685a1650b95a56d9dd63895b477693308c72ffb1ca2ad548",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..L8EqkVIhGg2f2K-k.sSH38eZ445_wSslHgkpy2l7IJKQDhnswVTtuZaT8COInwDG4-KUCeMuu0DtOim54mFd0Ky9aAfs9buo-iAdh0Tu-L7FcBQxscmFUibowYHxLcb10fau-MOwMOOPGNywSOEOcIoFYAkOPkWJLzDm2KQScq_9tfFqjVz7FFvS6LmwN1ERg1Vx-O4OmjT4C105d14B8mk547s_-2cA-mo0kanwz9uCNAWgAtnq1gm0o9egIXNipeauWVQMoKGKFr8Zuf59XLo5sAktX1Tsb4551vXyBIcN5RE4fnba4T9WEnro0UllPSZCXlDkQSGav4bYU0bbZKpW8PqlGraXv.le6fJqHxyAb9wI4vCq73sQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIIN_01PB_Choran_Nal_Yaarian_VIDEO/98655fc7-04ed-44f4-94bb-37e04aff94a3/dash/master_hd.mpd?hdnts=st=1774440624~exp=1774462224~acl=!*/enc/PUNJABI/MOVIE_MAIIN_01PB_Choran_Nal_Yaarian_VIDEO/98655fc7-04ed-44f4-94bb-37e04aff94a3/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_889_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_889_1~hmac=1d4fc45c9fef7b5689e98875f06cf1352b3e2f0e86ca0617cf21862d28cc3a0d",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..uweVBj4sO1alh7O1.njnVWEnjZGsCGdCNPQKfSJSivgQX5MxW5j0N8ZuRpdyZJerdlhU-VbTT4IHvS1AqLHQvACDgO2LcNoSAHM18zSYMbuT7P1C-B6TjpAGExMT96yu9rORVrUS9kzMF408XkjYk3BSlEgL-LgVfk9jaeeeWByJMAdVleFvaw5cBEz_x-psS0swpxZwQtHBYO5CLEnt99zTCkQwN7jRAtEkKTjK2rlQFvhudrKxrHyGS-otHTkTI_nCOnH4Jw4xk-lw7lFOdwJJ0K5vwrwnzkuN0NDDbUZyx-RpRjbrr5vcsGOrmMN-r7yY3dGuVfbrqxToR-rtiOwB4Q2Sa2LZsiw.CCu7oW9ssm4iGfVcLolDzw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Panchhi_2_VIDEO/e2da98be-94e6-4d71-87a1-82aebc90153f/dash/master_hd.mpd?hdnts=st=1774440637~exp=1774462237~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Panchhi_2_VIDEO/e2da98be-94e6-4d71-87a1-82aebc90153f/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_882_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_882_1~hmac=1424d1348543a0de7162d973ce95185d75ce3557e747773e77a20e52d6546f53",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..aWO_Er83rUPJMCNY.YsRA8MlF84zztAT1pjnfQgrVLLtFuVu02nN3aCRyLFcBaTykBKm57Q1V8n2ESajS09zXNNYgEmLUgnnLG8oGtOa2BkjmFUJ8jTPN14ZN97fiLmMmgdrW5krlfKuo2f6mKAoU9JCGLImiSVpgclvfaJJ5td8Ewg59PixJU1NUzsP4di8HGnDEDvCU5kcSTOspcC23ohyanWDF54Ebe0S9LMB4IBciVXbFY0lYYnf57ba08O8MJlQkMK8m0ZwIL9GQhTpMEv4QxuAZfmaXP2rh8wR2f_saPTFqqpunTE4ru6_PfpX-NrGRaJNlJnTWz8F5hLokGjtvyA-fGix9.3vBYJgnWILrzWiCWRZA0Pw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/WEB_MAIN_02HR_SE06_EP04_Tucha_Lambardar_VIDEO/30a94393-fa17-48e6-830e-d70043cf2082/dash/master_hd.mpd?hdnts=st=1774440649~exp=1774462249~acl=!*/enc/HARYANVI/WEB_MAIN_02HR_SE06_EP04_Tucha_Lambardar_VIDEO/30a94393-fa17-48e6-830e-d70043cf2082/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_video_605_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_video_605_1~hmac=994bd5c327d8fca094b40fb0eab81d2f0e2c1e30ced788bd711375d5ab453f09",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..8dosxVF3BZQ6JD-W.ZujPAxu-zDQ4eAX0v_597WGzN-bBu6-w8G2ZkAxzT3de-Yi0CF0Uta4HjsX0_CWTvVRjI06fhQRl9zLfdCRuvdM0Dg9E11P2bKGiXiqIzZgXbZC04wvRZ-IR-aRt16Faq5W2bT1htof63c3PiXdW-IHPD0R3G0FTJXht54fqyGiehAta10q8qFmJk_P7ECgx2zyXAwi4BR8g2zashbidCff6Gg14aEkFUNqAopyzsIKcsPE96AnAYu4JWhnwscqT0v6RpufwICNbk23dBkqGgDttfkdSzpKc6QJI51J6nJ_5S7LYzv6IXT11_GDsDDFpSJ5DyL9XgIceSB1lbQ.-GWZAyO-94gZEMPcpc7vWA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Yamla_VIDEO/46481bb7-ad6e-4bec-bf93-26a5ff7f5d3f/dash/master_hd.mpd?hdnts=st=1774440659~exp=1774462259~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Yamla_VIDEO/46481bb7-ad6e-4bec-bf93-26a5ff7f5d3f/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_879_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_879_1~hmac=cd2eaa40685cbd9b17a59b14d77189671d66b4bd8067efa5b512b20242ba37b9",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..wuCUJ1KMvpRA1hnu.vrrIZkMQ1M0yOJHU-pi62Ujs_4wwTf_jXjI7WfMBjhTw9UGY_-Q2ybd6u9tSNvv-dW9b-O0XMHI42qcgZI75-eAXSF59wKE7-j3u4QXYt-yaQjDSa6ZFTSCEqOn9OGkYMQYPVAOZ3SOA_Fns0nsrXAJKlpjvlO17Wyybe2bkarU9FZixCEw2QSiZQMedaKrwwKM8h9rhelgK3eC9vnG3SrQUlu5o-n1jhG1kR3Qe4nr5XmZ24MJ_1UjceND5UDbwQecZUBzUHOMYaJgJwTtVfl43oc176863-lFpkkUmzTUsTVsoGGCVYAx7jigRqARTvnqISERuroQt-IAH.bLuliKB5pnyeCy17HXNRsg",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HR_Akasmaat_VIDEO/8f60d128-b003-469b-938a-6bc9608e23a9/dash/master_hd.mpd?hdnts=st=1774440669~exp=1774462269~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HR_Akasmaat_VIDEO/8f60d128-b003-469b-938a-6bc9608e23a9/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_900_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_900_1~hmac=f2ef7acdce294d83243d174fa6944f15c6e781ee8371ecaa903c37cf896dc23c",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..uPfuAfoZD2TJi_LC.F0h63QmOIlA-_pE9X3ssEB356CfiNRkCnpcVk8LNID95oQQqbyr2KLpa7bfuint7bkJlA90PYSrEyzV2StWPUvNjAtXhuM4nwCOTSlvhNZrSHhtm5emiKmD7kIU7mxlRaIWxHbInjydscwrNNmddGR54BWqpr0o1Kh2Vb9RZWRO3oQcknftiuzQ6NlJMK7U2mzdIBx72lt4QN05sY3yYI_MMUDZagR1yzRLCb9R5jAumJRiKGdlHetUDQuodpAZ4hrq2VDKTKgsxPdfLeBbnNMw_6gnCg-qDNMh0wsqpH28W1c46wE1KPEkB1XxeQz32paYINBaxM3HTbbeTtDQ.3NHVaBYt1uWK1_WxbW0UXQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIIN_01PB_Akaal_VIDEO/9466ee34-4688-4bfa-8a05-f0385488589c/dash/master_hd.mpd?hdnts=st=1774440679~exp=1774462279~acl=!*/enc/PUNJABI/MOVIE_MAIIN_01PB_Akaal_VIDEO/9466ee34-4688-4bfa-8a05-f0385488589c/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_884_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_884_1~hmac=58808b6d1fb409072da79f49f82bcfedbbebaaf2627dc4743617769bf7ef801c",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..ZXF4jq_bYl7dTWPB.o9Ai5w6Klu8WRV3dlf1WFtwxIpkszRuTcUCb6wy0yChEFZGZYcgvPOGnQPx_NaxJ7SiY_2D4ZJ69KFPhDD94CTAqMFGlUgxQMKTsoXGlozbYrObPnhxCJKCDlp9rkQpKYRZRCoOBJFbneK2xziTJPyTAkIzE8dTHsgjy-6yIMMbwkRZ6Z32Cs_EDjFtiXyabDRnW7ANr5le_AQ79ffWBeb_zG0Y9MRb2PBPeULTAxKzCGij698ScPzX1LUPMfj15DUQjdxeomm1yRr8ZpbQ49vflNvE7sSht9leaS2rIDOL7c1CGFRKc54DmJxP553a7vE9Bfvy9DTTJhf3G.HvT-0I2l5o1OwyVZZ6JYvw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Sada_Haaq_VIDEO_ST/1670b571-0165-4c57-8dc4-17c208e8c984/dash/master_hd.mpd?hdnts=st=1774440690~exp=1774462290~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Sada_Haaq_VIDEO_ST/1670b571-0165-4c57-8dc4-17c208e8c984/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_899_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_899_1~hmac=7011d0572ba75d549efe19fc1bdee0497be0d1a921a3a512da2f214bd49f76ad",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..bLokHnEPhcDYolea.AVBCI9tdGrYC7l2uD8i2vG1NzzBUKTBMMQ-69jxTNoGmQ90C2uyww6WDfNngiwuuZshepyrf_QfzDRzZKm5hM-o4BJmN3388_g0Vrl9vGR_-T2c9TjfrxRrmynjOxTUBBhbZDyPtn8u4jULY4tLivlcQFxj1VuWDHT2woHTybudWMqZ8-YTPtGjrgWX89JIE5r0R7Gvn9X8I1kDSQSx9uucTK5jR2QK89JVKDnpH5egqEKHCm2R9m5NyEAN-2aSwymW0EiXRCsNgCcO9QohIBDlTOxTb_OCqLtJNL6eeXBqafeSByjjbvI3GhWKV2NEGZB6QD8z8mKxI5w.S8eyWM7q0ZrPejRNeEy6TQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Gunaahgaar_VIDEO/0142c712-6d96-491d-8b16-22508e5ffb94/dash/master_hd.mpd?hdnts=st=1774440702~exp=1774462302~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Gunaahgaar_VIDEO/0142c712-6d96-491d-8b16-22508e5ffb94/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_903_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_903_1~hmac=5e9a43501dec856acbc762a89fd553502bce8ad0ee402e286a50d86f8c67e59b",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..JgcOw_HsbEQFUEwS.a6jJIKXSY_6van0Sgp_KtyHywxc1-Q0WfjnB2sJ8ixM9mBr2VX7qLdg5QIvzSMCfq6mztj3oz9eqIEShdx9OwkUTS9xTNkILsrIpKbvcAN01Nz7Lz5YC_aX_MQY9h7E-cn833oagaFpx6HFyG4Af8KJv9pE1aCuTtUqbZPtbIP2LRFniZDP0ZgBENt89novPWNi5NuppPp7AyWLvZ0vSVc7IzjpcsSOYu4dJCjso2HJjcoNgZVfgRPD9izMWlrzJQwQKkyMsAlwgMCTrlAqis8nwCQXjj02qsWb7f3GZ4LjkwIXJyVRRpualSKP7EqLi4LmQvbWz1xrwPDon.qJA5w8Q9BIhrhFvo8-9jyg",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Jawai_No_1_VIDEO/4814e900-d64e-4b67-95e7-e93dc0dd6d7a/dash/master_hd.mpd?hdnts=st=1774440712~exp=1774462312~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Jawai_No_1_VIDEO/4814e900-d64e-4b67-95e7-e93dc0dd6d7a/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_898_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_898_1~hmac=a1ef88922d65fc401ef5b0ba9b08f31fac84c25bcc964f4cee5fcc413e48fcc4",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..SjXx9mS-HiVs5vIE.gw0dmtA6L2zj3S8fnvvgtSWXhqEhrPTPV3AEHwgWmouXeROVS_60DxoAg8ZOV9mrlJDISNTph1zBlQC3DTi2WqukBaaAdh4cE678Kgf7d2bkQrsqdE32qRrowSMoK6kmh24hpIhhXcqe36CqELUvSbh4oDtLVR83DpTedGNS_a-Z8xDHZc6U7RRYbQ2X9FKnJyjyP-fu-y9UHd5k3OWRXPS7KbUhly6ybAPAB7NC9o-fE38H0t9_Y8MW8WzjdnOz3kzI17LhZfDV5KCqTRxu8v7V6D3V6By5UxdxcZW3rr_x_hTz03PwbxM34ZX5FPK91eGqAjxzEQZ_9pBtVA.AHmC6s3ItP7MnsPmQMcRqg",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HR_8ve_Pass_Sarpanch_VIDEO/0bfc6b89-ce0f-4268-baf6-4ec88cb93835/dash/master_hd.mpd?hdnts=st=1774440722~exp=1774462322~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HR_8ve_Pass_Sarpanch_VIDEO/0bfc6b89-ce0f-4268-baf6-4ec88cb93835/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_895_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_895_1~hmac=0dfc085745140840486bb63beb411fbcfd6e3c20a12c3713426cd9edebc82e17",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..dM51WWXn5tlo-85p.wxs2M4Z36k8nkYwayAhLwmfMVxileKyfF4UnDEByYz1oqeBPELHbxBKay-442W5JDvMpbznl1-cyFAefrVEn2k5d9KWpJA5ucxu8_PHucnkaJhQ6TGMaYzzbDFnyeyT-0SQY-NjjkfAVvb8p7GDvoxq4EZVVhvXE4cwuF2gVoCJ5Lx2JUSapIhlJyOQUf8n95g579JdnSLPj60eZnzKPjmeciOO1uqA9L0N5e_aROrXQXMlmyUbam612F8rRRJwA712etkWzeAaK2X71aTF1t-Zb-laYhZGaavHdXVIpy1yF3WjEAN_-vwd1l02OuvSBMrwrfATlb1yYHbt0muc.kl5wvH59DodgHhAj1VEb0Q",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Chal_Mera_Putt_2_VIDEO/f92ad022-6338-4c39-9a32-b758695a8fcf/dash/master_hd.mpd?hdnts=st=1774440732~exp=1774462332~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Chal_Mera_Putt_2_VIDEO/f92ad022-6338-4c39-9a32-b758695a8fcf/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_568_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_568_1~hmac=c8c93b2e05c680c59035c255ec36ca01b173d0c154e6e3b1bd1567480ef93503",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..xt0l-QHeao321at8.R2S--4rEFFFMkqrJUBYkyg9cgaW0A8ga5bdG7QHiEb-hT_14_BwyoetPp1C0Y6UEi6q3ZT-P-YdERCexr2tKpO7icLZhDpefEPwG9oLy_RbF1ahw2zAtl5TKAGFeiHCQXeZeNtf5XLBtPVjuAueiLZIx373XSxBvEVx6DpBQQ8W8scjlvEhrTJZ2bblTGpSYk6vZBJQtidSIesKDD1kQ0KQ0ppGAIQEm1wzw7YHd137HBwBNoV0NBf70mTNNGgSD_q4q09dPyIqRwq1f3JnevTF6U8GCD0dKHlo1n-ywMhwypv6P0GPxHXPFbNcDGsJFB9l1pmjcRSGnvEDprA.i4MFpPhyuzpJlmZPH-wMQA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/MOVIE_MAIN_01PB_Jatt_&_Juliet_3_VIDEO/e65f49bd-e84f-4426-947a-690281f0d3dc/dash/master_hd.mpd?hdnts=st=1774440743~exp=1774462343~acl=!*/enc/MOVIE_MAIN_01PB_Jatt_&_Juliet_3_VIDEO/e65f49bd-e84f-4426-947a-690281f0d3dc/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_405_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_405_1~hmac=9f62b2144fbd727de93ecc8e08fdba3071eb8859da1550e7e9cde4e324633af5",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..VaZjdWyFDE8--zog.-9zZq4mg7SBGF-VQ6XUU2K6qqCFf2znK16DNHvc6ONOBYDgqlPOt8iOGpNg4S-Z2-s3cvP5sN3HpNq5541Fw6tmnqX_T0h9OmYpdau76BmGbYpcg-bpLwZZisnk5OU-aUkK-9Omksrws9RsN1KdK1FZi9SPCzDDh9S5D97lULb0H-DaSlxmHXw_OuXpF44tSw90pj7QVLAnUy5XMWHWGOABJxOIJsm1Zrd4zUSG8I1GTa1o1l9TrNdHdHv7AmZSJR8U1D-P1rnEfkXJJwgp3x98mBcTFqrivpcOoV7SB92vJlnf_rPzlb_e6NEY9vmaxK48nRB1eOOBXGgo.ldxOLc3wrrto_wy7EHm55g",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Jatt_And_Juliet_VIDEO_tjr/1c1da88c-cfd4-430b-b078-76f5200eb6d6/dash/master_hd.mpd?hdnts=st=1774440753~exp=1774462353~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Jatt_And_Juliet_VIDEO_tjr/1c1da88c-cfd4-430b-b078-76f5200eb6d6/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_84_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_84_1~hmac=e034ee0f20253bac30b94e730f3262f60aa8b239335bed8b5c25bfa04c2166fb",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..tbicv1ypVl8EWxRo.YgUYrlADImIVtu7LFlqIZTumOLnUgJDTBLDRtVP0_FlGO6Tnn0Rsbg3pnl8zucR56fpdjdmcpQ5fjUlLMxAIneBTx1rlb6Cv2j8_BPHycr2i2JynqPAC7KKee8jXLKuoJlVuu-k11dXFhhlEwCR92b9hZEKSk5HqBLUGzoveQc8jGMBTruaFBNpGp9fDxGzeWDZMrFlEJHtiR5afRGQmQHeCWzHlVR3kKih3ptdHYSALcbQO7roLNk_fZCNsUHFKtYRBRgc05yGm90_OOJPKwlAx3ATGlwuaUDzeoCPg1RwaKbml3dS4XuOpCg5U3VepUqFI9vUDRR9E8RbYzA.5IE9cEH__Hc9cM-QuIcJkg",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Jatt_And_Juliet_2_VIDEO_tjr/eca5ab72-8e99-42d2-9caa-d694062cab43/dash/master_hd.mpd?hdnts=st=1774440763~exp=1774462363~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Jatt_And_Juliet_2_VIDEO_tjr/eca5ab72-8e99-42d2-9caa-d694062cab43/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_59_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_59_1~hmac=b1056a4ce1b6d673e2a62c6e93dcd28e571fa011e191017ce73aa4652c3babef",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..wCTCSjygFC8StXhW.RbjP-LrOFdJqQSKc6Hs6UK1gtafAXNaYL8h0MN6ssI2slPK53JxwMhGP5yMWihhW_24O8xsNEGFJP45YL_7EURXYJSow2QYe3tcFwl4Q3DmkE8MImgTmGPPUv-RfjLEvd_ISzhKqdKW33nmH7K9EY_lWdj2Vm-05BCOFtTj70uLAP1xkoLtpQPQU6oqSrJI34yDj7RAQRdZYQCfIuceYsqIr6dx299fzyNth49c4_6VNJ5e_JKjtIvjc7n7oPaXeSPtyIFvoqe6JeS7Cssf30-VM7a3bhnLKKFW2-VOHd9_92UjsfonU_l_z1DAjIy2a-BbJN_urQIVqHGG7Cw.Q_KuXicQQltgECC9sQgOAA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MAIN_MOVIE_Carry_On_Jatta_VIDEO_tjr/541e8dc4-f8c8-4236-ba60-c056ffffef60/dash/master_hd.mpd?hdnts=st=1774440773~exp=1774462373~acl=!*/enc/PUNJABI/MAIN_MOVIE_Carry_On_Jatta_VIDEO_tjr/541e8dc4-f8c8-4236-ba60-c056ffffef60/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_507_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_507_1~hmac=29fd9bdb545aa2dcbea9370c1cd35b8b5b2048a656566b8d4f6b436e9fbcb983",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..PMF6Vjf4H77mrNgT.Wdrag4AF9Qdl9mxRwVbAe_v4iiaQpjcRpv6W0GULG4C_A6K3s4A_nQDxlWNRGsVEsYGasXg-zT6gTjinP6aI6A_1hfgCZM4rRF7Lm-tWV9XiJdrWUht5PepnEhOMEZJ6e4aaBi_zP8vHiHCkVqilCfE81BToXqEh_wC_OHzGH26k6cukPh7ov5j6k8888vBfoNLh0SbQn8M8CWVcRUQOQfyomLng7H5zBxtrz1AvuU0wIm1uWUaezeJnyyrcRYpL9qwH_9qA1L5PYmesNb_qDGoZnD_mIIQG-XBzyZfmMXREZJxkqc5whep_3a9DSXX6iS9uAhXhM88nTHVY.Cu7uUqatoebnYiDJgm1cAw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/MOVIE_MAIN_01PB_Carry_On_Jatta_2_VIDEO/c37f5977-45ba-44a4-9d2d-87a8507aaa89/dash/master_hd.mpd?hdnts=st=1774440783~exp=1774462383~acl=!*/enc/MOVIE_MAIN_01PB_Carry_On_Jatta_2_VIDEO/c37f5977-45ba-44a4-9d2d-87a8507aaa89/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_184_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_184_1~hmac=d7019904828d29e162e2837105e4b1fa40680a741793c7e7598bd641c474f0c4",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..Xoa33pKMui2qfhT8.UTyJepdQpoQd_rqCNQM0tLlRTlAA-_sO5ezJQGDjUaMN1SkJ04JdkoBff7OQEp03aNCFUIDXOOw4Gc3VvqlznaZ9ayYcaaVW-iJqcC3cyxqfxbnbC6zXPhKjKB2XVnlFFqQ78aMil4P3wpG6ztRxsBTGod614fyaPI6_2dlBux5yd24s1xPcycVwTXZPKXOFu2APjHclxPX_nymGWD5cr1YelknWRqlpse60S0Qj90OqTV0wbekzt9SJ9B9AXja6HAtjn7V-PFHthJ8mA7Ffu6QAy1D_PMsOQK_xsfoTS9mxxeAw4zKU8zcYa_2e8sbQddkePFhiVSM-IbqR.w6pZ_aUeolyBjyIkHuf6Bg",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Carry_On_Jatta_3_VIDEO/270bab57-a720-4207-8eee-5bb5eaf1ddfd/dash/master_hd.mpd?hdnts=st=1774440793~exp=1774462393~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Carry_On_Jatta_3_VIDEO/270bab57-a720-4207-8eee-5bb5eaf1ddfd/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_172_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_172_1~hmac=95f0789a21c577703767851edb8f36c2add58f66fe45d873dec805ef50157f6d",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..biG-IycqJZGlysfz.f6oC7NfOP9_vwbWgNQabMNhXzaxHY-I35-Y7Nm-MyiXq8APGBLwyDaelZTzEFn4kfduf5LlwZVpval08jDXBpCioDAYv69Wd3PKtet3MzA-rCPT1UO7JV_pWTvga9z_rmZvMXjBFI2ANfBovhh87h62oYQ8R3rAlTm4ykwSjl96GzvaiVQRwMTPsJqRpsQN-5dVIM4zv0MMbqgizBqZGwqBMN6j4BpaNRXnsvaQtPPlUy4W2biz713B5cGJFFoMukgbq5RaASAYNhTdfQXkcePUSiNbjAiTPS-pp2P-9nTXvVRikSjnwhTS1BotkDvjy6ot5kog7-OR6GGzolhM.15K9m_14kBh7PK_BKs5qvQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/MOVIE_MAIN_01PB_Dakuaan_Da_Munda_VIDEO/ecd9563b-df49-4ff6-8dd6-4237b9df4b76/dash/master_hd.mpd?hdnts=st=1774440803~exp=1774462403~acl=!*/enc/MOVIE_MAIN_01PB_Dakuaan_Da_Munda_VIDEO/ecd9563b-df49-4ff6-8dd6-4237b9df4b76/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_28_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_28_1~hmac=af6d92eee39fd47423c69dc72262c6ada8f32bdfc4e7966c743f7b6b777935bf",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..UIHqybBBgOR4kJ-t._pIkxaf16m28VohMujn7Gc4E5VwmWJOQjBL9KZhx71d-AUrGNms6t-7KBMC7Y72FrygyIFlwfSH7kx7E2BJQN4XU6HzJQsjbHrF50JCYRcoGCfn3kNS_MWeQsRVoQLjqzWqxUfAql2iwetTbms0GGPSpcoUJNr_TYDCrYHrKOblQZIKDbISYwxKv7DmujNdSFXNfG9Sd6exD5OfmTfFo1L4EOQfwmaQY-dX6gNqzGULkwS_PPgWg6ep4PCKqBrge3JagY5I265uUIqla4kxscrRfTta5FWNztmI-0BbJ29ZzG4PytU5C8Nxjb_uWgNZVwTSMGJ3qpG8ltxuP.4qjbT4kGv0J5IPWCYPGaGg",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Dakuan_Da_Munda_2_VIDEO_tjr/63440d3b-a8e7-45c9-8ebb-3fc2ae4a4c3d/dash/master_hd.mpd?hdnts=st=1774440812~exp=1774462412~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Dakuan_Da_Munda_2_VIDEO_tjr/63440d3b-a8e7-45c9-8ebb-3fc2ae4a4c3d/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_211_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_211_1~hmac=f8cd35f0a581b42c56a686836d5dda0c7ea8f71c90d2975bc7d61d6eb9c65d27",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..lie06xLB1RUwBA16.7yv6KtNKIqD-leybtOhqDT0ITvOBxN7mGrJ4E2KyOyI2wtTrwPstxqAyGlBq36AKxvhV2HkRYBjkmInsifwNR6vX-Eic41hHzjIeLpJ-C31rti2XOeaxUpZ6i8oi6RVc2yPyfllqLQI4AcTsL8ZdhaoOMl_drebdz7ZnEDhtVMmOmuzSYHZQz58c4djLwQtKTajHwLVQHcGTmMJY2eq6EcKhsMOtTpwidPVWIaWDXC9KmA3ZwlREkqaWxG_9rkTnX3opxsIZST294EbHSuxf99axlXZInjjJ5aCMheeHh7SCo5cQYKKMO_YwUgCbnrVrJ7epqk5k_fyJBAur.6Q0rEY8ZzaUWfFSuv0lcNw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/MOVIE_MAIN_01PB_Blackia_VIDEO/3ebc7dc0-b67a-46d6-a8a4-62d1907d7cf5/dash/master_hd.mpd?hdnts=st=1774440822~exp=1774462422~acl=!*/enc/MOVIE_MAIN_01PB_Blackia_VIDEO/3ebc7dc0-b67a-46d6-a8a4-62d1907d7cf5/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_553_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_553_1~hmac=86477e2ac55f4d05bae39a767e1ab8e3e5f017b4b1b77ad8fd2811b5ea5b0b51",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..6RoZuqvywzQSFL2B.NqUykifhbhNPr7lEYDAAb9zM3hP_iwwkZaAooISzqYn7v2BS-UKLC3zKkskBS7POdfSBjMZ22ONTM3YOQK6-zgjBCiREQ8wm2FK4X5z48E0k_wT1y10ezOU9fhq12MjmJMRMfyiK_sP2CS-9sxdNWyrqnR-euYCl_UzIKPYwUyPfTlbX2KguwMHICynj3KBy_-53qiGTrRvXsB_1tWc7ZrQ02hpXTTLsdUOwbc9GkMSjpkaFCJ2qWyOreL9Lhts6693B3SYd23g2een3lTvXKf-_q7y7KSBIsc19Fvp6sHkIadyKaznYdFYHlpc3AAD63n-5WCWV9Ff4Ub_g.2dWT_IVvGrNOJDdvxcq3VQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/WEB_MAIN_02HRC_SE1_EP6_Plaster_VIDEO/3c5edf5a-0a97-4259-8fcf-d22155cc54c7/dash/master_hd.mpd?hdnts=st=1774440834~exp=1774462434~acl=!*/enc/HARYANVI/WEB_MAIN_02HRC_SE1_EP6_Plaster_VIDEO/3c5edf5a-0a97-4259-8fcf-d22155cc54c7/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_video_598_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_video_598_1~hmac=a41f5fad3814b543a25ebe1a920eead2588ea5169974cf745f7eaab4c1cec9bc",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..6OF1rrTPnihPDQ9e.xIsmNPsiPki0K3HsSgVoKXPLotnydhdllBo18vpW2BERmgBZOpWoFiN6x6484n0SuAJBfq-z-SppyVjSttkFAH5vTPW-PJSKfMvemTPps0tozSWNiIwG0kf60Fd3DPW3NjS7HnGCN1820rZhB9tpix2wP3Co_L3hcVgJqGKs2mZPkDFFBItPJxCNV05MYJcLsxDd8XxIVVVJbF5uWzesmkU6tgnnjjKbvrrebag7gZQtqwW2UYFEiTLXA6zy1cB3MwAZqnCOSHKRoYZLrmRsLWIuScA4TXa9xAVwNV7x7DabGcQfHJoVWdb1LZkx4GCyEjJRfRAkmcdIP8RF0w.veDTutrWUdKpArDtdevN5g",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/WEB_MAIN_01PB_SE1_EP6_Yaarmates_VIDEO/513117a5-dc5f-45e3-be54-eb6d064bd1c6/dash/master_hd.mpd?hdnts=st=1774440845~exp=1774462445~acl=!*/enc/PUNJABI/WEB_MAIN_01PB_SE1_EP6_Yaarmates_VIDEO/513117a5-dc5f-45e3-be54-eb6d064bd1c6/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_video_581_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_video_581_1~hmac=a6d69f507efca4f57e7135e7a413b4623c8e45cf6f4f8a0e722205893d34b6dd",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..NLViKfD0GGtQVHux.q5jWGulBJ6pLFgbABCL41jywTSAP1s6DCKpjnwB6bSDMNh_JBcaRNYKbmq678dL4lcA1eWheEpSjpKCuX_9KVfpmLKlpNnpzqz6Bp0OGnPnQ3cegQjZq1OsCyX7poaVVtT38l5SVAo0BwYkBNUr51AtXHRnDNWyRgITIxb7P08uqu9lJQNh40Zu3d7yYT1fn-SRlKGOnmxy149L-v0LE3V0Aw9IE4ie7fIUv86XqZWKs_hURcMkh5tUvxV6DnIEdDU5Z8ar0QaPnBEGWtAb_6PgpjzhIJJhpNUy3Gt8ShhaPRk28JNdpjNVsdy7S-bOYgEEA1KF-Z24zq57GYYg.RjOC3LPnKmVv5jk0h3MsUA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HR_Umar_Mein_K_Rakha_VIDEO/965d2bfb-aad2-4969-9b28-872d146200d2/dash/master_hd.mpd?hdnts=st=1774440883~exp=1774462483~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HR_Umar_Mein_K_Rakha_VIDEO/965d2bfb-aad2-4969-9b28-872d146200d2/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_759_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_759_1~hmac=94165a79e6bb7c15837ca572ac7051bfa67391f18dca1ec6612601733774a10f",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..ytnquz9A_Vq6JoU3.m46NVkyH7pKZT-MXa773F_NU2EfrvN3RQh5drl8F_5k-i7Nya72S-mN2xP-Osqx02ZMXTxquiaQC8sVTQptZWmQgk5_QX1wbz9bpTv7zz0Ci1jUywuJ2Osc00k06waFOmGSnWdaecAIPq49U_id1SlIuqrJJehA7L9izbtVHkfNTrlo44Ofxtwbza5ZsvP-s_FK3QWcsv0-8em5DmwNr1_xKTh6qejrCJY5MtcAhs2yVn-JVAO5yA95VaPYrdfd1kDTa8KxHKH2Fi_CNX0FcZuvywj-XXDaESey2_AT2lsObTUawI4oRbifGUC4NZP30l7BFDJWQmqmhnkfq.gTEizTmAkTOmNZFakiTkIQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/WEB_MAIN_02HRC_SE1_EP8_Vardaat_VIDEO/712ffabd-dc8a-42fa-909f-957b461ecd40/dash/master_hd.mpd?hdnts=st=1774440895~exp=1774462495~acl=!*/enc/HARYANVI/WEB_MAIN_02HRC_SE1_EP8_Vardaat_VIDEO/712ffabd-dc8a-42fa-909f-957b461ecd40/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_video_529_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_video_529_1~hmac=f4d8004df3f2a0c6005cc8facc2dc4a589a372a5693e94590adae2ac2e93ae79",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..bYxxdQl3dNehRgD5.jfnto2ppVpHqfu17YIarZK0ToBn-Kp1nlER_-5TOO4_PhvpujEvPD757pLEBBi9COrfBXtkeXTuTaAAroE_L5y3q4snozDVMhLoQgR7ZH9_uczg4iSSgGkDs1y4h5hQiaEQchqL_-F8ufZzRJGASSGnHjdkfIQOYPoW5hTGWBFwdAT1iOYSWOYdpMp-JUITqIz1PKv_8L-3k6E3HuRc-CR5UfxiMPNM1ByAbFvXumariZMrbbmo2_JmMZaI-YJ72fJgbXZuaMAf8Zw39hQijeS969vhYfh6dN0cN-5vsUK6EqhIsiimPpxoKdlNh2wYo801B2Bh6Ha0sK8hK.q0bTcQfFE5lccT1ar0Tj6g",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/WEB_MAIN_01PB_S1_EP5_Pappa_Padhayi_Da_VIDEO/5a2bbcb2-ad2e-40b5-a0ed-f6f5c63b0316/dash/master_hd.mpd?hdnts=st=1774440908~exp=1774462508~acl=!*/enc/PUNJABI/WEB_MAIN_01PB_S1_EP5_Pappa_Padhayi_Da_VIDEO/5a2bbcb2-ad2e-40b5-a0ed-f6f5c63b0316/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_video_487_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_video_487_1~hmac=87d5696dbbb6f69fe9f5b290bba4248dfabd5760b88a0f45f8e7501e42beee7f",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..55CPWuROYZZXlfsN.zo8dw0Cb4fJy0RaLxKB4_ytQiJ3kLSinqYL_WF4abaCnQBvwdCTPaRFnAnTvHUG20UvtZp5hUK942V82KDHhYd9PKb92Bv9Y7yASzy8BDgmVSdR2JbFtSHBE2fmz3HtA3eTQYHvAl2RVbk5uRXw2aviddV9JaWKDjX4f87R5iPwTGZoV-6FChFsxNk9hfV8ufO-bjLDas40xV99eCstX-PrpJMG4MrG6fUIXNvMB-NjAmDnR491tAPaWHTYgd7VPZDU9xUZNPVz_1AbsTG6gcy1Ert0gwV4w6foayFeTZ08iH4jPs-R-BfPj9mO7wAPXjqp2AudsL4Y-9e_vVg.pS6k8u4CYDf8yrD7-_A6nQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Kiraya_Maaf_VIDEO/337c21cf-ed20-4543-9038-c44cdbccd261/dash/master_hd.mpd?hdnts=st=1774440919~exp=1774462519~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Kiraya_Maaf_VIDEO/337c21cf-ed20-4543-9038-c44cdbccd261/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_699_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_699_1~hmac=211f0ddbb663acf72a3ae9c6659233d355a85224402ecfbe9ba13c50ddb48859",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..Yn7pexanE_6nUlLf.uMJQgQRsxIx_hzyo9GED7Q5IUfHgnFXBI_K02FpIwT2dw9xX8rXlddUFU3EMlyq_piZFGobVxTTuHMyg2CewKNFJuFtd2K8SK2HTqc8aQOP0kFlT9BY4Jvynd0p-ndiVfzxeCA6aVJ0YbN2A2RrGrqw_KRd_UoJO2wM6SgvXQn7o70wLPbXTMkhvbAKEw_5AhmNaO-J5kE6ROkO_smn-u2buYX_I78SxIZL4xOfavzT5zcBe2JXZbk29MOWmsGc03mxr_x_Z45atfeK2ZQYaigJcMkTpwgPg43wN3lJYZ4nc7e1KWMjRz5V6dzx0OlTeU-UfWv4jAYYESB9lew.7hOolQo3-s9x9zWLYL92AQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/WEB_MAIN_01PB_EP5_Raula_Basement_Da_VIDEO/ddf44909-7831-406e-9a3f-c3b12bfb7d9f/dash/master_hd.mpd?hdnts=st=1774440933~exp=1774462533~acl=!*/enc/PUNJABI/WEB_MAIN_01PB_EP5_Raula_Basement_Da_VIDEO/ddf44909-7831-406e-9a3f-c3b12bfb7d9f/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_video_478_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_video_478_1~hmac=bf691fc41f07a7ad5539a0a617cd065bd91ed2badf5938b67a1148cd720eefb9",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..tL2D6_NAKTmlKPsI.U-5kwZVVMsDN7cEexafjhFrmedAOUU_jThqL2pAXWwiAWV--Iguho08WCv1g1qA_TGqlCZwG9HZVQZPV4R3W3FFERyyNiofxBzsPLjT2pRTgPXS3UzHd98KiSX8p0QTyf1gADJ0vfeN77TQT5Y1Ng0bLnHes_1dAPKXlWGXiNb7MZ7_6KpXLI9ieYm8yWaQo-p3flphCcrRP06p-BZrm_FRVeY1pHIz_ut_1f_KKUI3FwjUWX3zy7gwk-05WRsJUQZvgm42d98lJIeznBXVGRZWbw_nPIKH-9hky8t5fuPKGjDW_4bAOodIrPVO8qxOfdzWeVArII78-8qTeBw.-9xMMNX0iAOqlbjTofLfqw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/WEB_MAIN_01PB_EP5_Bathinda_Junction_VIDEO/68a21aac-fd6c-49bd-9d24-52f4ca64f508/dash/master_hd.mpd?hdnts=st=1774440945~exp=1774462545~acl=!*/enc/PUNJABI/WEB_MAIN_01PB_EP5_Bathinda_Junction_VIDEO/68a21aac-fd6c-49bd-9d24-52f4ca64f508/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_video_465_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_video_465_1~hmac=23aff5defcc63492978796a515fb88863ee10abd356eaff9478edeca60fedb14",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..mHwUGOeRxspydMXz.emDJlYgXDHTQlmiyq-l1ODSzne4-AJs8s7k2_qk_RTi-wXAPNE2cJSvXz9CEV5BYEylSamQXuFzZXgn2ni4GpVDmfe83M697RknEyprqCdrGuxXW-_KP8NfcCvG_al4FQRXmYvhULmc8b5Ahs2XR4rtZTopGr4CiuZyEUbPEM16hhIMCZEPmf4zBPKzElPId6KyNJeOET5Xrti5tEgJb5_LoQvqJSIV9oZLNfnFNNOeLQisKbkdhu0cti6wEe8YZ3ypbvwTPUJqxVjx-_IwXHdo05PLQWx3Mw9ddvbuwsBBVN9J-NDFGqT6J47u9XG38vgv6lBW_3Rr19iCf.rf-maHeNqbgffTaiDQEwbQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HR_Zila_Mahendragarh_VIDEO/f29136c1-6bfb-454c-8727-5ef46655465c/dash/master_hd.mpd?hdnts=st=1774440975~exp=1774462575~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HR_Zila_Mahendragarh_VIDEO/f29136c1-6bfb-454c-8727-5ef46655465c/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_611_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_611_1~hmac=4c9b65871546a23192d1608c0110d527cde5a436afe899d163df82e6cb4cdb5d",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..OC0biaPPW1aVqNaa.x2YO__Vx6kTQCkpSpEtI-PQIv-nyW1MITXKCufoMW-pxwTpg9PkS5SxQ8MkdhUQgjdDFlXT1O-lu7lWMXIDuYjI2Vjr7m4xhAac0f4dGtOdWo2gwDkampO-BJTWEK9R_ybwJ8WHdy8I1Du83u3U_KULYWyedauKf-_iT9L-tQzoN9kUl6S6L5tZJddMrLNZx0bA-lSH4FIDRoMhp2-AEzhhP-VDFsS48z1bQHiin_Qc4YHqmM55v3OZLYEX2wEvMXrtKRbD22XnCYn_3CMvdfyjcNq-HZcGEjfZeHG4K3Ml7Mg5cGMhlBuyFWyq8TxrjGnLFOoTYHjAt9d4mCQ.4ZGZLp-Hc-6a90T-RYk78g",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/WEB_MAIN_01PB_EP6_Inanmama_VIDEO/abca9180-e2ed-4be5-98d5-7f8a317f0d58/dash/master_hd.mpd?hdnts=st=1774441001~exp=1774462601~acl=!*/enc/WEB_MAIN_01PB_EP6_Inanmama_VIDEO/abca9180-e2ed-4be5-98d5-7f8a317f0d58/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_video_222_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_video_222_1~hmac=c9499e7893390e1cb2b36141d35173eae0ce2f582c19fdf3caf12c3827add8f2",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..1MNfPrVz9OfXzEYP._j_DQjFml4dlrC1WB_JWWnj6XjudJ-DDPk2cARwoMAM3HCSbE0pklBFc2P-0girAlCVXY9o_xpVS8qEEX-6xJqTVomEu3m4esZckpKwJ9l_XMkP6QIVSr0tbIVUmm55WyFm_bjMnM8vavWLsf91aIA8oJp-U-qEIH_W77jxGYvPQLX0K1JlGrgzfk7U7clK7RF_8vh0Y9EbIQNVZwIDrwrbMFQhvR0k8n2I6Be6Azb_vbQKr16lQKGveokwgftrSR--yT1EAW_r4B_q8NZ5YXGGAunhwLYKKDEpap7MX3fg8hSD1qpNmBy4osF-iOnTQnZm9Of7hhGaTmTZ5.UYjVPMYoXBs0AqLeNd_i5A",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Chowkidar_Hi_Chor_Hai_VIDEO/a4b25ab9-98b2-4516-8d58-a7be512eef75/dash/master_hd.mpd?hdnts=st=1774441013~exp=1774462613~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Chowkidar_Hi_Chor_Hai_VIDEO/a4b25ab9-98b2-4516-8d58-a7be512eef75/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_855_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_855_1~hmac=5d91673cfae610121b06a4e95145f32f4c610e7b8ac4ba2640223e12a2a6e8d4",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..DiMPSRucr4V5GYFo.LmHL3AwdJOlyWLuEu91cMEs-3D5Kb4EQXiEsikFQJTdlGDSSjqelYBBVUltNNilwiYv-x49NKDoZ1XuffwCDgoQaLVdJtHIVykQwTgfWcXbm9kT9mdim2J-61xEhG4F2AK-JhzlNUnUI8Al4FtmCD3zfnDnuD63TMHWohJh2gUYsKHa2bCMu-4DJU57kb-1YduHEQrORWh8EqX-NjuDKJ5Wi7rl7kRZ2jXD_fk7gReHXLmND4p9q9fVysSVVoSPf0oTfSbQs8q_V8SCjAlQ6D83u_jAJgae4G7ekThKw22YnrlVevLnnhUadPftzhjR0ekSeMHRaXLEpO0U.t53AaRHiVDKcNMcJFSgtTQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Happy_khush_Ho_Gaya_VIDEO/3fba5d0f-afc7-4dae-8223-51361f6bc6ad/dash/master_hd.mpd?hdnts=st=1774441024~exp=1774462624~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Happy_khush_Ho_Gaya_VIDEO/3fba5d0f-afc7-4dae-8223-51361f6bc6ad/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_861_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_861_1~hmac=3dda62a171b7dffa96c9f32707e77831452a275fd84a1876f296b18008ac56c4",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..9F6FtUKleDl7_LGy.2Mi466Dxlcy_zbjBe8eSaAspTjrV3iupdqtcZAeShvWkaONskBA0gFKCLfzTt44tuNB1aoDbnOiJGLUWEYDImcQw4JX2qNUy2pKTIMJ_XI2XGD2K8UR27W3CmvJeFeYsl_LMo3wl_6sVarwH48Y10KY6fO9kV5f-LuEBkabj6oo9kJAcMZGk6oQe3Lik9zrQU725U9cucqqgewbXbktdB-6tMbiHqbJFIXDthHyKrrp_bZP669GRAZF9lWgHGj1AeqOH2UUO7Py_mPxUrPIZoRv8BOO-j8qvXvUmCvfffJk4b_yQMAyjajHgbiLsF_MMmmEziJ1okUn2b4w.ms3tgdDCNKpn3bxCE85LeQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Ashke_VIDEO/0b25f6ac-328e-4af5-ac27-1b9d45c4c0c2/dash/master_hd.mpd?hdnts=st=1774441034~exp=1774462634~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Ashke_VIDEO/0b25f6ac-328e-4af5-ac27-1b9d45c4c0c2/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_778_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_778_1~hmac=5a06eda5e59a412f4158de5456e29acf8cadbe11d49ba3f2206be04d3b2a6f4b",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..xz7b3r3PyoY7QKKr.gCgK-TJ0yyZF2lQul9Yhigyixwha9gL0Epy_WWXwMmP4jHaqdHWpUoELNh-KMyal8p1FVJPw2bBNdCTrEsa1fosk_s0_x2M_roUj2ZUHauRcsyvkkH-4IeZcPdhJs9NUphuK-HfRUn11N1LN2HqYZL0zCQmW9prSfjr4cW0hATo2d2lAlaV0oTDoD177lYNn-I0RUBz36lgpBlU2ysmnAhqdZiiH0UPQ21wGEbvMzFshk6GAnbyaEPiJZZILlf7MoXUxXvG4z-s6JGE54whsQtAAcJbBIGjfKRbyUW4W-7ckmMXwE5Htjh5E-5E1_UsPbNbdvus8ijCDuFQ.SJcxvj8uva2BZm8T9Jzdyg",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Ardaas_Sarbat_De_Bhale_Di_VIDEO_ST/281bca4d-eea8-4271-8d7f-70fd6b70b245/dash/master_hd.mpd?hdnts=st=1774441050~exp=1774462650~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Ardaas_Sarbat_De_Bhale_Di_VIDEO_ST/281bca4d-eea8-4271-8d7f-70fd6b70b245/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_864_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_864_1~hmac=83deaef627af5d245b5f7613df1ca9945cc071ece2843a373103fb9849161384",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..R56v1UxkBR1VUDBc.fCxqaiokWlUkhw3g-msWcvIeBtxD9IwPge_nxJdxjFLKmpTKK8KDL1MsAwdIeyM8f_52yKFkcuAJW6bJrkgyEJ0NCtDHWhQYIj7m-Pq2oqy8fTGoDJLbZCulMdW2eOAIGk4gdHnGxIvA9aR7s1lRSU7chqSIqwo6hsRfTRkiDpGtpX_rjJcD-QuS1oB5SkCDwbf7JeBgeQUioh7eXOdJ9qiejXTwuhS-CdHvvbv1LH813fOiEB4gXnBNX4xDTxF3rKZBuyEgWh3jTQP0I7I24tRTS3nGv7viRkxU_Z95qU8g1rWHhKvOK_KeoeBB2eB9U2pxQaAgdZSGkhi9yQ.ON3N3qKCwkm_jgMf7Rw3RQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Laiye_Je_Yaarian_VIDEO/f9d28f55-fae8-4f81-ba94-d9374a1aaf28/dash/master_hd.mpd?hdnts=st=1774441061~exp=1774462661~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Laiye_Je_Yaarian_VIDEO/f9d28f55-fae8-4f81-ba94-d9374a1aaf28/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_764_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_764_1~hmac=2c3f706fdbd9d7dea3d0187da81392d04c0e73b9ef5ffe8284cbb8ed928fdd8b",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..BbIIHmeBbEY8rHRX.nthJW0XveviLFiQRT7M6B-F9sKqsXBorXzDAuMA3jFxL3xHZy1eQcUhWYdKzL9wyKh1GgMO2UPYptEEettuAw1acYROqGXkGrxCagx7TUdsqGyVX44-lEPK_KhHw0nLXy2JvMiKu15ev_mb0ruUFozl0Jh6Oa7pdGTc_7nW1Ens4IiOWoy8svMGUa1ySq4ZgGOsID4PxLjza1y_z2nk04ZUBC0A3zge8E0CTjm4WXeqEO8DJktfsJum38Yup5Y5nhe9RLNt0hI6oSWM8egxRGEZksaan9K8acgSECt38vKK4I5U2u3zN0HCAQv8kP9OvDqA7pbKm6TgDVgkc6A.l2t979u8LqGbK6z4HLE7xQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Poorna_VIDEO/da8ceccc-b89b-4221-9278-1b9ee8ac889a/dash/master_hd.mpd?hdnts=st=1774441073~exp=1774462673~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Poorna_VIDEO/da8ceccc-b89b-4221-9278-1b9ee8ac889a/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_870_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_870_1~hmac=c696a700acd4ab6727e1ef39dde823ef3b8b7ba7a0c134112dfdd4d2f768cac2",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..VisH2Bw6exZNXTT3.yeIJzkEJkxetfiIwDWV0W_W1EatcTwe2caklcv58fqPIjUm0Z5Xsb0s_VY_YDjIvniQJJluMJhTVxh19mWUjlO97zGQAkpRp3kH86G0UveUKoXnlEfoO-y372CRPiBiu1JpUNOhV2mOLLcO98ffaemgaBtQwkMfd5OFwrIuvN3bVlJ5afvCZGYFpRxh_i5gJNnE5DB4707KFasiZE9KL38ifdRpKgnI6eH0KB1ukDq5tB11MYnwoGxpWmq1Ij-8oHaQF9DahSDLO9C1HnrmDN_yB7sdgIqp_yiOBDQ6Qwg5epRcmiyYJiH2MjabzeQpvKhhzdrqP_v6C7Fw1.tyew5g9-geVo1_IpcFbMsw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Bhootan_Wala_Khooh_VIDEO/944ba285-b6f2-40ab-8f0f-74e5a205315e/dash/master_hd.mpd?hdnts=st=1774441084~exp=1774462684~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Bhootan_Wala_Khooh_VIDEO/944ba285-b6f2-40ab-8f0f-74e5a205315e/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_881_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_881_1~hmac=c8747ff0b3ace3f13106402b854a3f6905923394a52196571dd49f5b8a48a8f8",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..TcFajlyFSyXPoYGs.3OSFqPYDU4AOUHNCvqd7ejbkl2mqxkLzjU6ShHxnLICfFe7sxcDch6ola_d_lMuqHir4aLwmP5AhEBliH6hZ4R0ag8-P6UMVTvBJsGVmhKyo3OHiMoMIrjxvSw-qqhK0_gPBfu4s5GAICZtaD_uhAUIB71yF79BEUxqmtoZmDevxp7YR8a_hDVFD_C83_RA6mXqKVwu8kKZBvwUTuRHjBT85wWKIgd69s8OF8hwgtYXcMhe7jQuWopuNPHIdm1-Rb7wj1oTbqWavkdEsoOPDQDCcfyHrp3a6UgxJjTPRoG9368mJLPmpxBq0iVxWw7xYrmWq8MhXXredhrv8Uw.weHbxyXEwfN-j_nc2LOe2A",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/MOVIE_MAIN_01PB_Kaka_Ji_VIDEO/948bad09-e70f-47e9-98d7-232f2b305b82/dash/master_hd.mpd?hdnts=st=1774441096~exp=1774462696~acl=!*/enc/MOVIE_MAIN_01PB_Kaka_Ji_VIDEO/948bad09-e70f-47e9-98d7-232f2b305b82/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_227_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_227_1~hmac=d11310d06d3648d9c389c3e02b1bc265f19f8e174f536b089dcdff81ec0d152c",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..r442sGiT2L8YD1TP.WIcneYLOAco95maEJG1eM478gEQuhRzGuKogKhTrvhMJ6768_o8PNAoyr-r7DZfm4E7kFEjsXIQpZ8GNcoTZx6JGjevAYwlH-Ng9qct9ocYYp-743LT9NOStSx8DLsI2B3H47DZNXi7WniBlpXgvarMkEGuvPmEqKwAJn0i1MgTAYCoCO0jppxH_kQK0eZ9vavkUPjhTXYwClS3J0mr2NtzOJ-DkB9Uztz02-leZndDSIQ21ZTfzNgROBwlyrH_OkVErjrzfxJD51pYVNLa2cH2Lq3EvCFBQyz-Q64Io-NVfElti3lYF8dfuG5wIIhPHnBplD2ZaHsTOeFH6.JEeUv54PwA1WpVUXsr4OTw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HR_Kissan_Ek_Business_Man_VIDEO/131d7155-5620-47c4-a48e-ed406f4e4dd1/dash/master_hd.mpd?hdnts=st=1774441106~exp=1774462706~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HR_Kissan_Ek_Business_Man_VIDEO/131d7155-5620-47c4-a48e-ed406f4e4dd1/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_597_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_597_1~hmac=1fcb94b118cb5e9597fbbb2b2d167d0b65bc7be946d2d1de844b9e68191992a1",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..d3Fr6EJZgtbw-eiz.3nk8OPdwBeU0x9bL7rBRlW6iZf5RcRIuyazzdfQdK2vdh6Nm9tnzw59ZaI100Lbxk7i9O3XCPEv49fxxFph2n_zgHd5vgHvtY28wszAM2ZXQdueEISuZv3hucv-yL4LfcklqefKtTy-7L5E8O0r_5g7Bz-2MqO_Nl6vmRyl7hyiHWlDqGnIvlVF1SdVtxZWwxb_z21Zm9Yh3jD877JqfvBZBKfG2_3xMv-h8mAr4IzV3B111gEFTPR7ycQt4-cO7L34Qau67_G8-X5Tq4a3cGxHNiyHxitMDRDTapnngy5dJFE6ipWrSNws-N927xfz612qZ2XjdSQpnlCbK.usMqIddnK7wWK76jYtG-Eg",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Ucha_Dar_Babe_Nanak_Da_VIDEO/a4073c06-f280-42c5-a76f-36a9f0be684f/dash/master_hd.mpd?hdnts=st=1774441118~exp=1774462718~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Ucha_Dar_Babe_Nanak_Da_VIDEO/a4073c06-f280-42c5-a76f-36a9f0be684f/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_551_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_551_1~hmac=003b48c3f7edca4abec01a1fe0b1adc42da473f53af30f8045e291b8f59821e8",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..UmWwAMLUvkhWChy-.yTUutjPa84quk6EfTQSv1tAkStYlcXUsNO2ejjUal2Q5Z4KYKa7_n2LLN75Wpz4q3CwV9Uk0l1cKNDhla8saqtjck5yGq7IDfopmS6z6oflFg2ib37Rashpplyr_fXWUmMfssbHgda8qRRY76KW-Iicsorz6RR6E3Sogvbj0qiy1XmlyO9OIX2mt5nth15IgbhN9F7J0T3fvWs_WSr9uKQSaEojl_2b5ttWRLEgojj0Xh0MKBO2KQP7ezDTcRgJF5Wjg2F6FQHALWQHjOlgtBbx3apmB0_rbLvGITADw41K1rTNlUByBwGjyUtkEec79DxpWqyRCZL7AeYEEmw.UV_UeN3ZyJyPqREE89bE_Q",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Ikk_Kudi_VIDEO_ST1/9dac2cd0-201b-4c73-9d93-838d05f6ac30/dash/master_hd.mpd?hdnts=st=1774441128~exp=1774462728~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Ikk_Kudi_VIDEO_ST1/9dac2cd0-201b-4c73-9d93-838d05f6ac30/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_894_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_894_1~hmac=12493be8dfc406534a0f2aa194167384de00442f94ee59c9b3087ba644c27f2e",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..MlQavFFT3D5Wr3Cf.v5YWJYlDsNC5o-5KaDojGROT-QPX6tLUwx6BI2LMajIKXaKHFo9TW8jR1Ft2BX_g8BZGSH06_tltsk2CFxnkGhyggv091fFcalPvTQVXjOzJDEpXcFx5dQh16Tn97gdEWtOUSJsPlwdf9dG1sKTRum_ZZUEh1HO6_YyfarkTP1aBFIuuJ-pgmKq5ZwRESy_vSSoCAqWbbIa3vZOmIggghXNf0HYKue2XjgJ1f1JCu__hCGtP1c1SXeoR4TXEbqR3u8pII2YTowbfd6a-oHcqcMo7_6mOLtK3JkDRvXPjId4gEGx4QNblKBW8qnqwtx2_t0_knMdjkcwnI3k.IXuaQOd-xB0fkVtLqaRcPQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Meri_Pyari_Dadi_VIDEO_ST/db7e1655-4dad-47cb-b3c6-a93ce40b2ee5/dash/master_hd.mpd?hdnts=st=1774441139~exp=1774462739~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Meri_Pyari_Dadi_VIDEO_ST/db7e1655-4dad-47cb-b3c6-a93ce40b2ee5/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_868_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_868_1~hmac=9309cf0c59a936b12184508c2071132313cd457df7635ff385d5ea615ff52ec7",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..sU3eW_CDJh7nonJf.g2jDzCSa57SiHD8QLPrYuxDS53wvrglv_zbvkJKoEZdn1RNi3cMw4jI1YRZoVmzmN2MPG0YXImO0U1safNwadr43pwfBKwQqQHbPbBZAzTcRtGqS1ptRoQ9maV6E1VhkaIMWVfPSCH16czBvSwL9NfTfFRhJnpkEBBBxudbYvRlsj1FW69ekFP_lSwnt2D7KcHgPHhfv7h-_fcklRbcEJeg6fCtAUSKxqJGwh6TrbAfuhgNVDoJmCBtcl_e65o9re7RNU2Duq7MV3XFJKxuJ2JZe-niIr_7zfjiwiatbVVYjsTuvu4i-SSIZRFxjJiVBLfloEsJ0b7P8a3QliA.1aWmoloKNPBirQSSEgcb9w",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Hostellers_VIDEO/6d5ec5f4-5a57-4166-906c-3af4dc4ed26c/dash/master_hd.mpd?hdnts=st=1774441149~exp=1774462749~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Hostellers_VIDEO/6d5ec5f4-5a57-4166-906c-3af4dc4ed26c/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_877_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_877_1~hmac=dfde8e4d743d148aecadefa9e3efeb6e57ef9f5a1c0ff8492426b6c9778c77ed",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..t9rPfFYX6rwkopBk.aRkjT08RYREUSn7X1rZ8oB5mfY9M-jGmROTmZeSmj4-COs7RE69nJ2mu-MhXVfjmrx4lrK5nzuRDPUk16737GL3jFFlD9m3wzdY61Xjcad6D3Nx3wkW37Vn2TJ8-Nj1UboLWZpN6AMwEghrjZAg0Pvg83Ptu-LpX-V3nyY1_72GlXH38NSBNqs6wyCl1n1xXE1vA88lcSLmi36jCeiBwtBcpetVPAGfF2wrE83NeBA7cjHlo6P23_EgI0qHKuvBDlTy_K7qPkeGypQFODqZLSUDDk8jdACOY6MXvrIAdw6AFzhx5qTCPor0igncefDcaPieSKEX56VvgC3X0eQ.ZRU0qvnGQ9TdbEOVHvhiOQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Guru_Nanak_Jahaz_VIDEO_ST5/d1843dd2-7ae9-42c8-9e49-949d7453347c/dash/master_hd.mpd?hdnts=st=1774441160~exp=1774462760~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Guru_Nanak_Jahaz_VIDEO_ST5/d1843dd2-7ae9-42c8-9e49-949d7453347c/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_776_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_776_1~hmac=9c877ecf3eb745737ef02f4c745feeca16a296d5dc290acb102ea2cd64709c7a",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..tfx9oBeelDNav2VH.7K_0V3uCoWXF6z-LJea-DPG4PyIWVBkJsBFnzagT9fQEcAM1h-Zy_wZsY78TA4ZJrvhHCRHKBxvHZEufvQc5u6qvbEgCsza0vHpvEWBe2GG7EaKVhw758Lln9IV2t91r1AAGgqM8PVv9LXKRb0-fgLOM-GzA3JX5_Q9wUXXB97gHrZHuxKRAbr7WN-PDMH3MTCJfNl-M4fxvd0HjvFfqYOW1r6YJpD8LQ_hFLPv8PnTvjfTVy52k3O8SiLa0G_bCML1joWc-8R8oitlNjPPnwuv-IhdzZRLyejtGgY7yQPjbXFXyGxu6MTbNNastn9uGDwXXSYuEbJWacxfI.nPOwzZ98vNEv3OlRKLBg2g",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HR_Udan_Zindagi_Ki_VIDEO/3ac49cb8-f3e6-419c-8b52-6257a2ea1cb1/dash/master_hd.mpd?hdnts=st=1774441171~exp=1774462771~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HR_Udan_Zindagi_Ki_VIDEO/3ac49cb8-f3e6-419c-8b52-6257a2ea1cb1/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_369_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_369_1~hmac=950584ee014d789dd6113146ea39c680bbda302627b6cda192e8e15abe525bd7",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..SBBpYB7iIZOSzW2A.gSR7Yb--5IvR4vQ5mgpbsGUsG4lFoIudBNGw099XGzpVRJDTsg9nbaI8mZKm0s9ruJp08M4a875xtJ6kXOmDdlJ4G1fAXv4xMpe2upIYiIeRBFm-3qRGqpZzvaIHnL3lEO8D3ZqG8DOFF6BCConbKFT1XcRttJcTBZXnuy2fgSpdq_fWnSgZ4ViLYb8qd3ZSlfA7Po1PBB-b2-sOdBUYTotJg2NGeNWJ_CYVGPd34P0mOQxdgQijwbljpnen6wVmonLz2I-GG_xAuMhDkSPyx1s920RX210M29gRr7O06Ds5lHH5ZOtFldyO9_fLgHNHZTDw7RciOaHXiEte.a7uuwzseIz0sHr8IY80LVA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HR_Antim_Nirnay_VIDEO/6cfa5bb6-16b7-4fcf-acea-c8688ab2e0de/dash/master_hd.mpd?hdnts=st=1774441183~exp=1774462783~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HR_Antim_Nirnay_VIDEO/6cfa5bb6-16b7-4fcf-acea-c8688ab2e0de/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_616_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_616_1~hmac=d960556091390ec42fe4805f08e1fbfd20f47d619335306d279d36f28e78a2a8",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..JFCGZC4EwDpbpvHn._Eo-9JEDeDsx6CsAtj4Dm7NXjlExwPd9C0hk5iYUjcGFq7-jQG_NpthBoF1YL-crardJWrDOoHv74Cb9Xsf0_MqFZ7X6-1V0HlgHOjWXHckzbT7n8ruQsDTidK4LyQEknaOQUFfUHeBP0nxr-3kOh5hpgNMzUgPJjjuL6Y7AfNhi-nKuAspuiPSrAkuj2IW5w1h0OYqbA4jGov_gHEl7y_L1luKkLXF-Rdxbzs7mt8Kv4mDA0HjXQLAzFpeqE83GOuai2r4Ncs9dBD_V7j9asCumQIQ1SF0gfB9-OixWeyqSGDsbDt9f1naQvWLFaCD-QL5t7BTzk53f1SjFX00.SvC9rxgx9bvP7_dLx6mqFQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HRC_Hawa_VIDEO/acf09fea-d539-4a93-a971-327a8b4a351f/dash/master_hd.mpd?hdnts=st=1774441193~exp=1774462793~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HRC_Hawa_VIDEO/acf09fea-d539-4a93-a971-327a8b4a351f/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_761_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_761_1~hmac=ebeaf22ef40045474ab430b0b9fc3325f47cea46aa77b3e337e3e0342d5e515a",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..M_RcqsgSdsL81sxO.M4cw8wjRJR2wTLzQ7VhSEbkHK1ymYJxMT31waDUx-Ou3pNOCoezDRPXPPmePzQDoF53gBmfTJ5V-N4LIe_csfSlloLtmWVI69zFr9Fn1Bff1SlulnRn6b4MpCYnTCpD_veb9e-SZ2oEXtJHqbjMb1zThSCD7NtP_eUAJLD8eJruRPJ0a2jF6MEhatb0Ukfg9v6uBXxi1IrRm7aMwPp_Zl4eWXf7k8iDPNwp8zYnPFfQfeRwId7-PrrmlYDPZ70EO0Ix7S9vJahKiAo18pAYG9sbheYq_QvEMjPpkASNEWoyPqrxjmRQ86HKHegOdMblyR7MzdMA3Yf7bT-K6WIw.p11mklV6MoTIkqQRSqG0Ow",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HRC_Lakhmi_Chand_Haryanvi_VIDEO_tjr/e663a81e-c414-48d0-b2c4-36abfc86075b/dash/master_hd.mpd?hdnts=st=1774441205~exp=1774462805~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HRC_Lakhmi_Chand_Haryanvi_VIDEO_tjr/e663a81e-c414-48d0-b2c4-36abfc86075b/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_169_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_169_1~hmac=65e9d21c051793ad26f86c65294f88137fcfd6d040eb215ea370414dbd04b9dc",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0.._m27vDiSnDxP_8VX.JVXHMxNcwBmvaY8imvwwC6ifN3oHer6hUSqCIR6f_4LDfS7AAQ4gzsqoAnMXfJc9mcW58m4hOSMIzL-yZbwCnjbWJbENiqEzC5jiOSWIHUoD0psMHvIDdyZHw_P_mkufL0Eirp4pF5CacVWM5i4xXIM0udtPJUyDWzZnJyOCqCoAKDHdhvtGCDz2bdhEzqvll8aAN6lzG41pRP53V83jaFhU8Razm_uUJOHJWiVUqYKJn66miYJt_Hpknvac_r5MXGDQ1f8MauPdFJ7vA6aExonfJp6jW3jpxBS7Np8V6QuKZLD-aM3sqlZR7dPEYBLlnZRJhD3k0nGRJ16iK24.hsAlTYEruRnDXvyF2ODXkw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/Movie_MAIN_02HR_Maazi_VIDEO/0946544b-80f2-4296-8837-5e3819d2d2f0/dash/master_hd.mpd?hdnts=st=1774441216~exp=1774462816~acl=!*/enc/HARYANVI/Movie_MAIN_02HR_Maazi_VIDEO/0946544b-80f2-4296-8837-5e3819d2d2f0/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_605_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_605_1~hmac=df6eba75bbf18897c138bf126d90998e0c496caa93e43737d6f3844c434cb671",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..dmehvl3-eyxd6-U4.abMy95aYYzuLwE3gJQuS2QDDATImy_o5n9-KiLXINB21i1dXywhWkzcKa3rzL7nBDWUvL9Q3rXnmUVu9pR-yxSUjNlmpiG-kqw1p8FOZQ14ZR-JwB2JkEkP299guCZ76YesAuesuq0g2tE-UwCx8xyySk_vu_mm_DNBHGcb0bBPK-eLy9DnPX5avIw2xcYiLVD7RdaSqUARHIxlmbg9zg2AV8UZ6_HeZNVsC72nXJDYL5AgW6F4McHbgGIoKXgSvcVomPt4wJ91sQaKMPPKEXm0_FPTuh6VOUi109nV_ISiUYdfTpbTdvyOxoKfBXK1eUmIgHMmZThnXXXSwzA.aBUGqeKiqMRDvDZ0QorTog",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HR_Kaala_Saya_VIDEO/916422a3-62c4-4bef-aaf2-ca56de8fcddb/dash/master_hd.mpd?hdnts=st=1774441228~exp=1774462828~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HR_Kaala_Saya_VIDEO/916422a3-62c4-4bef-aaf2-ca56de8fcddb/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_847_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_847_1~hmac=4bbef761767724c104e5ccab13669e9a9a19acfa2f3e802bcafd791d998d1cc3",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..T2LcZJ2TcpMNMy8j.qwCJ8MIm1Q05NVllg5LGGiQEqhYg-5Ch_Bj2mtJkXTugHnOsGiXOfmozdSf_E39LqTV_aUgSiM78-aGJDbTNTrefXoda-RhFB_QpaD1n-cOEX37Lk4YGvwFzvXhNdRMxhLPjq_JRZMgbuKsr_Xkn1-Ra6fttYB5H2JgSSRLHTJP4L3dCA4e5ARje6geehi2DvtcFRdXvwdk2DKSSADiOn7YAnjpXOPUMGRajRBYxSkuj-t2xXzRkSCYzm_begyarOT5m8JQrelgYpsteeDFBaT0SW5gbyEU6zOj8PCZg7D5Jb5b1tzW9yvZKOO3t6HLJcm5GdA47I8-Zg34.HOLQa0v-3G_GsiRq52ZR-g",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HRC_Dil_Ho_Gyaa_Laaptaa_VIDEO/b4004a3b-ed0e-492c-84cc-75109ea4bc26/dash/master_hd.mpd?hdnts=st=1774441239~exp=1774462839~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HRC_Dil_Ho_Gyaa_Laaptaa_VIDEO/b4004a3b-ed0e-492c-84cc-75109ea4bc26/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_364_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_364_1~hmac=825abea82cb01f553650a9d2f50d60327096212edf74e5409f74205045c777a0",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..qpf-UAy5vcp7tu6p.GTzXyc0Tf42yihgbzfpJiLkXwjjMmpj3g7cAv8lcTsW5tzCHqoiMkVVvxvns-U2hdJQvsrGCDD8jpMshzfNJRZ90B7vSwkJ4E27gOoPmigWwuv6XHUOZsf4s5lwnpMTiN-E6hLUg-OYhTet-dXng1TEgZUyN8C4xeKH0vWwRgxlxMBvRsds28RX58UlpH3tnqXE_xJyc0U1ILpuiz-FZ2E4PTe9Aoc7fQMoBeoWBwIBFu6LXouyszB3u4yvM-9UbVRoqz-MOznA47SsniJFMaZ4NhAo-yOfwTOjPa35GI_pwlYmTI3lB5hR62Qt7I7mva7H2dumB0OqM5F9_.M9TCU98qM5eMAxB-BF3oVw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Bhajjo_Veero_Ve_Punjab_VIDEO/939747d8-8ed7-43ef-bb34-dbc8d824e0dd/dash/master_hd.mpd?hdnts=st=1774441250~exp=1774462850~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Bhajjo_Veero_Ve_Punjab_VIDEO/939747d8-8ed7-43ef-bb34-dbc8d824e0dd/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_606_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_606_1~hmac=76f9156a8d99a02491a56d03dc4c0bf7cf0322be2690f2a6147bb8b82d559ed0",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..j435k3b5zndXocqU.dRxQSH2w7rOjrRfLPaJWabKR1UJt-ytTZhio4Y7o33w8PkQHJ4VbR07MpHR5aLUTv4MBtnQcyJf2B0Xlmr_beskPxOtWwgUqb9NDsuoZu4CyMjKHqDYY6VIlKiMC70okEDT3qUehEZ4rPFGpC1QLjxbJxPPGJha1qQLHa8I8jGqAuqMCguQoarLkX_iuiPSlVX92BJS28FKGpF0ebYfLTfZQq8sOw1hxJeJgJnE10Yvo7FpgouVWSuAeq7k6m_nbRgOh3h48ShA5BkEUCCns_GNjkfDmoNtCtV3_U1ik_8OcgA431rRYK2q_H1PIr2-KiKtgTogeE3uWeOU.jkiq2l87-DGFJ0UB0sNx4w",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/Movie_MAIN_01PB_Akkad_Bakkad_Bambe_Bo_80_90_Poora_100_VIDEO/227ee507-3eec-4d44-8d11-cc515dc4340f/dash/master_hd.mpd?hdnts=st=1774441262~exp=1774462862~acl=!*/enc/PUNJABI/Movie_MAIN_01PB_Akkad_Bakkad_Bambe_Bo_80_90_Poora_100_VIDEO/227ee507-3eec-4d44-8d11-cc515dc4340f/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_566_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_566_1~hmac=e75cf5548953a98d5684adc863fd65e3ae1a6dca4010090f5251d501327ea1c7",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..biTcDEg9M2ALmH2J.rFTxSgDCVG_dWasYEtENrEgDUT5BbDEiDnwj2JiNKFmktCt8JkGkgdppSqOjhNT4DUUUZryQaf52HTsGbAbxwR_a1BcODvtHlmOtqej5qF72LJ1rLcXvl_t5vqZFx9W61Tp33winWQi0LWfXpzDcXKeoupgDUa3Gd91bR01_nL80i6X0E7aFeVvqswIboBK_H90pDCpGKJgNoOAEdvDA1ZXbywaCy1JDU6qWIWD-emHpn7l6eaD79tFVKNQ0vJVxgqiBVXGYczsiVruUY9fPo5WdblKpMxwHC_LHuLGL67A02h0G8RNICUQTufaGzTRFpW5U5Fg7lHRKzrqPAQ.K5vQhusLmJxB9oE9wU_FBA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Vadda_Ghar_VIDEO/6c785843-dc38-45e5-902f-e1b8b98f0207/dash/master_hd.mpd?hdnts=st=1774441274~exp=1774462874~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Vadda_Ghar_VIDEO/6c785843-dc38-45e5-902f-e1b8b98f0207/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_747_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_747_1~hmac=ff7e118ac84314e17c853904c11fb6db8940a143aca4deca53f884861c42d925",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..NtW758ku3_bkXYRc.3CehGOHvUSmfY86r1p3SYBVOGTaT3cALQOA1TV9G4kclYfAVpiRkPCGqfKokBad0e5Bm6Gbg9v2sGEO7Ri0SeufcMDWv07WLmXdf6sVBibcbc3TPcRxHJPVLyAr_AZWjQTEPSbho3-yV4Irn3_gvGa7Q4h6UKP4LWXt0QzoUodeVmMrTwRAAj2Lx5EzfyP4ayzgeeIwaquFQjJobbIyIwX1nVXhiDHp7BWArdtVg8vk3J9LWlk0oI1JiU4Snw9adHV_-1JKt6NE5sc9qLPXewKANjuooeGbrl8v_q3opdCyK4vz_OI_pYG8-X8pQBPklifPl6k_L9TXV1OpiueA.kSMLNCK3vFe1j_jYmVsqow",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Raduaa_Returns_VIDEO_ST/3d5a8468-84f7-48c5-bd8c-d94716b82283/dash/master_hd.mpd?hdnts=st=1774441287~exp=1774462887~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Raduaa_Returns_VIDEO_ST/3d5a8468-84f7-48c5-bd8c-d94716b82283/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_537_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_537_1~hmac=c602e2facbb9499575888dea8a85d8b7cfaa469c2f1044c364620f8c7da49a4a",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..EworGbP68-FHTnbN.KagzteiZoC4xwbFEptAAcgH5wsv6xp632WvuKla3Ne2SOd2atd6e__aUUGjE7YbflRClev8EduWQ6RgJpXKVtMdutf1WpaWj47bnQNGhvhu6-x-6rxQ9iqt2EsCZ1Mkxpn79nbbZjxPHj_ujjIpgTkk7z6yLA9_0TpM_IRBHG9CF3lQr_wCD25xzvIu1jw_TXVaDfufk4J4xjqh0yt_iLvPDef8q2mEouQeHptCBv90jlD9I9xjxp2Ryek00H5xn2gwX2xPJsiy43dRy2OC4UG-E4aCwlpaDtd1JbxNrqbsqL_1REIin0UV9zOhVkBAvxriX1nrbO0HKm_Y.d97HwUbhc2HF-K46Y9BcaQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Lahoriye_VIDEO/a9c3f705-d93f-4f87-8019-956f8a4c8109/dash/master_hd.mpd?hdnts=st=1774441300~exp=1774462900~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Lahoriye_VIDEO/a9c3f705-d93f-4f87-8019-956f8a4c8109/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_637_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_637_1~hmac=aff49850b05e79fd88229d0736db83a12bd36be6503cbb4280ca4d7adbea30b4",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0.._1NMDiYTrfhU9FHI.MB6z1yEMYd5GQbXPZ2tRZJJIytr6k32oRK6FzW-8w67aOD35r0x_UmWefnmqnnAsJmCM7Qv4fai1qn1ExUrpK6IWX2L0y7gnvniSmO998-2wm13LbD-kZhJIm9pzJSPBwv7r7as449iNFtFdfWs7dQOcPFqIyCs5Wli2t5ipgwuBgNslL_YrV5Jy7XVOXYe5XI0dTDsxaAqoguWLLPB_yDjmtOBQ9tgzM3ZK6QXaEQ9nLLn6cMFc1n67l4R6-81_tENlE_VfEPbnZ5NtXz1TvBMdTt0OfixAXYv8h07y0g1n58LbjXRMD8t72BgbYhbFqA15wUdSCzvzCNEeMg.Og3za_cO_jHmZ9pqKzkrIg",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Rabb_Di_Mehhar_VIDEO/f3a640b5-70ba-414d-8ad2-0127d976c44e/dash/master_hd.mpd?hdnts=st=1774441330~exp=1774462930~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Rabb_Di_Mehhar_VIDEO/f3a640b5-70ba-414d-8ad2-0127d976c44e/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_683_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_683_1~hmac=685c49aceb5d186da9ed9934103d4a560cac0e77c814f6c17a6db047f00db386",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..xjHUydi4N5RUR1NJ.XD3q3qPdFbctF_NJBmnllf3EKEhWpY94_qpGPb7D6ZJBHUUM5kV7IDX8jRiGujj-Jhvmamh665QSLoz2P24vurJ-YBkrCK_8bE_VZy_IWeDkYjZ9GPZLY9HJoqMNz9UZlIe_gUuxu8X0gbawxdkcG2PIDsvZVnStROmDKNhcvBjdEY5Goxx6UtN0y-hX1B6QCInp6y2OKwosvxqaG5yPfwUmO55J8lY1GVSK2MP6UBUtVE_xGOTOo3DyWt42zAX3YB4os5XO1rjWiLL4T21GJieVsf0prMqU8Z3x-L0m7i4RHAKkZPmy92xNqD4TZdd4Rnvyx8mDlzUglzFm.Zzw5VqsYq5V_gW2hmjg1cQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/Movie_MAIN_01PB_Ishq_My_Religion_VIDEO/9b2593e1-6253-4609-bd8e-51048a0328d5/dash/master_hd.mpd?hdnts=st=1774441343~exp=1774462943~acl=!*/enc/PUNJABI/Movie_MAIN_01PB_Ishq_My_Religion_VIDEO/9b2593e1-6253-4609-bd8e-51048a0328d5/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_603_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_603_1~hmac=20214da2796194bfbfec882e011bdb36da3a8083d97e29f9ba0dca6559a1f0ba",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..Oz3WfvHu0grD3wys.EfDetvL4o9MYCV_z71bPogoTKPvhNh0sdnoZtRC9heiqxl26AZPd98f6E-cHiBuVo19z354wfFkF_Iw6d9_ecrWowaZp1fkg7YnMNyhy8ZxDjQT4kAhlZwi6G-a83TBTzE4ek7tMcEmauuDhkG3dWVbZatbhPeL24hpeDKTkSz0woon_YqZItkehbMtKzCfmq9WKvQ-pxxHAqRiYhgSbo6vpaEwbEmALcRb2pusT57CEwXkiK4jiYRn4F-oFwtRaMz6aXWlvS1zBgSPfJN2pcnND2C8tI1RXBM7nQMgisA6qfq9M0W6TasVXo2ccIHK4MxHyV39Uq6K8LeKQLQ.pS9NqQtCy09EW0JsgWqryw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Sarbala_Ji_VIDEO/4fff6e6d-7a2b-49f1-b0e5-92f14eada8b9/dash/master_hd.mpd?hdnts=st=1774441355~exp=1774462955~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Sarbala_Ji_VIDEO/4fff6e6d-7a2b-49f1-b0e5-92f14eada8b9/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_766_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_766_1~hmac=a3d826839928be6d4206774dd136e3aeb2f86cb1b479aac65e2ec21aeddb0236",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..93JS39tIsG9bG_LT.b5A4nh_zZ8fzQ-Iklx2FPu20mT-D_q1IDw-geW2mQ3UXh2D4xaBFK9EUjX8SFGXqzqxYgxN9usEL5h_7PtHRMEoUH4xIRP3lkkUWMQQPj_9ivAflgQ87fwlg3YVUqcD7RS65MQMGcEuHn5D1upaBsqq4SXxphqjkV09vIbOLVXnE0Z9GZepIHEwwqpcqeVphK6If_AAzALLV4j8iaQeS4w29416mRtH02SR2x5mnFUfjc2D1rSAUyrAXa_o1IVC7aXhbw2zmiSgdKQftSyKO5vdc9ILHEdEKDU2kL5hL6mShZVOifX_CxHc2d_h6UI60YjEq53h6zVQHnAnulw.iLX0_MlSKNviZoUBabyV_Q",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/MOVIE_MAIN_01PB_Naseebpura_VIDEO/1ef31d59-5ee5-41bb-8a07-1bcb340a2106/dash/master_hd.mpd?hdnts=st=1774441371~exp=1774462971~acl=!*/enc/MOVIE_MAIN_01PB_Naseebpura_VIDEO/1ef31d59-5ee5-41bb-8a07-1bcb340a2106/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_489_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_489_1~hmac=0375dd95913ead3dcdc74dcf4dc1b26f0c539de016de14cd0608aaa401e50a89",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..fBWhnjTGSK8Q2UbU.zK108sps89P7HNJNy1JHcsXWa4qWZLS7oCNptN-0HC7Y3gn6S3GYAy3wmUBUP9czV3bedIpcRT_HJB4jTcnahqBCzVNC-zxXWXAkYAz7WnQHi-E7e8_IvsfvNzFRxzc5d2zecsP7li7EAIBzm1KdPPejFy4EardmKbjLQKn7jZOPOjn8LHTm3FiDVVnVP7xTzPURjy-ZJsRh-kaIFxywjBtAG73FJnBUWGV2qoBoU9FysJUk6aFNtjfdMXlFDQ-pF7lwYw7FGJBVroLvvXxcevqRSvfbeSU0oXRGtQi2ySdUkm3bX4wBZ2lgSyUlfpOZ1PKUcWHlyUxuX1fF.MaAib1RTIGMOlzphN6zgrQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HR_Plot_Number_302_VIDEO_ST/5f2871f9-cf25-4dc9-84d3-6fb9420e50e0/dash/master_hd.mpd?hdnts=st=1774441384~exp=1774462984~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HR_Plot_Number_302_VIDEO_ST/5f2871f9-cf25-4dc9-84d3-6fb9420e50e0/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_754_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_754_1~hmac=7791a5afe58d9fc9e7ff4669ef49fb0dba08237f9ebae14cfa276ff901b0a11e",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..Q-uieJHf3znpym2c.C1--AmzOdtWvxI__6SCuAT8DTSnL_G_W2cv01PyDNNxUd-gxMjnMI-kZIN9zQLSECmHKCMXQvIjqYJswSy3__KCpDa5DQYtP3ktNOhndvUVo_q4dpaDkEch7iWzGJRpjd2dAf2ZK1h515OtjOZ4K8QXBvQ6hqe6eGjnRvm-heDTmkiWSXIlSXCOw_UEbEQbTKBKgdfPRZgkOfrlcQUzOHucQXoc_O-4DM7GPRIHALpMqVVUTtrGMtlzCVxLyAAGI4ockl9ATqrXQRM09x9fga_uu1TBCQBJcVeOYju_tsyEJT8LGRA-fSVIn9fTclv3I_-ULJr9S1nJArFKh.f4hG9-CuDJqIx9z7gKcItg",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/MOVIE_MAIN_01PB_Warning_2_VIDEO_ST1/cfffbd05-36c5-4e2e-894c-a7cd213489ef/dash/master_hd.mpd?hdnts=st=1774441398~exp=1774462998~acl=!*/enc/MOVIE_MAIN_01PB_Warning_2_VIDEO_ST1/cfffbd05-36c5-4e2e-894c-a7cd213489ef/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_46_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_46_1~hmac=60e975eb2ce314e12ca025ac6f02cbcb9ac538cb3716e1befaf5eb44ee72dc59",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..6BmTeSCdraINeof5.a-AyD_v7fZJQtt3ee-In_-SnjcCq_kCm6Okym_19soPl6jK6DcFdRNbI1zuis4vMMlsGxcjmVFlVzaqnblXI0UByyVXzhQf7lDuzbVxesEKzRK-xiUVqI2uJjh5BEA65sthVDl2WVv19TSrt2EkQnxFxwS2s2mG01vKGWFnRo0vhn7bVIp7BitOa-wqKKnzyHT0NxDO_Jp7BX8dDcdbpFNSddnZTGnObRHN1on3_ALm63suo62Uql40Khgu42IJdeDsoACjiaU-HiKvwtL_K_lXQMmzBf5a522vUYEVJitYC4oSewkauRUvXuEedmkcJBmJHRleV0GhFz5H17g.9V7LbSc1jntVRtKpq5T6FQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Panchhi_VIDEO_ST/7a8c453c-4dc9-4f96-8c00-5a4a029d9f8f/dash/master_hd.mpd?hdnts=st=1774441411~exp=1774463011~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Panchhi_VIDEO_ST/7a8c453c-4dc9-4f96-8c00-5a4a029d9f8f/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_291_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_291_1~hmac=2cf5ca30473a613719956839004c30671d778069bf4f07f65de47b07f798dc9d",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..T0-eeUgg0BiYJRu2.hXdJcW-DeTqSEP1tVWeqBVImKfcDkSyjsW6HnhJne22t1xM2NtPnSH7ZE8yhkxpyWMlP-H8E9GIHosGHMqd_vPN3FA7CGwC9zEt3OxJItruOTzSJTFVqcBurUWUAR-V3mlXbcrk_45ptb9h9vEFfyzFPsVbIY7MKYptrMaUg2x_mmwsOoQVMFVWfaMAmK4iQ7FoDlaiQpM5JmFhCH7vYY4NEcsSOj1muZbI4sDnY6NA6Up1NzVNfbCZNmr5HpqkFU0AoiUSpSpGRhwJknu2nxR4BoSj5_7dA2H52AktFdm8MuTImZq5iZlEEzJ-YNOoOphjctrPorTvrZUAz.fTEVtglrrGl2VKojCKj9fA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Country_Side_Gunday_VIDEO_tjr/53bc1837-0e8d-40ae-8d7d-58af7335e589/dash/master_hd.mpd?hdnts=st=1774441426~exp=1774463026~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Country_Side_Gunday_VIDEO_tjr/53bc1837-0e8d-40ae-8d7d-58af7335e589/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_358_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_358_1~hmac=1035e1964752f23a38a3dce4b8b05f19c9a7d2764b3b8c937aab400192a95736",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..o3Ehzkeo2FOzNOKk.rBZJp2-7jmm3lrlEQBhthha7-bmHpU9lR1aOnIZO9bSgguXxapQsllGYjmN9kX3oD3IkDjEI-QDy53mEiAAIasNsv8Zt3sbaqpQmmz94mKU_JlAhGaR2zUJQWq8FQDk1_prNuo6z1jZiiToNG5r4yAUFOQSeaj26nVfj8KrbdgQ6ReGs8Cyg7FAZh6rc5QQNig5EVV_AK89gwJaYu61esfVf_fhWfLXwosV7G8XFzrL47vubFQPfM-otAAMoestCwS4ymxzMjlm32wGjVyx6IooJckfarLy1QjVEU7x1ILATDDy4DzJnLG5kF38ceM83FFE8-yZW7ufIV0wlfw.52Bt8HIwl2mrLSSy_b43UA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/MOVIE_MAIN_01PB_Dhundli_Saver_VIDEO_tjr/80b52126-37e1-4e06-ac1a-7849d4035ae7/dash/master_hd.mpd?hdnts=st=1774441441~exp=1774463041~acl=!*/enc/MOVIE_MAIN_01PB_Dhundli_Saver_VIDEO_tjr/80b52126-37e1-4e06-ac1a-7849d4035ae7/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_261_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_261_1~hmac=4d2bb8d9c4b2a8ae3c44a55b5ace7ed92b57c442b7f93e39a62904d5bc0465c4",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..ffM2d7OFeMw4P88G.F7d6r5KzY_y36loy1svG7VbI8vrYXKufHGJlo3zQzbxu4V1LI5iipkjyuVyjvd5ENw3tuhsObRHkGaw3rgC5eBA2kbeg4sc8sJvahNssXVWxDauGV41plZ49ja7hZ6JZhq_mULAfWn_p3jkaF5k8cRpqYe4OMEF9SjBZhjj26JooRpr3zGENZWyr1UKWzPFWabP1jNFPunkVTVqhTuGkAY6H6azZH5cB6RN9bpUJ4tD8NnzdNn_wYFhinA0MSTRF-40axm4rW-lioZ11nDkRCy57ts0qpFW2076eD57LLksCA8o_SvB1Tev1D62gYwMbfy2i-9TCw9AvD7sS.qv-YFZbiwFrEmoG6WqujwA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Majhail_VIDEO/534ff9e0-2312-4e40-924d-976112f34131/dash/master_hd.mpd?hdnts=st=1774441454~exp=1774463054~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Majhail_VIDEO/534ff9e0-2312-4e40-924d-976112f34131/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_564_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_564_1~hmac=a1bbeed94a593da8db3109e4175a05f5c8bb5ad1edcf2ee861039b4da0102d37",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..aORkYiOwSfnlJHQp.2WLzmWpWM0u_nZEfhGqnEHocEYXwcra_SDAzIH2564UFRXrg6psTgeQeI-pQMwXTkQYg99su3jjNknpYb-2ETssBT7ENwcJye4jmlBhIebD53c8fMtYwtLTzrBYTnKs7bjUtZ6_sCq36vb6b9STtJeGkK0aFFzMAj-ZWsjMb7v_IbGf3DP0Zh4-ptIRu5SR06yGgiubuIOVazVYsjCttx23vJBFF8kRxm_wQAkfctLwlZojKifRkzOz93KMml3b17l8afG90L_T26r8tEE5fGVxfiOz_E-UhqrZWucwpzSn3j_FN7uu2iStMYHTAF7ijGJurdQyC7d-6oFE.TR3ixHFWUv_6HuGEyXCWQw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HRC_Ghode_K_Dhai_Kadam_VIDEO/57e05987-324a-4014-a07b-8f8609e357c9/dash/master_hd.mpd?hdnts=st=1774441470~exp=1774463070~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HRC_Ghode_K_Dhai_Kadam_VIDEO/57e05987-324a-4014-a07b-8f8609e357c9/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_760_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_760_1~hmac=5647b41a3fb0bf7898fb2cf6694ff8f2b9d31927a61720bd6eed51570825af3b",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..sN0sh6GnymGlhU0g.Ypwq5-hlC32P9c0ZwNamSJGRrsk5l2RVDRHVnr0_3ham8ZWtkpdiMCCXL6teEet-mH6cOpQD_ypasK4GrHg0rpUf3b3XZGc7O6LmE_o3K72v0h4JulLIInKgg9fDXvQkdecd3OZ9hTC-bjjSV2VdzBYs-v9d0APClo3zhi2SWFnfjFSTr8jv7ULAPgyw-2M11bWEOfKe2CVoFadAT3eOyVeMvzpk5NES81Xdy9F-zQ3xbQiZM0hpIFB40Ug8LEpGA8ypUF09AHk4nKi7CgA_IzG2fiFnsvTB-4zVDbfbiczq7ixhvfydo7J8QD3xEDfud6q7n35IC-N3a1Y.EMpXex503TLs4paz7M7hCw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/MOVIE_MAIN_01PB_Sin_VIDEO_tjr/f882b6bc-e0d8-43c6-9606-fba632ded93e/dash/master_hd.mpd?hdnts=st=1774441482~exp=1774463082~acl=!*/enc/MOVIE_MAIN_01PB_Sin_VIDEO_tjr/f882b6bc-e0d8-43c6-9606-fba632ded93e/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_580_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_580_1~hmac=2caffb03dc2a2eab59b19ce5fa2499591604e53a3d6ccebd7a44857044c68c07",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..iGy5ePv1ZBduAmk1.hhln4r7NzfiU95hZTt0MGlKvEXb8BBUlXyj_Wn0m_lv7m8VdZheNUWLu-PXAzCB-L3FZIl7e1DClLmT_TiN6T9KZ_2rmbk4OnSFWXVzCAiVEL2FCl7mpu74FYx26HUKhl3Vk7DXCKPJTliUhVMfRb5_y0F6gnMJ38PuXJ8JqM-Mm045ZOghjSgBqRYM0a_zMZ45W0E35JOpI68zY6ojmcDG169p_dCPhRhURUspZMhtqm33BN7ro06hkiYjv5qEdoAVEoID5jX6LPp8j_cydewXdldMScQACTjGvQIzEGfAV0dWsOInUVknnWz64m_-tXIYpKstz3iOBzgSLYQ.fR0xKnw0xZHgQaqc08tEJA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Tufang_VIDEO/aa721fac-d7d1-43ee-bf44-41f6156e65bb/dash/master_hd.mpd?hdnts=st=1774441493~exp=1774463093~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Tufang_VIDEO/aa721fac-d7d1-43ee-bf44-41f6156e65bb/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_493_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_493_1~hmac=38ba3801adf14752cba666c7a3a25851cd612858eac39c6be9eaacb2741d936d",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..66G_D9xKikOyCFhM.PrhbcFyihzb0Ku6q8mCOmUXFmeLmbMfSl4vhFAqUgzjlVcbBTXPwy28DZefpqpHGu4hm6BDEXgqTRc6sMxjpM7WmQpxcpfJ7Q0Y7atvI9o-G9nH3J2w3XQv2evkQCsdgLaY4B0ff0chy6j4PK5dWaZMwDavwML_x-0BkIEx40SsvHPfUs7VT3NLpduu1g_PUb--3fF_EMOR0iLBMxgroxhZmM_HDNdnhULYBANf2SBDJRUEx0Mzjc9pT3go8Mxy94pt8EdLSy1d5mCMCwqY_AOvfwbDZZEMHNhQ3FfHjmXuys18Q2FC6axS-IcXn8PgPo83Slwe2e1FMq3ip.ar0PTYKx91F0ODYAYDzwyg",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Bambukaat_VIDEO/d0351e77-0bbd-443b-b73c-6c7f664ed7c6/dash/master_hd.mpd?hdnts=st=1774441505~exp=1774463105~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Bambukaat_VIDEO/d0351e77-0bbd-443b-b73c-6c7f664ed7c6/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_289_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_289_1~hmac=71dd6cf295b47c89128c5e70ed50ae585a580c7e615187109a424808c2558770",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..L3Qc2bwso_3UhgeF.hjiHOntM2VdBekCskbdzT09iGoDnhPNKPZPatYBYfRtNuWfHdZgicyGRJ36UFYVB8Oy9XWfOsZR2-jQKmQRSDQO8yFJlIWLy8bbHhjHCmoqYagIIYtWT1OM-tSNVTTZbVXQsYn7GNwT9IJrO0YcBXBREf3YN7YqVvn9LXCtk7vDJgY7foxg9noOUfISbdW-66-JoEy95A_b3r2-qfXE1Cea-sdsP-UMCVLbLNkTcQtCjq6EzrbnEyNrwCbq6ZA02617ws25Tr8G1McnZIzKubRLsVjiFFnLYI4tQJkP9A_ttKOjWj-iJp_yVfVVdko4DBWNn9AB_LVJhhQJobA.eqEZ8HNUgXdyqsETnXYNtA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Tenu_Ghodi_Kinney_Chadaya_VIDEO_ST/c39fac7b-6e94-4285-a788-a105452e1f64/dash/master_hd.mpd?hdnts=st=1774441532~exp=1774463132~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Tenu_Ghodi_Kinney_Chadaya_VIDEO_ST/c39fac7b-6e94-4285-a788-a105452e1f64/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_609_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_609_1~hmac=fa1257d2cd519a756ce4b0faf140266bc60df279431f8f87f3c6d3dc620ad769",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..8_yiyQOr2dvwgcIr.yCXH6Wvb3IQ3TixPJJA1NOAxBmpoQdM-C1mtJfFgPhTvE9m-quEQIYvi9wV0U1mXI4cqGwROppiKr1sj6S2gTmQWS_mqPIru2Y4gPuvhP-esOsB7jUS19aSqn-_EL8Uj-0DUsFwe7r8KE1Ulj58Vt-YlfcflqFXs1T2hD8etCrPjLCA_5KcsFbjJkmk0bQ_DJiNRWG7-z9O9rLBPwBi7ViMuFlFQTLiEGzegy9COtQr7vi-ZcljM7RkHirIuz_uS_iIVJjfkXaiJ004E02j-_cfxoXDqrQVC5diUnCS73pcM6wqkPPhCypxWExVWNie2fXzg2wreTeAm0h-qrA.iGaeA9GXjRbPYepxErIKGA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Mahi_Nri_VIDEO/6ad4b2e6-3da7-47eb-b01f-df9740aa84b7/dash/master_hd.mpd?hdnts=st=1774441612~exp=1774463212~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Mahi_Nri_VIDEO/6ad4b2e6-3da7-47eb-b01f-df9740aa84b7/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_592_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_592_1~hmac=be27aeafd73e7837a8d8534d99bea8a232ddebd5b91c506cc432eace2a6cff76",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..b83TqJjGcMi6Hfyz.-vygGkRfdWp1zLsmm1U8TlV9IsVVOlATg2_-DrL9Ih2pmyhs2mV5Ag7oUJBT7-SeVwrPc_jcyk5jzJVN5p2sesrg6htkG_m0imXJxlrmZ8K93pl8in-t46UsYRTqvqRJIHsDXbTLINm7YDO7mgV0t4FiDimqDYf6esSxEGK2Exau4X9d12GgnLjX-SumWMHvg0HrsWm2Hi7eOE3lgMwaXuUmfRoUiCAhU380yddhKwzgF4CWLX494_oDcN18uKE-969sTFU8GoWQdeaqKLRcnjgz1Y6VKBzXwWXl27OC0OSHHsutBt3UPyaAxVZzzPbAbje05i9-KeBZ-z5u.lVMa6_9vewzw5mUp5-CaxQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/Parahuna_2/cbc69d50-ebab-49d1-a566-f1144b2f1c70/dash/master_hd.mpd?hdnts=st=1774441623~exp=1774463223~acl=!*/enc/Parahuna_2/cbc69d50-ebab-49d1-a566-f1144b2f1c70/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_83_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_83_1~hmac=c03fb5759e2fad11fd4215e37a0d80f6db060539387a84fc8c501258fcb5d692",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..B5HjODsxpUjkj4Uj.Uf9iFfrsWi0BNa3X-gEAK1PvRaf5VGp-IINNLVgNtK3hZu84ZDttr6ft5tg0tG7mLDB99UK6il62VMj3WAWfRUYmyanaDeqY_fLZ71X5LpoiPiBkNdHlzCxidinQ2sfVf3F2ZFbvOfzKj3grESuS3PUdturi9ir1K3WvZHVhk-V216MuZ2R4c89sB3j53OsZ68JgkLTn3Pbkr9r9tNaoW61RieI8poFLetmiPKA1lswSBKZJnElCMAsIlfKMVehnsR3N1YVe0Sl6cnDiUO2-vm14d5AEMF1Zld0yA2bTiITXJIQjHPvIXM1qaiNYDsmDa6MJbdz8zngmI0ffQA.EkjZSvpiAqIGjsmE7gVFrw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/MOVIE_MAIN_01PB_Shukrana_VIDEO_ST/e5f83cd7-dd92-4218-a0c9-859f3bae7406/dash/master_hd.mpd?hdnts=st=1774441633~exp=1774463233~acl=!*/enc/MOVIE_MAIN_01PB_Shukrana_VIDEO_ST/e5f83cd7-dd92-4218-a0c9-859f3bae7406/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_440_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_440_1~hmac=d562170e7b2c1bff346231e06511ada185aadd1c19ef4be3199ffb82eef2ad4d",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..eqlSFb-hYgn1zz3h.nJXLgGKb1WmcLFUv7dxub8x4-jFmuuQHdb_QeAvdAoqjAzXwLy-I2oix2I2ZwpjtiB8gWDHV0j56ZXkSXslVOJIqcjPmfOTTSszbH29dyboSrHZnoFu1rWqRFhmyVMBGaYfl4n2OE2b9QSSHDO2JVLOsfc3qqbdLxKweRwcumz0IZzXEJr-CR7-E16q05U-PtRA4jVNdeLiQENm3Jr3TaJg5a2vWEQLf_6SqVJveOej4uLQJkbu2osQMouqSIqUIpjmzaiJjXZou_GYM40KvHA_2nNSev--Mde6geIj2IEeUyupNEN00GtDVHs6_VPFJzAfUPNsQfVP_zImsHg.NC3Bv2fIBAj3T-idwFshfQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/MOVIE_MAIN_01PB_Vadhayiyaan_Ji_Vadhayiyaan_VIDEO/3fa79467-4c94-4919-81b6-842cc08133fd/dash/master_hd.mpd?hdnts=st=1774441646~exp=1774463246~acl=!*/enc/MOVIE_MAIN_01PB_Vadhayiyaan_Ji_Vadhayiyaan_VIDEO/3fa79467-4c94-4919-81b6-842cc08133fd/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_137_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_137_1~hmac=4f6cfc6a6e0d716a9befdeaf7b0c0c83df40823fa52e3ada870cf9c9a01456bb",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..9deeI28XgGMk0KkR.gmN1PCqvK22frIZxFjiy0xDP2uQvdbckuqR3VYm2r58dcJhqxCrrk5W34hjSeUeCIipO5SJR2rhwvnRx0e2jN7hvpqm1qmCnHAGC459IvvUABZvgpWH0zcPKIi5ZUmC9mL2OM5LAe7CdhQWv-dTelQOOy_gO-2N7GoAP9A7SqThxhlhFPGl-ZS9K9Uzt-XRAQxeIc933GDcHT-IrLnPCGQa7RmjR1LvAjzuYf9iKEWnEErB8XZPbZSWjaTylE6-j3IdRfV1oE8E0tjTcvo5sjWUQcI7LjpBeuKppTfZ9Qj7WQJN6g947QE-1xZk4d88JT6A4XazTEsr9ekit_Q.vUcaTRuFOM8H6_Wudn2R3A",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Welcome_Jija_Ji_VIDEO/49865937-0b73-41f9-8034-dd2de43119a2/dash/master_hd.mpd?hdnts=st=1774441657~exp=1774463257~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Welcome_Jija_Ji_VIDEO/49865937-0b73-41f9-8034-dd2de43119a2/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_873_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_873_1~hmac=1953f9729279410c4ae99fc250ea8f964efb1409cfc813d51a8aeda460484a86",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..kMitLiTk-6lD0o_7.6bLoXUWRRyu_Pn5OYWzxY0x1_AtxSmtdaYa3BoaVWyQBSFQqhcnCBWWWvkMUIzbNyw3YsPOzvG7IL-wR4UL7tVNVoyEJJhNEE_LW4-d_Ru7TJ6fVOtxa3sIGani2UjF1fd4idN1E1r5frEYTzT23XA_FRROxlV0k1-5l9CT7fr4VQlmw9Z1jUnHGPqs_zQ98Sm4SohmYpFHPTwyi38zHxB7R7jP3OjeATuWabA1yKLjYkxjhfzc3AOY2ke7mfQNCHiwZa1RliX-nyCoXkXcP-du3otdJ-j7EWJ9IIlbeFXwMMqeKl2CUatrxdLLBnVZw31gdthEay8fCqjd0BA.wUDcVTiWEV4ByPXmyO9A_Q",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Mr_Shudai_VIDEO/cbaf9a17-83d2-459f-9410-acf01862331e/dash/master_hd.mpd?hdnts=st=1774441667~exp=1774463267~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Mr_Shudai_VIDEO/cbaf9a17-83d2-459f-9410-acf01862331e/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_842_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_842_1~hmac=4fc3806a601e2a2a12567de907e03039d52ac514d563b626b23cce2949156c7e",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..EDjkc8o55YrRc-cM.qGdp5Zhh6sNy99-rZgWrn7RIRHyWwISEvoDPndWF_eHbfuUjEf6cS87_ymRLZu7sJrnr85G8ypy6Z5lCLuaUIwUhQgDIKserp_QPnB98nNP-eXLFm6_sQdxgYMFthmKDflJU4n8W_CHnA3z6mgBqg-sYctC3pKjwBxaVCFCLjmh0VwFNEf5YIsvvwJvpRelC-62SY9lpgXneV5RgSYPrqTPb4ZS6lwL29OwrwE_-3PKt0vv-wDJvDvu13MXOZmEUNimuctsy_4X-RXx5HRW-38QUS7ziUmKCjNMvK7ra-sbWcKVzHJAk6qzDBIm79DjWw-euAZFEvsUqQKsT.x9TZOs7c-rLX7vD31SkKoA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Teriya_Meriya_Hera_Pheriyan_VIDEO/7336c5d0-541e-4d0b-a12d-0deecab0aa51/dash/master_hd.mpd?hdnts=st=1774441696~exp=1774463296~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Teriya_Meriya_Hera_Pheriyan_VIDEO/7336c5d0-541e-4d0b-a12d-0deecab0aa51/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_43_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_43_1~hmac=1620b8eaa2f1aaeea2454a9d9b82da6b22d405de4ac671c7a78ee7529ae667e4",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..a_j5nMHW3pibWB8Y.WmBQ6FzH5bySPhDlAowaeX0qtBcWMe0Pnt9Y5MfamE-5lEBX55IgRSjQaSNegLdaP0Mwt93HKaQYvsKUf3lb51pRXuwPULLMGjxZ6X3GgJqJBUvfpVWCMKYF537t2vy5EJYir3vfqIMvJJQYmsSTyYSKrXQjXPVCAoCFQw0ZEIL4L-TdtaeH_kWThlCAIXYVGDAPywARfKME-ZIoutkUudaKaPt8wnw2XNQ_lvll1r0ifBrQBUFJuJrdPS8tPtczOwRdyD3kDbjZg8sXBel9GjcxKrLQIJINBnvbs60uY5kJGnsO6GxDyTRJJCpGXVD6idqPVXMwlNcd8OE-zA.iQV0VfPNMOGyuEXv6YQUiw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/Kade_Dade_Diyan_Kade_Pote_Diyan/822f3fcc-0e64-4087-abc4-771958f2116e/dash/master_hd.mpd?hdnts=st=1774441708~exp=1774463308~acl=!*/enc/Kade_Dade_Diyan_Kade_Pote_Diyan/822f3fcc-0e64-4087-abc4-771958f2116e/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_336_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_336_1~hmac=4628d63ffb901db725994a039a8a55cd2ea68c6d78fa771e3c9d6d172707d535",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..DqZRGSFjijGbtHCv.mQeIk-7ndkx1JDimoyMWg0rmU1sSNWzzDKJ6dJZxb-GS-HTU6z-qnX1lQKdnezeGqU8Iha-V2zHACmLS5Q8l2hQ4iHyUciICwDyiX4362FL3qSzEG0mxsH9xSKa0YhiPgZdYit9JQs9OZnqtlC7CyHydXnu_VxYdoTnOBpbXDLr67NCNd_tm7z-txuzr66CHENZIi9O9YCsExCg8ZBaz5TcO1koBCxxt7dDo33bW5WY4v0--sZv54pDBzR0HXn4FQcgY8vOqbMB2IRuTxFjy4y9QlPjkSIWyGuCEWMj-nzsHsRQWEVfQxIPaNEsFUio5_O9m46WrKvdqfML1tMs.ELfygJtqXKo7zggbqyE0fQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/MOVIE_MAIN_01PB_Pure_Punjabi_VIDEO_tjr/8cd6a199-d83c-45fa-a890-c4fc40a5eff1/dash/master_hd.mpd?hdnts=st=1774441721~exp=1774463321~acl=!*/enc/MOVIE_MAIN_01PB_Pure_Punjabi_VIDEO_tjr/8cd6a199-d83c-45fa-a890-c4fc40a5eff1/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_436_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_436_1~hmac=09c290d9b91517e92d00ad0554b86f031b614871245c5f44ff151690b286ab06",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..TE9Ap8AwKBo7mCgV.QQxifgAbf7GZgzSmH_jf3Ul6fB-jYnph8TLbIWKLfaVLSiuzBCSGs00E-_R2sRY5s2eFQ2YlZ7pEqMGb0Cs8zeNP01wg3-8to4RE-8xEwlJlDQpoWgzDz6gss4l5YAN1lPQZo_B3CeuUD259AkYXjAs8c5d8fXx3iBAVqf2h3qZjvcu-7NrctK4_XO5OQmzn4SGx7zBYsWnpgziZW9s1Z04doaue_5oRLWas90QEHfvr1JKcl9GWN-PqfH-PZ0qJBWPyPJjF5FW5c8jg2sND9nxAoyr3lCRuZUW1jK9c28MVr6G70ViuQoJXfJpuRTeG2RlDfGrG_j48wcnUYw.6fqoFj71pYPfAi-VrH10Ig",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_High_End_Yaariyaan_VIDEO/adf377b9-9af2-413d-8262-df405431de7a/dash/master_hd.mpd?hdnts=st=1774441733~exp=1774463333~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_High_End_Yaariyaan_VIDEO/adf377b9-9af2-413d-8262-df405431de7a/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_589_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_589_1~hmac=9ae333c7db0d81c61c15059477c6d4f824d8c7aa7f944288cf4ac0a635df5d93",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..TGjoCYhCSmV3R87L.wG22wdWXN5os86MGYgZHhf9vOkaZDlNb-zI9GtHxZDCH3irtymLBiQG99DpjJGV5QBFWPmsy1Afz41AmncpOTSjZKCVFVdHm3UO16WyYElhVBqJNvkcXo0Gwqx6UsqPrDCPpo91lK-5XpqUirkZd3WHP9iKqrgN6ZxB2SYjDGYJMmHq4op8dUdOpWbHrJ9Q38hCW_K3Y-2q0VQVeilTLGd4m8KTUBgVWNl1NTF7V2nCH6fNpQucYrElwON8eC_K5JmKLOS_El3El-XF2P-zzbqT2AwwJgWqLVVuxbmOC_WgH9bLv0ON0cRnKLa1_z1Bqu33uXOdRkqlimjKc.yU7LUjqFELY1FVoQZcI0Kw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/MOVIE_MAIN_01PB_High_School_Love_VIDEO/f28de079-eee7-4e00-ad30-75d8048ab2dc/dash/master_hd.mpd?hdnts=st=1774441744~exp=1774463344~acl=!*/enc/MOVIE_MAIN_01PB_High_School_Love_VIDEO/f28de079-eee7-4e00-ad30-75d8048ab2dc/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_330_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_330_1~hmac=d2e9dde590c418d2d32250aa66ec90717c7aada5b59e95ff5eeea066949d7681",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..gkvGhxlM8pcGJVoP.88cQxl_RicPe9FhXGxaB0KDPFG6LSgjZIlwWoVsvPwUf5QU3pxsUCuv55Fa3fDPpyKUApOHmgl4cYTqsiWm1yFXeRAnW2xO1AmPvYKE4Cjr9KA8fBa7q093LOOryfnaRr7m31FUrJX_Dpr1WNn8tIuZNx89y20TXyHX-2vJnGvz4vo0NfsyHtQIhQqszXO8Lb9focoYFhQisYKb18a_fzwn2Fw9fhr_22bn0b0JQNP7WBZZYLg0lsKtTbGODmlLhZpdZdKVG_TtuAR4Ff4YIRd7T8Ots79wOD3Xig5bSrI5PXlS9kl9iE7wLlAbjbfl95mqyauVnOi9wIETsW1s.zzuK-6v_dnoAbw42q0JXbA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Kudi_Haryane_Val_Di_VIDEO/47317276-4794-41bf-9b75-76e086b41270/dash/master_hd.mpd?hdnts=st=1774441755~exp=1774463355~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Kudi_Haryane_Val_Di_VIDEO/47317276-4794-41bf-9b75-76e086b41270/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_185_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_185_1~hmac=e7463986473942a677d7e27661981bfc283e0da207b942586b94d26ed3aaa3c9",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..r4paLPTNjHN87987.0h1q8WH2UgP6TerChRLBXCbSSh0nVr0kRJrxg3zZCpa_0s2SbvvCFF3V_ii-0f_bSkNNl7FRtMKZQHhvvDJ4XMGz1xGXaN44o0u6Es3GV_Y_YNU8TQWYSmYTEdOAxVne20YbV5GnrPYBsq0TQfeouoLH2sk_L0xcdqoyc1xUkQGMaIdbmlpCHNfRlMDT6osxCnoW5mfZIRekWKGGQH6DKaM7kDYn1Rm7AScfwyYRPshsanza5ZfpxOlPjEVItUSpUKLVYqEscVnF3gE8YwQHVrMbfErk3VAfrGMPYm_OpTPVugOmbS79c0yEwyL9q1ZnxwUa1xXNx09iN4fn.OLqqosESr6jmKlzaRfAlpw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_You_N_Me_VIDEO_ST/4dee6bde-1ca6-4938-9e10-d83c0577cf89/dash/master_hd.mpd?hdnts=st=1774441767~exp=1774463367~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_You_N_Me_VIDEO_ST/4dee6bde-1ca6-4938-9e10-d83c0577cf89/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_513_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_513_1~hmac=25108c5b821e9b78c01eaeb8bb631fce91a7ff57346edecc99a9fff4dc7f7b47",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..MPMFq_AW-XH62qrY.0yUw76XwgxI7LM7EXbnupu0qmB8Lcr386ZyKWqJXV03WOM3un8uYWWYe3XfIYSo7jBNzLLD2uZWE6EE6Ck9iLOWBYEZ4nBPpAPlULxzp2CV9SJUwnw6IrRyZ2joISuM1xDdaRSSFixNtbV4Rg9N3Ngwvj09D2VeqiVdO7d1xKFqcZsR1VJtfs-CWmcOXopyfYbt98n0HZ8YcEncltGBh1YLZ-jDuPhjmEZtzouNS5BzefTF1kbqMnu-m9XArZ8YswNUSXdrUg3S8zMjp718AlE9kyKQLQcBoJW54fUGMp7CC3Wr6RpB59fMVZ_HDPUxXep5h1yu76yqE-NmBdg.pGgKdaSLon5E3We3eyYSYA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_Mere_Yaar_Kamine_VIDEO_tjr/64e9469c-047d-447e-9004-d6fd9291b826/dash/master_hd.mpd?hdnts=st=1774441781~exp=1774463381~acl=!*/enc/PUNJABI/MOVIE_MAIN_Mere_Yaar_Kamine_VIDEO_tjr/64e9469c-047d-447e-9004-d6fd9291b826/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_251_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_251_1~hmac=6cb6e891081eddcc160e9a7a4bbe4b4cc79e804952a412e7d813cd18dfb80d6f",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..tcDkrMO7DOQdWPkg.8MfQeYkazlid0DAwXeaFZHXH-YpKZhNFConDeDOqb0aoDHy4kLDbbxc3_O2R_MXbK0jlrrhwczYQdEn6sR9zodIgywVgNIaVhKqe5-9sURrylNwpmNpYIRSWwdSJk4pcdZQLVbt3JJySlf0U3GZ0aNe67woq9co833Xwdrh1lJrf8GKjX--PhOddQ76WHYSr5FjmuFhM_sCgfOJHhnmrpz4l_gclXwMCRwKQvw2K20rNCiydE2ByCXYCigdLmw2b4NyY6-PnMpbfFPvNxhTJK25NQM89J5rwXvMpdXSNbDxjOHhQxMbw1Eu3XrDL0tGV6YklmNEnrV9MoSU7.fwDJhO36vkbWrTqNJqBQZw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Danna_Paani_VIDEO/4fa2eb54-cef4-4cf0-ae0f-3498ac0d8ce8/dash/master_hd.mpd?hdnts=st=1774441794~exp=1774463394~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Danna_Paani_VIDEO/4fa2eb54-cef4-4cf0-ae0f-3498ac0d8ce8/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_684_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_684_1~hmac=72d3710f812d279c78d764723ae1e9cb539f880ab178b125a0c9d34c8419e930",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..82mPGq6KuH6G4RQu.oQTR9u5VfdMvJmV0RYgH3PtFnXhyR_dbZ5zwzm0UUZneaR836i_shAtXvquTZv_c5EAMSMC-o2PFcNkUFtvxhwmD26DSbWRdwAxTpOqM8hSYlHA22ZfE-mpjG3ElPPPGjPZftWDGkDIPelBh1M84SqsWWvMhZZ-rD9bgRXEtyoeK136VDANCUtFIoUe-_Ek0TKU4ZBsQ2wtpqXl-QPPz96yoC8x90wKcarQR33hApudrFsUYo-dZ4ii_5khp4hutqOd-lEObZKzN2ly8wW7m5r6bVF-bl5ebeqqI2uQBMURyMsBOr8q6aG-hy-DNhKiZht3hzFoWNjzmwzQcWw.Zv9ttLLmVrVtn4mBNNxPjA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/MOVIE_01PB_MAIN_Rabb_Da_Radio_VIDEO_tjr/d51b4351-2bfc-47d7-948f-1c9fddf4f9e8/dash/master_hd.mpd?hdnts=st=1774441804~exp=1774463404~acl=!*/enc/MOVIE_01PB_MAIN_Rabb_Da_Radio_VIDEO_tjr/d51b4351-2bfc-47d7-948f-1c9fddf4f9e8/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_221_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_221_1~hmac=6fd817bc7c45fab3af3d1cdb5af52903555f125cf2877801e37022c021b69ced",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..TxsEBzwiR3mSJZln.5wzFAdGvftRAfxqsudJPf4jEBxuwFgCH5_gH9J1xzEz6oCEAKFCwlKzHPZOPshtUfZXsl_txYo2g3C97iVbp0tW6okJijpY3AUY6vOiqod_nFdnOthuGQ2M-RaQSMOl-C7prwyfa1KSLM6OpeWBZB_XvdCmPare9-51TOC_MKDShvQyStq1Lb0PBaM-f9l_uqlPljJ7JOp3dnISaTEPaVe7r6jidVUXKoURu368t53Ik3Lh4JGp2EjBX0zGfEYC5lQJPAGVxa7fuiCs3nEHscYFpIQhhdZ70jHAah24JPZEipG50n6sRRyoPZLQedXDrBS29sCfNCKR1Lco.R1xM4sSgCv2V1ar-U3hW5g",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Dil_Diyan_Gallan_VIDEO_ST1_tjr/a0b8c446-42fe-48b4-97ca-c2b9cb6cd636/dash/master_hd.mpd?hdnts=st=1774441816~exp=1774463416~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Dil_Diyan_Gallan_VIDEO_ST1_tjr/a0b8c446-42fe-48b4-97ca-c2b9cb6cd636/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_230_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_230_1~hmac=e667e9303b0e7e4415426d6fdb468b2045c26275d5abf5ed3e4e901e261665c9",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..NRgDJXwLZInz9oDz.3M20JW8XCrWdNXkRYRaazvG-6cUC8j7j6YIggALBjt2myniIyII5qp4wAhvOL3hpBU9Y88Bhx6roZ6PEBerXlRuByzmoVLu4Yt9isBWtKk3a02lYu-RF6qDZ2WoVFf7MdTB6c1_RyVI586yCeRnvYyYeHoECZ9LZbxC1v9lm8lVNPDexzVZfrsiFf0But0xBx4nHOoW3WoQ7lOdl4Rwkd04Q9810OVLZB2ab3cqLXx5xd40oKa_leMb43cXnFNMJQWOyd95oei69FO3QgZPFK7YMavLNqkSZ2tL1kBM7edo-LCSOR5QZQgFN7MIOcUp2B2no1XkLOrspUXWz.NgbrZLwqlhn9XZM0UdWBKw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_Best_Of_Luck_Video_cp1/ae14e4ff-e93f-44d7-a836-778b161b4ea2/dash/master_hd.mpd?hdnts=st=1774441828~exp=1774463428~acl=!*/enc/PUNJABI/MOVIE_MAIN_Best_Of_Luck_Video_cp1/ae14e4ff-e93f-44d7-a836-778b161b4ea2/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_359_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_359_1~hmac=064a72860982f92d982ef334e709860f3634ce632415f0595fae0a28e69ca183",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..GLL8qcu3BC7cQ42Q.Cz86gvmUBxljAg76FT8wt9fg59uWi4_zbqFoE--IO3udSbs139RFYXZ0PH1MLnK73uFFRK9hHiEwN1US-pUy0UL6PRxLso1O0MMCIV-qdUpNp3xQVTBLZGFAObsJDYxwXJlwgawInCc6rpEUyaL4QKzO5H9YaMz5HzeX2QHypPIclrbmLgiPxukxh06STqulndWad_qvAmL00uehpJK5UZ-McXRojO0zBBJAk9NMiypzRuDBs-NbjV80n55SH2XFFOs6gQ18-hZfEi5jEDusSJ9IavP-mN0xitZRNkDVvupawF6zYHAgsXyVEZ8XvO1rLL3wY0GjtHGv2sa4ntc.9LcXA0VhA7pFAQ9-AunQQw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Padma_Shree_Kaur_Singh_VIDEO_ST_tjr/27be6619-69ee-46d5-a5a8-da267594af39/dash/master_hd.mpd?hdnts=st=1774441841~exp=1774463441~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Padma_Shree_Kaur_Singh_VIDEO_ST_tjr/27be6619-69ee-46d5-a5a8-da267594af39/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_24_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_24_1~hmac=85688e46c99e45bd82e6518a102590c97fc51de924ca17019266529e0672ae53",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..jFBZ3tpg56kJZACL.futWUR47dWpvEGuOLr-1i4llJG_HQeqatz1bUHAD-L2XtLqWaHG9WSaENCSH26V-OFHGx8KyQFL4WxGFxPrWDWEBx4zni8EDjGRn6Ufik4f8T1TKv6zygzW1OijPDIfs4WsORKfTKCmMtNbOMTmsU_eHSJKWr5YNr8I6gi2NlF8YSN6YiCQKNgKCQJAvTInp50mA2i5Hd99966p5kQFgoLeo6i4-5jkEdcGfMJ1HzqeHTUp3KxVKxf0Tj9jbtUqOP4BtMEMBEQldQ_65FyXjng5GCWVHy7tb07XNcdEkgG89oZoPHpc0a09BijBHK3OUZpHIlbWPzycgN_Ac.XzW-oWIMiotuD4KS86H1Zw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/Tunka_Tunka/cff4dbaf-e378-436e-a6a8-8a4226ca8fa6/dash/master_hd.mpd?hdnts=st=1774441852~exp=1774463452~acl=!*/enc/Tunka_Tunka/cff4dbaf-e378-436e-a6a8-8a4226ca8fa6/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_23_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_23_1~hmac=f9f3054c9a0de066a2f1d0db6a867ae5719f36edabe2cce8ff961e624f244bdf",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..m2SnYIxVjHO26Eh9.XDGmqPI0l-M9qa1JXf3YOW_A6HWmjBjYoF_e4kKeTvQEgV950b9VdkH-uktJ5BSP93PwwRpckTOkcQDE0M8umDlqC1YiNINN2ltEmQr8_O0W1OtrpfwVrA_RxiDDesEHKuDDOCRcX2raidVVTlw1FFQjOKmFzekTS9MqUub2P8CLz0O9Hkrc6d5LzKglTECzLa0uMiNW8AqXm3Ga244FE_zvNz1uThqssVKMmfNG0h_qifyefkD67Mb1wiMrDD92wuaXxf4xfLbERpL4ZxSMK-v5NKJ1p_DWGzkQihFYD2eBdu0OgGRFB3SWQL_Q98-frXZnIWcv0U3xqnyM.BHiBP4TgS3eXJUhHevKhlw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_Rocky_Mental_VIDEO_tjr/bc04d051-078f-46c1-90e3-cd45aed90441/dash/master_hd.mpd?hdnts=st=1774441862~exp=1774463462~acl=!*/enc/PUNJABI/MOVIE_MAIN_Rocky_Mental_VIDEO_tjr/bc04d051-078f-46c1-90e3-cd45aed90441/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_532_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_532_1~hmac=35d3b2ee6785256ab3ab24e1cdca3c99602112a2e0f5bdfa094f777b981832d5",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..OWYA5tPanzD6IYDj.xXeufQZAgu4t4CMrTGnaRfFUswsuudcJzJouG-4uHKKKVVbzzuMzfdFOzmAnYT10e7_EranUqYythi_rTwZ3pHyfYlJfYR1W51sN7QgPnnF2jOW4W7RLRI77W0RtrPU5Gc81QlsB9z0bgg1mNgk3ikuc76yVQuR6WEuc6euCK595M47_8BjTzUTvtOdZhi7i9SoEeSO_WGOux-3BPSBA1hRB54rxAe3Q3JVsjR7XaqmzlQptwMVLtZDuyjW0us2LWJoNwG5D8Mj4m0EjbcmzZoOcCqQcBcd4WepIdASnGzvs2oGNRqfngQ9HxR8GSNmZZHHC-9EiBiKODSm9wQ.0UW_eAF1EZwE2MjrI2eg9g",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_Harjeeta_VIDEO_tjr/ca84d8b9-40c7-46ac-b027-e7c8e57f4b33/dash/master_hd.mpd?hdnts=st=1774441872~exp=1774463472~acl=!*/enc/PUNJABI/MOVIE_MAIN_Harjeeta_VIDEO_tjr/ca84d8b9-40c7-46ac-b027-e7c8e57f4b33/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_101_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_101_1~hmac=c48f4b6e957ba0d1cf1dfd92445329cad30ff7b44a8fe0b1538b9de2bd628773",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..ggkAqVoJ-l56J_qb.U_hO_2l3IJbagHKJuzflM3Ibyk9ethklak5epiwUGukqe5la5Uf9Cxz_xoLc9bKMofFI0eW1uW8LwIgGiFzHFDAVWWYh2H20PUXzgnyOShrhgsJlZwDFM8UQjAuBJ-SBWr8AL2Y1MAPrNjRzVAIpbqU9JtG0MSH3IVO3ut4F5C67ldsG-g9ezk0bGdnFawriK68ygqdVXD6D-ZXRRAxKtEUdJfNANIPidbvvNutWIwMJEdDJKU3rPqXkSWH2ZKA4txXI6hAdIQDA3_M-mO0BPIckCOzw-V8olIQpifXho5ugrmTxgC_0X-oA9Ej-lSU_MzY7JbPFHA-LY73Uxw.liGP5WzSIr0fOhhYwpqhwg",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Panchhi_2_VIDEO/e2da98be-94e6-4d71-87a1-82aebc90153f/dash/master_hd.mpd?hdnts=st=1774441934~exp=1774463534~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Panchhi_2_VIDEO/e2da98be-94e6-4d71-87a1-82aebc90153f/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_882_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_882_1~hmac=c91f90dde4cd1028e01b849e18d513ac7f960181d37cf6687752ede4ebb6c08f",
+        "lic": "https://zee5vodnd.akamaized.net/hls1/inhousetranscoder/hls/TRAILERS/DOMESTIC/PROMOS/HINDI/FEB_2026/19/SVOD_KENNEDY_PROMO_30SEC_WN_PF_19022026_hi_eafa797497d569a34875dffcd7bdb86b/index1080lowp/serve.key?hdntl=exp=1774528299~acl=/*~data=hdntl~hmac=c31a1c74c16e90e36a8f2f215993ff443abe5ebfc24e4a9cb447f9f1d4cb9c7c&aka_me_session_id=AAAAAAAAAAArJ8VpAAAAAKN2t+IS95hkXcngYTLK7RPpD0CLUnx3xtvYligAJDF%2fBRwRFgrWnc6V+JEdISMMvbAC6ZBiXEfZ&aka_media_format_type=hls",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Deor_De_Viaah_Vich_Nach_Lain_De_VIDEO/70a78e66-5a7b-47ba-a12b-f13083503883/dash/master_hd.mpd?hdnts=st=1774441957~exp=1774463557~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Deor_De_Viaah_Vich_Nach_Lain_De_VIDEO/70a78e66-5a7b-47ba-a12b-f13083503883/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_904_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_904_1~hmac=2a7d80ca3b6f124288fa6061dded472a9b86ce34a79ecf303abd1c9aa19db60c",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..5VZ6GgId6bJdCGdY.G-_JmyFvO9VfaN4Ylo3fOFLJ-KohRDCi0Zw1juzbTNCV1UGP1LSxMxebR5F-gymOy1gqeRa8kaUYvgvTXY8nkUJ-DH_63uMCDC_9PBniJaUadsXoDJhnScYFzulUjAIMSLxBZyt30aDrMZ_Rm_ZWHXq2sqL8Ee-PGgptndGT1FYYBHas4o3Hj4NugIeSyvt6hSrodUUXSJPiKOQ89Xz1z85E533N3vwHYN63I4mwoHn7XwVtqri4Ic0WHfrr9wkop78xnG_DV_o7nm76FKEl5271qV_fBCqiStA-C6jrkJuydjF8AOn1z1A-c-m1fjn6BXXuMaAYfda_3Lmp.lsbKJsnaP9DcRLJH-C_Fqw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://manageapps.tataplaybinge.com/cms-assets/v1/app-data/manifest.json?v=65.0",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..OnZQtID7qg-SPaHA.vpHsZbBkN3i_3qk4Nz-kVDUJfIKoY83kjS1hmunBJlWzOPdmViSGrJmZpwyQlTgSIjvl_wMW8_c-RwLQw7lkdAyl7OyNZOh1dmXM4HIt6EnaTJyfCNFQ-9jq2Q0KNveSvNIjyJZMPVnd1MceRNx29zWXMpdNHxK-4cN_ISUbqdmCsBkE5af6zqF0IT1dl1xIGurBrA3-mifo3kYa8yVlcJEkQz6mPCUp_qXymSl1RvKVb-kZeG8PZdhzrU-Ehbux-E1zz5Vs9r0UAAP3ASQ7gN9rtyT2ZXGb6YAe46doF7AMTk4Tu4-JGaqvRhSi4vGj1R0UMrBZDHqh-HABZw.NKSDTpnRntgF7nZg_9QM_Q",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://manageapps.tataplaybinge.com/cms-assets/v1/app-data/manifest.json?v=65.0",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0.._Ikvpuv5SFSvFPCr.5Q82xnFfxvdG5k78NzEKp5dPgkpXhZlJanUBxO2cDsx_cweoQF-rwjBPZ82yQHC1Y_fYoBcAq5DLcT4UFILrWIhgVrUQBt6ZIBLG4K0aJnzYFsQ4cpyQachmfzTqVeXzM3_xSqwOg5KN33JW5TVBbORIowkQ3Do2qNi-BWoTY2_ZQxn_O-02joA5oTtbSFUdKiJbrQMsx2ztesyCKGRCFALa9iZiI37dQeNxCVaFiBqNWEnHK3c1Pdoh6Q7s3h8YhULLTErok4Mgi1PtAD9zECKwFcRx1GEKMyq1jUW1yMXsjBJkT3STSD29cxllzP0jntMz_0eYuYtfq0a-3Q.G9j5MfUnb2oCzDjRmLqH-A",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Panchhi_2_VIDEO/e2da98be-94e6-4d71-87a1-82aebc90153f/dash/master_hd.mpd?hdnts=st=1774442094~exp=1774463694~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Panchhi_2_VIDEO/e2da98be-94e6-4d71-87a1-82aebc90153f/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_882_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_882_1~hmac=bf1e1cd769d12d01c6f2eea366893e7f68df51f0b1f601c774f2d20703bdbd55",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..msT2vruJUaJXCSKQ.-H4qgueUKUBDVmNHZOHjnagaXYIvjELJUsxrYWkUHiaZUcvp9kHSJdR2u7t8A4xh78z9jtTkgMEQkMgZMG2ns5o1AMHJxIA6EAZteY0UIymMot9B8ppA4X04qKkxdV7vHBE-rE24Vw2MXTMQxcPbJUdc3AIvmlSXMEA9mOT7EXCSK9ianhsfDx4xM-32F6UdJItuLZKqP0VCtoF0p9-3gANFKG81s25h-8qrCnIn6nhQioyrlsscDzgeB_1_ThYIJRgSmh8boplxXqv_J3VBdbbdfNGg42X4Xav2fxjtJnuk85sZhVxoaMFXcOwsaEAfqlWzHe0O7RPAXUHs.uXvT7-2pKK09cUAy26nAHA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/WEB_MAIN_02HR_SE06_EP04_Tucha_Lambardar_VIDEO/30a94393-fa17-48e6-830e-d70043cf2082/dash/master_hd.mpd?hdnts=st=1774442135~exp=1774463735~acl=!*/enc/HARYANVI/WEB_MAIN_02HR_SE06_EP04_Tucha_Lambardar_VIDEO/30a94393-fa17-48e6-830e-d70043cf2082/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_video_605_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_video_605_1~hmac=3b79a55dbc9d2cb9807b83d924e2e593a65068309669d01f7e256c735f851342",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..ZLNXvm97k38Kzk87.qCMSvl-FQIO3ILUJR6gozo8fNH5LXPIJQIQk4OlbG8nTbSQd9PbeinhJbB11wXySH0GdWiGZf9wifMB3LIBWDa_8Zp9l7lU98xx6pNHpCeP1gT89dBEVbTORJo0bBvUkdsWaykdwVhir4y_QW2SYBqd8kzRt2xLTW_SbQFjtmlKwVIPfE6FW8YmjjCoCqIQNvsPHCZfv-dx5HsDVLzP34jzspxYCvNiVPH2QSK9PE99mEyl5K5jDTPo_-c9GCNsjQjx49zzAkhSHqfeEDFx6Y7WsZUpv1eBKsff8s0q0efhH2uJslOwf4mJ0y_jm1-be5yb5C5LZL0DDyFoY.XWKNopd72Pit2n4bG4DPGw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Gunaahgaar_VIDEO/0142c712-6d96-491d-8b16-22508e5ffb94/dash/master_hd.mpd?hdnts=st=1774442181~exp=1774463781~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Gunaahgaar_VIDEO/0142c712-6d96-491d-8b16-22508e5ffb94/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_903_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_903_1~hmac=f6ec7e4da62f3f83f23831e0d9edaa8db170dc602fd9e2f42ac2177e9bf8a170",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..ByCeTq2nrQfonOXK.yOjrlYAKtV9n9wgWxh20Fdww4-V47otOeZlkTVitIp8ZIdAzzSHAj6ybIp9onyWjj0SLWc9ATxJJWUNVejZ-E054cqIvPn2jR1ez5Use99QjtCcsgtqS9ONjCah7vcy3vgRrUFLujJoIJtG2SjnETid4Y50vkz7gCUfJQwz-DSDRxqY5HFiZExFT7ui0wSha_LO0TEX_LOHRqhZtbUy3ZZqwcnFqB07UTloXaMGJx3iFFmE-JtVn_6M1g_LbYQtovO4zJ3c1sqigborDCx6B7b3NZ7IfcgPhWv2mUg3cVrFiqPI2ad8kWrDrKkr28CS1-8Zw9o_6vKAs6n0m0A.2F1_dVwrBmZAgjkG8LH3Gw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HRC_Ghode_K_Dhai_Kadam_VIDEO/57e05987-324a-4014-a07b-8f8609e357c9/dash/master_hd.mpd?hdnts=st=1774442272~exp=1774463872~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HRC_Ghode_K_Dhai_Kadam_VIDEO/57e05987-324a-4014-a07b-8f8609e357c9/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_760_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_760_1~hmac=efc6262b8d4d7a780f4cc464b988180ab28e51064a0db72e8dfd5fe92116a3cd",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..Hfi0em5HYuhniujc.xxYhBu6HmO99OLXlRDvcfHMEvdoYaKSBlT9WNTvTfykRWkaxKwP80SgXNXhtNCbCEpAXAD7lJYabMnqXmY-HL34kZo06jADV8CiZHXb8zM1YYEU64nlCmKaQmPc37mtRuk37GRU7FveosehBtjTl-ZQ7mxfoZeKUSCvWcMn30u6HyPaoe_JdqKyWMVBGNV9EYVx6Nij_vTNRjSc6iCF0e_MVQbjl6eoY6ghm2tYmFchygHVSfCwWMNsdWy7FcZMqnqhz8t5lpLr2GZd24Qh-7knNP5EpdCQduSU58x_VKgMyNYYhJra6J9MCzsEL5R-NV3g7tejQ8roifo4piw.S24EH0_m5BZSLJFfBBVMLQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIIN_01PB_Choran_Nal_Yaarian_VIDEO/98655fc7-04ed-44f4-94bb-37e04aff94a3/dash/master_hd.mpd?hdnts=st=1774442303~exp=1774463903~acl=!*/enc/PUNJABI/MOVIE_MAIIN_01PB_Choran_Nal_Yaarian_VIDEO/98655fc7-04ed-44f4-94bb-37e04aff94a3/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_889_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_889_1~hmac=f604838b0e26d1fcb44093f3452564f1e1b2d4388e9322be58a7e5c2e1d07886",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..v6Oeq4nZbCkoGCX-.taebgEaMj8zOIjdSg-5PCI5UfJw3VnN5GA_jtKcvyExKjjAQITon2Eh5JTgOD1p38zbFv4eIXy-h5Cq5yhJ6_Wcc4y6V6IXnnwVsDh1Yo1SfN7yAIO_jaXx3tNfazm7BtVL1iYhTpO4OjrNInIUSmYuidA8zDQZ28RwQeJ7K-D-lq2OPHNCxvHrXHfDw6WKE7N1U9rTn468Hk4PfrkUq_juMys-qd87dFiKW5RQsjiSZJZ_vS1tuDE_P1sI5X6yltm6bs-3LrObcwF-meUO4XnErER4DG8psW8uMc3WPuu0IysZB-yZ7Jo4N5Q51j9jnEp57VYDD06X67UU7.JlLDjjPdAqjMuwItrENUVQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Panchhi_2_VIDEO/e2da98be-94e6-4d71-87a1-82aebc90153f/dash/master_hd.mpd?hdnts=st=1774442339~exp=1774463939~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Panchhi_2_VIDEO/e2da98be-94e6-4d71-87a1-82aebc90153f/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_882_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_882_1~hmac=e622ff5b75255dbb593968376ed47bcc5591075af10a9fc4964c96eb5acd1b5c",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..yT3TWSSkKgHzN0iK.eAra8emuCgL6xR6-qmwWkgFpiwwvL9fWYNvM-FtgKvr8I6pHUvNzvUbS06TyWhNo2UMumFU5TKgbIQRQWDhnQA75SJ3FF0O3YJN6Q9Hs1Svpe1_JH-E9tk8fa9T8BHZ1sKlOdGllfiX2YkA9Sk9INYvj8v0Q_lJPjd-PjUCgzju8PQWWJgiV_g9mfbT7xafxVNv1TOI5Ye9Poj3qp9qkEg1Uj0lE871VHNJZo_scPG6u8fSIm0DkdrqfEyocseIktHBXqet7EUE5RZrJA9GhfUW26J1S8XzMf5cGbfGTpW3J3DQdugNV9iHwHEJcbItPnhtWpIZGPRc3QFjn3g.xn57GdFcUT7Qv3LpfadY2g",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HR_Umar_Mein_K_Rakha_VIDEO/965d2bfb-aad2-4969-9b28-872d146200d2/dash/master_hd.mpd?hdnts=st=1774442379~exp=1774463979~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HR_Umar_Mein_K_Rakha_VIDEO/965d2bfb-aad2-4969-9b28-872d146200d2/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_759_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_759_1~hmac=f096d10082cd8f59ce896f182eef9b45915d00c7fa2c3f7920e1ea4eb728a50d",
+        "lic": "https://www.tataplaybinge.com/assets/images/search-keyword.3063f57522155ab5ec06.svg",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Rebirth_VIDEO/8f2916ef-b7be-45a9-b281-028101900b08/dash/master_hd.mpd?hdnts=st=1774442423~exp=1774464023~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Rebirth_VIDEO/8f2916ef-b7be-45a9-b281-028101900b08/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_854_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_854_1~hmac=b94f8c849c3b2427d8c69dd19e2ae601c804b9168c55dd197493a99b33adc6bc",
+        "lic": "https://www.tataplaybinge.com/assets/images/search-keyword.3063f57522155ab5ec06.svg",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Chor_Dil_VIDEO/e8fe867c-067d-4927-904f-8a8630db5b37/dash/master_hd.mpd?hdnts=st=1774442503~exp=1774464103~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Chor_Dil_VIDEO/e8fe867c-067d-4927-904f-8a8630db5b37/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_54_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_54_1~hmac=b92a0e58f7c31c5de43b4b16a529b924ccf7a6d7a16098ec9fbb883eb29536a8",
+        "lic": "https://www.tataplaybinge.com/assets/images/search-keyword.3063f57522155ab5ec06.svg",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/MOVIE_MAIN_01PB_Lover_VIDEO_tjr/9b277675-d4ec-4b00-a1f4-8215d9646ec8/dash/master_hd.mpd?hdnts=st=1774442554~exp=1774464154~acl=!*/enc/MOVIE_MAIN_01PB_Lover_VIDEO_tjr/9b277675-d4ec-4b00-a1f4-8215d9646ec8/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_500_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_500_1~hmac=8456800c8ab096fadad4e0de9a9c95bc2237fb6d3c144f04adadbee7de161b7d",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..H9wneAPqZJ3XoW6e.4j5v3UGAWB_VhOglJYGgynGdZ53heleuxC6H2nHNXkubSBsStBqF7izIQwjEChMYg7bqZXZ3RaVBEIipWgNuXMUDmElJjTbmYHTgOtbZuFUUKMLPTiVttKQ1yXPdc_rgHx8I_p1lh1eZ4yvFfuhMLLqf5TgHn59M0acuacsMEIV1xBVSDi-mxcAv5a3vdTyHHGjCju_3_AWE8sUzG_e9ejPEuQPdwrbGmuT6RzODIz-rjHVLiLvuGEJHhG8n-izohmI78pokyRrBrBidRCGdOh6CMhQlqEK7BBg0NgeqEQNyhPv5zCm1szU_zskf_nixEXP_WBkprpNWDgQf.In2wnb0hdY43VlQ4Fcee3Q",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Sada_Haaq_VIDEO_ST/1670b571-0165-4c57-8dc4-17c208e8c984/dash/master_hd.mpd?hdnts=st=1774442605~exp=1774464205~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Sada_Haaq_VIDEO_ST/1670b571-0165-4c57-8dc4-17c208e8c984/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_899_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_899_1~hmac=343819e9d3fcb6408447ad5acaeedaa99723f5f550dda8416cf1ded8c66fd25b",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..7ek8C5y2mnZUQAD0.WOkMeKeL85Ich3xAfVvIpUfIqSTDk1G722iqqM3GPbLX2wU0m_ijBSafLVZg5MDSaKEI5rj3Qgl0DfPLsfZETRCvSf9w4gAcXil0cZ6ioIV-6tRjMWrz555AIG3TAK6jTY38cfgDWh6856wf38-Pq7ra9VOKq89ZRweLLjBR9zKzeinNkwt8h5I-cq9ccVY6pnyfv3-Ie9PNt23iXYldtBNPuO4Rkcb6hvj9jYwkcOAwEQ3A5O3xLDdDnLwrO8Z7_xXMO-x3YzHTCsYrozYyCucAvAKTDgrDrdEuCktbM_jPg5OfGFi6g6yZFSvG-hb85btIguCNiHjx38hoQw.A5vmwbJMT1WTyJGfVqXoAg",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/WEB_MAIN_02HR_SE06_EP04_Tucha_Lambardar_VIDEO/30a94393-fa17-48e6-830e-d70043cf2082/dash/master_hd.mpd?hdnts=st=1774442655~exp=1774464255~acl=!*/enc/HARYANVI/WEB_MAIN_02HR_SE06_EP04_Tucha_Lambardar_VIDEO/30a94393-fa17-48e6-830e-d70043cf2082/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_video_605_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_video_605_1~hmac=3f7512f69dd099db23b2713ed48cf29ec422c392b8a3adbbc19603fa8d58f890",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..UNXC14eT7Z7-dvfs.CD9HpRPNezQ3TcduTw2ehq1JOS61scPOL7_dInAtqrN6_3u15X1ky9k2DiyIrSwY2ybOmLvxOK5yslvSgjwfEPpXDHdaPTal6_0N3O1gxTvsZ5ogpG_WVXaa2sz5EpMI-IgS5x8UGe5Jeq5hv2d64pwzm7IXV7V0slXTE3-xVCTUkStisR85SfZPnwWeyUcgFyg8LVOUsBukRoIGKsJdJzTDqEmRP8qW6VkA8OPrt7wm4WR2o61dKwJFMV5DftVCEv-Qy-EJV-KwcMZiWOpMyJpVwoDvJy2em9cKOdopgwtOnoo3Qta9RNsCoz6bXIyOiobRolv-YvnjNHnc7w.2V1vkjFV7czEJa34ZCbqFQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/MOVIE_MAIN_01PB_Ni_Main_Sass_Kuttni_2_VIDEO/8239dfd1-f552-4ec4-a664-ea042a80d082/dash/master_hd.mpd?hdnts=st=1774442670~exp=1774464270~acl=!*/enc/MOVIE_MAIN_01PB_Ni_Main_Sass_Kuttni_2_VIDEO/8239dfd1-f552-4ec4-a664-ea042a80d082/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_495_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_495_1~hmac=33c29af312026682f65770100b048ddf6bc6cbb5dc8e82815ed42b6b71594db4",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..F8Y8T07-rGP-C_ih.MLtbl9xyCgPCndNutnXXQpaw8NjUFJnPzV7vI_p83XIE-7Ny7B81qvntMP3NIlKX_YG0YUWn9incOOFi3vokdZQDO3dHEUho86-XyR286URpmCysI7WV5Hq_IbcaBW_qW4YmfYuv-zAyM28zzguswijqrrD0b-HzknkF9KHt1GnTY74MGAdif08oEAnzT1OoHP36kIeymeOrhNITNiIEFGurXgGV-8ic974HW27_MFJU8atmsWjPKa3FTZoW6AV7dTPMoZJfg1Khe4bPcfJhl7x3qJrgRYK2s6EGeYXTcsFkoL0KHv6qQBlaFwF22B4L_JUki1L4ZFP2gTGXMA.McPaCxK9m7fxeTwconiaFg",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "Tata Binge Channel 112",
+        "mpd": "https://manageapps.tataplaybinge.com/cms-assets/v1/app-data/manifest.json?v=65.0",
+        "lic": "https://www.tataplaybinge.com/assets/images/search-keyword.3063f57522155ab5ec06.svg",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Bhootan_Wala_Khooh_VIDEO/944ba285-b6f2-40ab-8f0f-74e5a205315e/dash/master_hd.mpd?hdnts=st=1774442889~exp=1774464489~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Bhootan_Wala_Khooh_VIDEO/944ba285-b6f2-40ab-8f0f-74e5a205315e/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_881_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_881_1~hmac=0c7c939ad7591d4c2d7c7e4139c9a7093822c54cd4758a143e2f13dbb82f21ec",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..xBQNYJJCWrMyNASG.8QLoc7HkKVegMPUbMVz_DhTkPmosfwkTfFCKWL2nO0rpW5DFSRmWcuJadzQVoE3pIuBPXgOhn998ikZuc10OCVvIzpxDlFjIK-HXsX3pKD8NU62zquAVNaReVMp6Yu9cdZlyPkqPnGGcnKyHYz86_zhjlNcAs1ybk9xTOEKRtT-7zDYhzW8N-L0QFNtRzEzdgFx7BOBPqDzPCNngfB18Ifsfgkn8HYwYhCQYxr1A85tO1Uio9UhPzjBTjZdJdhTTwxMeyEy4QhD8VFImbbOkiaRJeToomKDyXCtUBmDvwAjCwYer97DCRdtLuhcwmbVyKGiK31TtZRulZwLZ.iJMaqKfDc0LSJe9sJjIyGQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_13Teen_Video/f4a5e159-e34c-4f67-bbb2-8443a62f100d/dash/master_hd.mpd?hdnts=st=1774442949~exp=1774464549~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_13Teen_Video/f4a5e159-e34c-4f67-bbb2-8443a62f100d/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_888_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_888_1~hmac=a525cfbc97b67d5e391e9ace6e084cde0c6fb19acf38623095325a46a627bf12",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..hM7suShe_ciEDHl3.MvnS3jYO8aHzaFUO7iuhUjwS0q6-a91mnhjzs-tuJ3Q10nskn1uGoX6o-9yAwEkzCYlew0u1jUHi9guMJ9M2WnF9F3pB4WGwfFcpwNQzIXfGgFn-wX7ioOgAAcj7eyMasnnPBDtI1de-JsBu0uBlC_BzuUpAWXQ-4VG-V_LOebFrr-uDUUCb9-65TiFh1YBpPd9X8F-0P7OdHr2FQLATYtzykHUfEC4DVuCC3FFRZtEz1a3Q4wtK3VMyeDbZ9kYGB31uQX5HvtSrlAff-NKeK2SUB6y-VJfNpsRYMZGQcRxsJbbJiBk56NU5ToTILoJwkanQSN3Em1fykDvK.XIy87hP9UNMhQzUAKjlz4g",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/MOVIE_MAIN_01PB_Jatt_&_Juliet_3_VIDEO/e65f49bd-e84f-4426-947a-690281f0d3dc/dash/master_hd.mpd?hdnts=st=1774442994~exp=1774464594~acl=!*/enc/MOVIE_MAIN_01PB_Jatt_&_Juliet_3_VIDEO/e65f49bd-e84f-4426-947a-690281f0d3dc/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_405_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_405_1~hmac=b714f55aa63302fae6e465cfb4c3baf79853fafe3b750abb3a0252e82bb647ce",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..ExKAUK9flLbm_x_t.Ic_N08QBmcVahKeOoNjWIc-AQJ8ZBpqKh9OwGxjtn8aosoSM3gqKETf8c_-2mH-GSpSFkCj-12fT1t1_7b_Q-KagoyiO0gLBVpo6mHYFi_uCkFU0RAmSjnNBiHOSIP2hGOEfmCCtT3qBGWN2IqJOCAeh0YvwFu2eBi2U-JxeG5NI41r-iggyIPfkqDByaKI6AIbKUbeZ687h5Z2vE79WOQurAYrvqQlt2jqcjHENsnu92r8gIWNuX8A_KslGaM0Pwj7JN0X4Aw5xLVgcP_CR1xcaDPcV_rcoffaQeYHiM0IhYYtD0fZtqT2pm07ELECt486QV9ZMHzk8zDW3GBM.yOUArGKQSX5bRHOf5s4uow",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Ardaas_Sarbat_De_Bhale_Di_VIDEO_ST/281bca4d-eea8-4271-8d7f-70fd6b70b245/dash/master_hd.mpd?hdnts=st=1774443027~exp=1774464627~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Ardaas_Sarbat_De_Bhale_Di_VIDEO_ST/281bca4d-eea8-4271-8d7f-70fd6b70b245/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_864_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_864_1~hmac=bbf91bf9b561b886a9f6e68a3069948ae6548d80dabae2079556c8c4b3b016c7",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..zUkFYfKIvn8KJ76P.k3dri70Px_rgJjVvglKWgL6JUyK9dP7NyVeRImS6dgK2Lf5B7VS_3ntfVvRs--gozlG4hnyxCzp1atxKTeCT_EROxLLDo2FM-c6C50MunTnaCvOjZrEbyuHBd-sXRIJkWOt9Z7UYhk9Yvi-EFXjr-ZWdBYMnynG_aGy9SjDcHrDQPx6906Xm_8B_-jZUsxOTLGLJ9rHhIGOksr1KEOLksCqZqMa7HXNOtaEN4S8xNpBoYe1iY0X5dhhdeAB--I6uA0jrzySRyqa_Nub1oXr1hljnA2L1vfInRzifXWVSn3vRlmDpl4xVrJs92WxC63xjh5Kwe8GHDuEvi0ohyA.wxFCtPAdjTzX6ZmBSQZsHA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Happy_khush_Ho_Gaya_VIDEO/3fba5d0f-afc7-4dae-8223-51361f6bc6ad/dash/master_hd.mpd?hdnts=st=1774443070~exp=1774464670~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Happy_khush_Ho_Gaya_VIDEO/3fba5d0f-afc7-4dae-8223-51361f6bc6ad/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_861_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_861_1~hmac=86154a9176ef50044fe1e52844848ae3184a50a8325b7ffa3cc48bf400506f33",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..EQK3c_xlPn0vKXWw.08LHOR3b833B38VHMkSo0jpSevczoMXDiYOgV52sAbdWVspNL3cYC6P-KiJYKl1e6z0OM0gnftzK3-Oqa3AYhugV0qQaDoFc78hhmJpdxvuBQsQfnyRdgIvRrqXbP4uDUhpTfzVx0odWhk1Okw5kWQrvzteHh1y38F13CGiPxLxlnLC-9zZ-Ia-LBi9JvYYT4OgJoiETypm8GKmJ25Ycgzepb3ZIBHOOekfQOtI_9l0gIpBdc3Upu-41k3ln6LIvc3JRhpazkJK2ISwaliBWUVYxHYIlGTJ18DMpINVnETXB4ZmmEuKKTJh50Qu32b_RLRsljafGTZASbl8k.WNc5_-GzaRNvAxuEjgw-Xw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Bhootan_Wala_Khooh_VIDEO/944ba285-b6f2-40ab-8f0f-74e5a205315e/dash/master_hd.mpd?hdnts=st=1774443105~exp=1774464705~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Bhootan_Wala_Khooh_VIDEO/944ba285-b6f2-40ab-8f0f-74e5a205315e/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_881_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_881_1~hmac=6b89d83e7e1e0a78d7b09981610abbb3b0d6ff8b796ce37ff37c127dd6776a41",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..StmCkmxnQRhewxXJ.5iHW7SsnONB5tXv7nPF-W7srZYpHPN7WluYhCWpkslOnjMXXObwLlTCE5O4KIQZaDKst5SrGRIVJQtq4086X8rKNyBfP6xaVy8DkEk6rqeYbyTFMSHSTGtFrUD3AqG8Up7CQw07CgSZc0cfRVohGPV1M2cJktTxO5Iux2fuJ0H1ofDON2S2iiUJg-dobHwmyXnN6yWwWn-8G423tNYe7OCd_h4A0hxmLSipF_LsDiXZ4YpCb2YZ9iPdcpITTFUQk9dVkomvPau8QPNmcpZfTxJ1NbuEYcw3EbVQbkfVYGi-Ca5lFyQEdQ14lqvR3kfDlifAD2ZQgqulBUC9y.vZk41J_T_DHhhjelV54NcA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HR_Antim_Nirnay_VIDEO/6cfa5bb6-16b7-4fcf-acea-c8688ab2e0de/dash/master_hd.mpd?hdnts=st=1774443145~exp=1774464745~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HR_Antim_Nirnay_VIDEO/6cfa5bb6-16b7-4fcf-acea-c8688ab2e0de/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_616_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_616_1~hmac=0cfb953b6fe4cea7610c0446a5b0fbcb770d3a4634c4c660045fbc171126475b",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..8uc5pN8B2J8sRUM8.Efb4eSdGOpqwLCwZSwLIQf-7V94Q2BoG77ZxrcxWA5iycl-LWtHmz3Wy7NoCvw3TCl-IF_3yMLEzgZzSv83eP73m4AFGFDhcJySTJKA54XVxpCBNhcHHgyxbrVaFIFMmomLeOPZzvUu35yrDZQbaASfPY7m-HoyAO4g_ZHxqKRlMj31qLFFjL9zV6KRaf5gt_EvlmJfw9nbcGNDZgRxcZ_o4bU1JoP8qB2r9yIzTE740utsMudCtpOrXJIM48hxKpwJ9qINoYJ8PA00RlSlKCbIf_nSuuA19Yd1V7ESchxlT0jCLVR0GoB-_XNxLxZYOl0b1Po2H19oBot-Zszo.VEmAk5lD_8LjoMaeqA4FwA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HR_Udan_Zindagi_Ki_VIDEO/3ac49cb8-f3e6-419c-8b52-6257a2ea1cb1/dash/master_hd.mpd?hdnts=st=1774443195~exp=1774464795~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HR_Udan_Zindagi_Ki_VIDEO/3ac49cb8-f3e6-419c-8b52-6257a2ea1cb1/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_369_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_369_1~hmac=3d6eb755209de959c60266a317435b55afc39bbc87f83c0039c8bb3422da4295",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..BinMAUjJU_9PYIGa.hm15vWC65iGmE2nn-5ZtI0ldr-rxTMM2WuuQHXjipXAmGMSw8DhhvMlOyiq5QVr4G3JOSbwWYDd7NQjk4tub9xQ5O7uVdp3LG-93TmRIRxMQK_O9wLaQjuz9LkHgA3NRT_6bAwv-xbV0rGUtMEHbW47_M6_IRtMnZpm0ToxNy7VXTRdduSgw6ep6dE5sVYkFHWWp5K8VoFZ4FfLMQLhy89f_54S02N0y0j_oicAzg62J6haQQBaNY16zgyMH39s12DahmhvWB-GXdVzrBkzUUjnufpvawAng62yspP9pyB23LckLWmc8sTnPdcIA9I7TSp7ae3PC5HwRZGg3.VQrkNw9MiSCQ9gFnjfomYw",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HRC_Lakhmi_Chand_Haryanvi_VIDEO_tjr/e663a81e-c414-48d0-b2c4-36abfc86075b/dash/master_hd.mpd?hdnts=st=1774443224~exp=1774464824~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HRC_Lakhmi_Chand_Haryanvi_VIDEO_tjr/e663a81e-c414-48d0-b2c4-36abfc86075b/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_169_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_169_1~hmac=249c504e1a80dfb25b0a04647c05cac6d4aff24af0005ed5450ec8e66199c14a",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..C4ECKEZP7ZfXjUKv.yaO_i-diWaMbe-4-SXbY0JwR8NAgri0YkzLNUdIjd07z4UtsYuu6X0EcIR7VHrSlYKA-k7jcGN702WME3mp47_UE-8IlBAodnX58vGfmiAUmSSvCD0qGi2Bz0STTlE15cWfDwk8byOR-LC2721e6OIynH9Cfr4sS0yXRkb3wCHh_7ktfJf0-Av7rTxBD5-6xy6r40E_E-B3j22RwWn8IugIj3tCrkMUa1uBmci4VdiTG5JpYn6FymEiubAbrrhMWAlrdOrK9t-SWmQFR7St8U82rvhClgx1jVe9IXkHxDNq_Hp19quYaXaSul_9Nn68B59NYEyyGfOtOsw3G.TTfGvC_vNdlblYeOsgierA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HR_Plot_Number_302_VIDEO_ST/5f2871f9-cf25-4dc9-84d3-6fb9420e50e0/dash/master_hd.mpd?hdnts=st=1774443258~exp=1774464858~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HR_Plot_Number_302_VIDEO_ST/5f2871f9-cf25-4dc9-84d3-6fb9420e50e0/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_754_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_754_1~hmac=3fe155473d9daa4faa8ff25e9c8922fb2792824c6aa62bb9bd16fd2fd42d15b9",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..bWo5d6mvT1V_YozE.eWmz5yxJgMGV3ONZPOpfDma1Tz3oKEVBLPAFasH0WMqWjFaavRruIjqWqpFrjP6J6FS-Xeq_RshngxKPQ41XyDKF-GpuuquJOhpjpZ86ozUYQ04UicdhG9PJDWZaDAE6meZP1srndZ2KDXzQyWKRVsYn_JC12LRqPxUQYJKylflmXrFSuIt55kwrZ8aZ3gXzsrzO2Q-biSFj9pdjhzJGz7vz7tO3nXwn-ppRh6HO-o1GgITNmefaf4PbEyothoNVlIwetA4gUz_XgFnsxQaY4JcVij5FLrPIsE00_iDABCysXKxoKLFt554nzaVY9mEI34R-aptQr47v21b_YIA.6CGOiI68HwAr5kC8-PWtOg",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Chhalla_Mud_Ke_Nahi_Aaya_VIDEO_ST/c80ea564-55dc-499e-bd57-c896524c6aa9/dash/master_hd.mpd?hdnts=st=1774443303~exp=1774464903~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Chhalla_Mud_Ke_Nahi_Aaya_VIDEO_ST/c80ea564-55dc-499e-bd57-c896524c6aa9/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_634_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_634_1~hmac=a85edc151112e2b47e85aedb3c00e0c8bd1e69cf59fa77074f9d3c9f793d4754",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..bwUVZ2_BMbbXUd_v.a-i3eGce04ygfT019qGnVhgrHKwf4ADn64edV-32dMY4zU_rbAIgZJEcT8ISzJXBcNO8GrsAVmBHFEeKVLCA3bt8G2SvxYEV-o2yhoJrzRDvT0SRLzFWHRX-9tP4sEzu2DEsI35-I38fyDljdvyr3Yfovc7Yr9_cEIT7Q1ZVK_eZq5CVZyGeqRM6VYNZPEzbXmDGMzlvQqBbf2RXvpTOYxKChhAVch1nuxMZ5WzzctPPRhjYSvqYZh-d_ZNRQhQGuD_onPWi0z9JYn_7NNooMCEQrkaWlEB4GfFRZwmIFlyvb1o1sJNWqvLX8OQdonZVOGZuOJMKq01V3Whz.Kad45eO4TqDF7AXZarlpfg",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HRC_Dil_Ho_Gyaa_Laaptaa_VIDEO/b4004a3b-ed0e-492c-84cc-75109ea4bc26/dash/master_hd.mpd?hdnts=st=1774443336~exp=1774464936~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HRC_Dil_Ho_Gyaa_Laaptaa_VIDEO/b4004a3b-ed0e-492c-84cc-75109ea4bc26/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_364_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_364_1~hmac=4e18516c9331c314f838322931937072715998de52233bd7ac5304343378bdd7",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..yKuS7E5v9kIlT7Og.WyXOvTvu48XmTS5EoqCobkS0Y8i8VKmxXT9AsxnIL_s9KHnznchg20GKjKtIzJel-mQ_gt33r5Dn1jXxPXwHBtq_bJc7vqcOg_o3Y1PY_s0gO9E2Ol2KhYrj-BC668PYZiuttMinN-JBKvgwAcOcsroCnOTlwoZJZf5i5zY31xBJQQrswha-gc4CjEygXs8kp7GNsZFJREsw0Xy70YFhbf-zaZyD5EjoQEFF54JAVZ8wkZRw7N_G1xq_tXk6Ge-wgtaIqrbNNwOweKMihRL2LyQwBBG82Mac_BrGOp33wAVnlpI9fH_6Q9zaxCVkEz0SxO5OC__DJBVQRkrHhA.y_Xwj9gXZje0A56-7-hISA",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HR_Akasmaat_VIDEO/8f60d128-b003-469b-938a-6bc9608e23a9/dash/master_hd.mpd?hdnts=st=1774443384~exp=1774464984~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HR_Akasmaat_VIDEO/8f60d128-b003-469b-938a-6bc9608e23a9/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_900_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_900_1~hmac=83473988425467e454ef9ff842596870a25ddda0fd9c11f202b6f4e265fd7d42",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..QdxVzUqCZr-E4mz0.gLwMiXZxOY0ElbK4RD2BqCOm5qfaxRg7ogKKdoPZv0s7CYMlLptZgIq3tczC5saeCq5Uf9qxy6q7_H25LtBcG7Zy8dLroAomB0mgrZ5nM3trlpFHD44Lu8DhedQgVzof5oOLoB1eu5vvI72GhQxiqDD54u3vTn-C0K-GhGJupp13z4RpfhNJce_x8iNDUiNO9-CScpnhuzJrWh7kDn1nSAWi7nucpEruFudF042MlYgnkjSdw1pgRFEgMUg6iSNNhplLS1TWYi3wJqOV6PsdqieGeAj_vy-a35uYfpvxsHBJYFWeF3oI4_SgnNcG1xN4wn456RxAsNYtsLGWpw._T-WR0jXYqo56eDlNzQZ3Q",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/PUNJABI/MOVIE_MAIN_01PB_Dakuan_Da_Munda_2_VIDEO_tjr/63440d3b-a8e7-45c9-8ebb-3fc2ae4a4c3d/dash/master_hd.mpd?hdnts=st=1774443415~exp=1774465015~acl=!*/enc/PUNJABI/MOVIE_MAIN_01PB_Dakuan_Da_Munda_2_VIDEO_tjr/63440d3b-a8e7-45c9-8ebb-3fc2ae4a4c3d/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_211_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_211_1~hmac=0437a8d44991ce385fda1529c3b99ce4768556ec0e041436e444440fe7def265",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..Hcf0rAmUfGeEd_Fk.sRj--WGOjyqBpd_HLDGmxsXNM-H7XabhskPKQT-Qzeeu-2DlXv6s72tAgsBy3dPDAMgf_ssq-qDwPZL5gGkxqORDCNdNJ94ZwCbOhesQpll9Mp0yzz5H6UZQGDP9b4-2fcPpUJCU2W8MG9_43gEm33_Ce5a_diPQeaPExnr1lGkL0oQ6UBOI7rVPZ8FT7NFxGW49foHDbocjaXCSjiXNf5Fnx_lpWCiiqFUDskkU2oZa2J8fh8Arlr5pdH6zB9PGxROxAZzQUza28pz-KWtp88a2lutw0qGl8yTWxyYPyMN8X-6TfsyvB6rRZ5TJIcmlXfKwWm6jkul3CdheGQ.z1y-4-1GuNCg1d2v9ZyvOQ",
+        "source": "Tata Play Binge"
+    },
+    {
+        "title": "- Watch Latest Movies, Web Series, Live Cricket & More",
+        "mpd": "https://chaupal-vod-tataplay.vgcdn.net/enc/HARYANVI/MOVIE_MAIN_02HR_Umar_Mein_K_Rakha_VIDEO/965d2bfb-aad2-4969-9b28-872d146200d2/dash/master_hd.mpd?hdnts=st=1774443443~exp=1774465043~acl=!*/enc/HARYANVI/MOVIE_MAIN_02HR_Umar_Mein_K_Rakha_VIDEO/965d2bfb-aad2-4969-9b28-872d146200d2/dash/*!/payload/tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_759_1/*~data=tataplay_100_0_xxxxxx_IN_13.126.35.157_chaupal_1_movie_759_1~hmac=13142a25150ea92e831679d20dba2af8fbe39787551516256fc4c491e6ab1912",
+        "lic": "https://drm-global.videograph.ai/drm/wv/license/rights?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0..NELJjVII5XG96XkE.rFR3Mf4XolSocH5dTm4OgZdy8U_i2DLCYbdEYjiVhg2nNNdpg276I30WFetBGTB0A2Pt1lZ3r6hkGUU64MEEchrwN1xvRQSwehKPLP8lVNz4fxGGyLv1s9Kx4CnnCNyNe41kEOKNuVPuB0huFwXVceq15_hXbfoNtfEeYzl915njZ6kWboUILBIJxQa07-FHv5tkYhFXNX3kWA36t4nHml80h1P3ySxDJP1Rbez8D4e6TdAcDaxIxKK4umzsjOawaTXhaAEVUnYD1963cakgbTnph8jPeXi2wBba3U6IVGG6W03zKMfArEJIqYrdfttpaVY2v-xA8oc4AX96Sg.FT5kk1_4_CZnCy4soV3KWA",
+        "source": "Tata Play Binge"
+    }
+]
