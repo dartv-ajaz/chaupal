@@ -53,7 +53,6 @@
         /* Main Content & Player Layout Fixes */
         .main-content { flex: 1; display: flex; flex-direction: column; background: #000; min-height: 0; }
         
-        /* Absolute positioned bounds to force JW Player to stay within the lines */
         .player-bounds { position: relative; width: 100%; flex: 1; background: #000; overflow: hidden; min-height: 0; }
         .player-wrapper { position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; justify-content: center; align-items: center; }
         
@@ -67,7 +66,7 @@
         .now-playing-bar h3 { margin: 0; font-size: 14px; color: var(--accent); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.2;}
         .now-playing-bar p { margin: 2px 0 0 0; color: #aaa; font-size: 10px; }
 
-        /* 🎬 WATCHING MODE (Playlist Opened) */
+        /* 🎬 WATCHING MODE */
         body.watching-mode { flex-direction: column; }
         body.watching-mode .main-content { order: 1; flex: 0 0 55vh; border-bottom: 1px solid var(--border); border-left: none; }
         body.watching-mode .sidebar { order: 2; flex: 1; width: 100%; border-right: none; }
@@ -97,8 +96,8 @@
         
         <div id="tab-library" class="tab-content-wrapper" style="display: flex;">
             <div class="controls" id="library-controls">
-                <button onclick="fetchM3UFromServer()">🌐 Auto-Scan Server Files</button>
-                <button onclick="document.getElementById('m3uFile').click()" style="background: #34495e;">📁 Upload Files (Any Format)</button>
+                <button onclick="fetchM3UFromServer()" style="background: #27ae60;">🌐 Sync with GitHub Repo</button>
+                <button onclick="document.getElementById('m3uFile').click()" style="background: #34495e;">📁 Upload Local Files</button>
                 <input type="file" id="m3uFile" accept=".m3u,.m3u8,.txt,.json,.xml" onchange="handleMultiFileUpload(event)" multiple style="display:none;">
 
                 <textarea id="bulkLinksInput" class="custom-input bulk-textarea" placeholder="Paste Links, M3U text, or mixed content here..."></textarea>
@@ -112,7 +111,7 @@
             </div>
 
             <div class="scroll-area" id="folderList">
-                <p style="text-align: center; color: #666; margin-top: 20px;">Upload playlists or auto-scan server to start.</p>
+                <p style="text-align: center; color: #666; margin-top: 20px;">Click "Sync with GitHub Repo" to load your files.</p>
             </div>
             <div class="scroll-area" id="movieList" style="display: none;"></div>
         </div>
@@ -209,77 +208,66 @@
             return extracted;
         }
 
-        // --- NEW: ADVANCED DIRECTORY SCRAPER ---
+        // --- NEW: GITHUB API REPO SYNC ---
         async function fetchM3UFromServer() {
-            document.getElementById('folderList').innerHTML = '<p style="text-align:center; color: #aaa;">Scanning server for files...</p>';
-            
-            let filesToFetch = [];
+            document.getElementById('folderList').innerHTML = '<p style="text-align:center; color: #3498db;">Syncing with GitHub (dartv-ajaz/chaupal)...</p>';
             let foundAny = false;
 
             try {
-                // Step 1: Attempt to scrape the server directory listing
-                const dirResponse = await fetch('./');
-                if (dirResponse.ok) {
-                    const dirHtml = await dirResponse.text();
-                    
-                    // Parse the HTML to find all links in the directory
-                    const parser = new DOMParser();
-                    const doc = parser.parseFromString(dirHtml, 'text/html');
-                    const links = doc.querySelectorAll('a');
-                    
-                    links.forEach(link => {
-                        const href = link.getAttribute('href');
-                        // Grab anything that looks like a playlist or data file
-                        if (href && href.match(/\.(m3u|m3u8|json|txt|xml)$/i)) {
-                            // Avoid fetching the current page if it accidentally matches
-                            if (!filesToFetch.includes(href) && href !== 'index.html') {
-                                filesToFetch.push(href);
+                // 1. Ask GitHub API what files are in the repository
+                const repoUrl = 'https://api.github.com/repos/dartv-ajaz/chaupal/contents/';
+                const apiResponse = await fetch(repoUrl);
+                
+                if (!apiResponse.ok) throw new Error("GitHub API Error. Repo might be private or you hit a rate limit.");
+                
+                const repoContents = await apiResponse.json();
+                
+                // 2. Filter out folders and non-playlist files
+                const filesToFetch = repoContents.filter(item => {
+                    return item.type === 'file' && item.name.match(/\.(m3u|m3u8|json|txt|xml)$/i);
+                });
+
+                if (filesToFetch.length === 0) {
+                    alert("No valid playlist files (.json, .m3u, etc.) found in the GitHub repo root.");
+                    renderFolders();
+                    return;
+                }
+
+                // 3. Download all the matching files simultaneously using their raw URLs
+                await Promise.allSettled(filesToFetch.map(async (fileNode) => {
+                    try {
+                        const response = await fetch(fileNode.download_url);
+                        if (response.ok) {
+                            const text = await response.text();
+                            let parsedItems = [];
+                            
+                            // Detect format dynamically
+                            if (text.trim().startsWith('{') || text.trim().startsWith('[')) {
+                                parsedItems = parseJSON(text);
+                            } else {
+                                parsedItems = parseM3U(text);
+                            }
+                            
+                            // If valid streams were found, add as a new playlist folder
+                            if (parsedItems.length > 0) {
+                                folders.push({ name: fileNode.name, items: parsedItems });
+                                foundAny = true;
                             }
                         }
-                    });
-                }
-            } catch (e) {
-                console.warn("Directory scraping failed. Server might not allow it.");
-            }
-
-            // Step 2: Fallback list if the server hides its directory structure
-            if (filesToFetch.length === 0) {
-                console.log("No directory index found. Using fallback list.");
-                filesToFetch = [
-                    'playlist.m3u', 'playlist.m3u8', 'channels.json', 'movies.json', 
-                    'streams.txt', 'tv.m3u', 'data.json', 'live.m3u', 'vod.json'
-                ];
-            }
-
-            // Step 3: Download everything we found simultaneously
-            await Promise.allSettled(filesToFetch.map(async (fileName) => {
-                try {
-                    const response = await fetch(fileName);
-                    if (response.ok) {
-                        const text = await response.text();
-                        let parsedItems = [];
-                        
-                        // Detect format dynamically
-                        if (text.trim().startsWith('{') || text.trim().startsWith('[')) {
-                            parsedItems = parseJSON(text);
-                        } else {
-                            parsedItems = parseM3U(text);
-                        }
-                        
-                        // If valid streams were found, add as a new playlist folder
-                        if (parsedItems.length > 0) {
-                            // Decode URL components for a cleaner display name
-                            const cleanName = decodeURIComponent(fileName.split('/').pop());
-                            folders.push({ name: cleanName, items: parsedItems });
-                            foundAny = true;
-                        }
+                    } catch (e) { 
+                        console.error("Failed to load: " + fileNode.name); 
                     }
-                } catch (e) { } // Silently ignore files from the fallback list that don't exist
-            }));
+                }));
+
+            } catch (error) {
+                console.error(error);
+                alert("Failed to connect to GitHub. See console for details.");
+            }
 
             if (!foundAny) {
-                alert("No playlists found! Make sure your files are in the same folder as this page, OR ensure your web server has 'Directory Indexing' enabled to find custom names.");
+                document.getElementById('folderList').innerHTML = '<p style="text-align:center; color: #e74c3c;">No streams could be parsed from the GitHub files.</p>';
             }
+            
             renderFolders();
         }
 
@@ -339,7 +327,7 @@
             listDiv.innerHTML = '';
             
             if (folders.length === 0) {
-                listDiv.innerHTML = '<p style="text-align: center; color: #666; margin-top:20px;">Upload playlists or auto-scan server to start.</p>';
+                listDiv.innerHTML = '<p style="text-align: center; color: #666; margin-top:20px;">Click "Sync with GitHub Repo" to load your files.</p>';
                 return;
             }
             
