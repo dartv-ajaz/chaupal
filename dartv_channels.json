@@ -1,9 +1,0 @@
-[
-    {
-        "name": "Channel 191",
-        "url": "https://bpwta4.akamaized.net/bpk-tv/irdeto_com_Channel_191/output/manifest.mpd?hdnea=st=1774183465~exp=1774184065~acl=/bpk-tv/irdeto_com_Channel_191/output/*~id=1307275659~hmac=68434c70c9dc5fefeb37c50a13f06db00e9ea3e0f07d25c904cc23f89a486c92",
-        "drm_license_url": "https://licensing.bitmovin.com/impression",
-        "drm_type": "widevine",
-        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
-    }
-]
